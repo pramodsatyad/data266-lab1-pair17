@@ -1,0 +1,41 @@
+seed: 42
+run_name: gpu
+
+paths:
+  processed_dir: data_processed/gpu
+  checkpoint_dir: checkpoints/gpu
+  output_dir: outputs/gpu
+
+data:
+  dataset: fancyzhx/yelp_polarity
+  train_samples: null
+  val_fraction: 0.05
+  test_samples: null
+  max_len: 256
+  max_vocab: 30000
+  min_freq: 2
+
+train:
+  epochs: 5
+  batch_size: 256
+  patience: 2
+  weight_decay: 0.01
+  grad_clip: 1.0
+
+models:
+  baseline:
+    embed_dim: 128
+    dropout: 0.2
+    lr: 2.0e-3
+  bilstm:
+    embed_dim: 128
+    hidden: 128
+    layers: 1
+    dropout: 0.3
+    lr: 1.0e-3
+  bilstm_attn:
+    embed_dim: 128
+    hidden: 128
+    layers: 2
+    dropout: 0.3
+    lr: 1.0e-3
