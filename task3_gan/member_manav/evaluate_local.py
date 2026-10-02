@@ -109,20 +109,26 @@ def precision_recall(real, fake, k=3, seed=42):
     return precision, recall
 
 
+def cosine_per_row(a, b):
+    return (a * b).sum(axis=1) / (np.linalg.norm(a, axis=1) * np.linalg.norm(b, axis=1))
+
+
 def content_cosine(input_features, pred_features):
-    dots = (input_features * pred_features).sum(axis=1)
-    norms = np.linalg.norm(input_features, axis=1) * np.linalg.norm(pred_features, axis=1)
-    return float((dots / norms).mean())
+    return float(cosine_per_row(input_features, pred_features).mean())
 
 
 @torch.no_grad()
-def mean_lpips(net, input_files, pred_files, size, device, batch_size=25):
-    total = 0.0
+def lpips_per_image(net, input_files, pred_files, size, device, batch_size=25):
+    values = []
     for i in range(0, len(input_files), batch_size):
         a = to_float(load_uint8(input_files[i : i + batch_size], size)).to(device)
         b = to_float(load_uint8(pred_files[i : i + batch_size], size)).to(device)
-        total += net(a, b).sum().item()
-    return total / len(input_files)
+        values.append(net(a, b).flatten().cpu())
+    return torch.cat(values).numpy()
+
+
+def mean_lpips(net, input_files, pred_files, size, device, batch_size=25):
+    return float(lpips_per_image(net, input_files, pred_files, size, device, batch_size).mean())
 
 
 @torch.no_grad()
@@ -239,21 +245,23 @@ def direction_metrics(fake, real, inputs, pred_files, input_files, lpips_net, cy
     }
 
 
-def evaluate(config, ckpt):
+def evaluate(config, ckpt, work_dir=None, verbose=True):
     cfg = load_config(config)
     size = cfg["data"]["image_size"]
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     data_dir = (ROOT / cfg["paths"]["data_dir"]).resolve()
-    out_dir = ROOT / cfg["paths"]["output_dir"]
+    out_dir = Path(work_dir) if work_dir else ROOT / cfg["paths"]["output_dir"]
     monet_files = list_images(data_dir / "monet_jpg", cfg["data"]["monet_limit"], cfg["seed"])
     photo_files = list_images(data_dir / "photo_jpg", cfg["data"]["photo_limit"], cfg["seed"])
     pred_a2b, pred_b2a = out_dir / "pred_A2B", out_dir / "pred_B2A"
     check_predictions({"A2B": (pred_a2b, monet_files), "B2A": (pred_b2a, photo_files)}, size)
-    print(f"checks passed: {len(monet_files)} A2B and {len(photo_files)} B2A images, all {size}x{size} RGB JPG")
+    if verbose:
+        print(f"checks passed: {len(monet_files)} A2B and {len(photo_files)} B2A images, all {size}x{size} RGB JPG")
 
     inception = load_inception(device)
     lpips_net = lpips.LPIPS(net="alex", verbose=False).to(device).eval()
-    show_weight_paths()
+    if verbose:
+        show_weight_paths()
     g_a2b, g_b2a = load_generators(cfg, ckpt, device)
 
     pred_a2b_files = [pred_a2b / f.name for f in monet_files]

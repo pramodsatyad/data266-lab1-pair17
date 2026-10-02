@@ -25,7 +25,7 @@ train:
   lambda_identity: 5
   diffaug: "color,translation,cutout"
   ckpt_every: 100
-  eval_every: 150
+  eval_every: 100
   eval_photos: 20
   log_every: 20
 
