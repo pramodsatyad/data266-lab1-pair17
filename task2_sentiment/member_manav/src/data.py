@@ -1,5 +1,6 @@
 import json
 import re
+import unicodedata
 from collections import Counter
 from functools import lru_cache
 from pathlib import Path
@@ -30,6 +31,9 @@ STOPWORDS = frozenset(
 
 URL = re.compile(r"https?://\S+|www\.\S+")
 HTML = re.compile(r"<[^>]+>|&#?\w+;|\\[nrt]")
+UNICODE_PAIR = re.compile(r"\\u(d[89ab][0-9a-f]{2})\\u(d[c-f][0-9a-f]{2})", re.I)
+UNICODE_ESCAPE = re.compile(r"\\u[0-9a-fA-F]{4}")
+ESCAPE = re.compile(r"\\u([0-9a-fA-F]{4})|\\([nrt\"'/\\])")
 NOT_WORD = re.compile(r"[^a-z0-9\s]")
 NOT_END = re.compile(r"n't\b")
 
@@ -46,8 +50,28 @@ def load_config(name):
         return yaml.safe_load(f)
 
 
+def join_pair(m):
+    high, low = int(m.group(1), 16), int(m.group(2), 16)
+    return chr(0x10000 + ((high - 0xD800) << 10) + (low - 0xDC00))
+
+
+def decode_one(m):
+    if m.group(1):
+        code = int(m.group(1), 16)
+        return " " if 0xD800 <= code <= 0xDFFF else chr(code)
+    return " " if m.group(2) in "nrt" else m.group(2)
+
+
+def decode_escapes(text):
+    try:
+        return ESCAPE.sub(decode_one, UNICODE_PAIR.sub(join_pair, text))
+    except (ValueError, OverflowError):
+        return text
+
+
 def clean_text(text):
     text = text.lower().replace("’", "'")
+    text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode()
     text = URL.sub(" ", text)
     text = HTML.sub(" ", text)
     text = text.replace("won't", "will not").replace("can't", "can not")
@@ -59,7 +83,7 @@ def clean_text(text):
 
 
 def find_valid(texts, labels):
-    dropped = {"not_text": 0, "empty": 0, "bad_label": 0}
+    dropped = {"not_text": 0, "empty": 0, "bad_label": 0, "escaped": 0, "unicode_escaped": 0}
     valid = []
     for i, (text, label) in enumerate(zip(texts, labels)):
         if not isinstance(text, str):
@@ -70,6 +94,8 @@ def find_valid(texts, labels):
             dropped["bad_label"] += 1
         else:
             valid.append(i)
+            dropped["escaped"] += bool(ESCAPE.search(text))
+            dropped["unicode_escaped"] += bool(UNICODE_ESCAPE.search(text))
     dropped["total"] = len(texts)
     dropped["kept"] = len(valid)
     return np.array(valid), dropped
@@ -143,10 +169,12 @@ def build_data(cfg, out_dir):
         ("val", train_texts, train_labels, val_idx),
         ("test", test_texts, test_labels, test_idx),
     ]:
+        decoded = [decode_escapes(texts[i]) for i in idx]
         parts[name] = {
-            "cleaned": [clean_text(texts[i]) for i in idx],
+            "text": decoded if name == "test" else None,
+            "cleaned": [clean_text(t) for t in decoded],
             "y": np.array([labels[i] for i in idx], dtype=np.uint8),
-            "words": np.array([len(texts[i].split()) for i in idx], dtype=np.uint16),
+            "words": np.array([len(t.split()) for t in decoded], dtype=np.uint16),
         }
 
     word_to_idx = build_vocab(parts["train"]["cleaned"], d["min_freq"], d["max_vocab"])
@@ -185,7 +213,7 @@ def build_data(cfg, out_dir):
     test_raw = pd.DataFrame(
         {
             "orig_index": test_idx,
-            "text": [test_texts[i] for i in test_idx],
+            "text": parts["test"]["text"],
             "label": parts["test"]["y"],
             "raw_words": parts["test"]["words"],
         }
