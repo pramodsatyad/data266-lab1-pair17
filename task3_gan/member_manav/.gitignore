@@ -1,0 +1,7 @@
+*.pt
+outputs/*/pred_A2B/
+outputs/*/pred_B2A/
+outputs/*/audit/images/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
