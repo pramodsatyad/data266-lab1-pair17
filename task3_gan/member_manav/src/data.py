@@ -1,4 +1,5 @@
 import random
+from functools import partial
 from pathlib import Path
 
 import torch
@@ -80,16 +81,23 @@ def get_data(cfg):
     return sets, ids
 
 
+def seed_worker(worker_id, base_seed):
+    seed = base_seed + worker_id
+    random.seed(seed)
+    torch.manual_seed(seed)
+
+
 def endless_loader(dataset, batch_size, seed, num_workers):
     sampler = RandomSampler(dataset, replacement=True, num_samples=10**12,
                             generator=torch.Generator().manual_seed(seed))
     return DataLoader(dataset, batch_size=batch_size, sampler=sampler,
-                      num_workers=num_workers, drop_last=True)
+                      num_workers=num_workers, drop_last=True,
+                      worker_init_fn=partial(seed_worker, base_seed=seed))
 
 
 def endless_pairs(cfg, sets):
     bs, workers = cfg["train"]["batch_size"], cfg["data"]["num_workers"]
     monet = endless_loader(sets["monet_train"], bs, cfg["seed"], workers)
-    photo = endless_loader(sets["photo_train"], bs, cfg["seed"] + 1, workers)
+    photo = endless_loader(sets["photo_train"], bs, cfg["seed"] + 1000, workers)
     for real_a, real_b in zip(monet, photo):
         yield real_a, real_b
