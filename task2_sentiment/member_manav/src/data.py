@@ -152,12 +152,14 @@ def build_data(cfg, out_dir):
     rng = np.random.default_rng(cfg["seed"])
 
     ds = load_dataset(d["dataset"], split="train")
-    train_texts, train_labels = ds["text"], ds["label"]
+    train_texts = ds.data.column("text").to_pylist()
+    train_labels = ds.data.column("label").to_pylist()
     train_valid, train_dropped = find_valid(train_texts, train_labels)
     train_idx, val_idx = split_train(d, rng.permutation(train_valid))
 
     ds = load_dataset(d["dataset"], split="test")
-    test_texts, test_labels = ds["text"], ds["label"]
+    test_texts = ds.data.column("text").to_pylist()
+    test_labels = ds.data.column("label").to_pylist()
     test_valid, test_dropped = find_valid(test_texts, test_labels)
     test_idx = rng.permutation(test_valid)
     if d["test_samples"] is not None:
