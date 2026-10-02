@@ -19,7 +19,7 @@ train:
   batch_size: 1
   lr: 2.0e-4
   betas: [0.5, 0.999]
-  ema_decay: 0.999
+  ema_decay: 0.95
   pool_size: 50
   lambda_cycle: 10
   lambda_identity: 5

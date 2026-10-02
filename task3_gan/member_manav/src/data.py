@@ -61,6 +61,10 @@ def pick_sample_ids(n_monet, n_photo, seed, count=4):
     }
 
 
+def pick_eval_ids(n_photo, count, seed):
+    return sorted(random.Random(seed + 7).sample(range(n_photo), min(count, n_photo)))
+
+
 def load_samples(dataset, ids):
     return torch.stack([dataset[i] for i in ids])
 
