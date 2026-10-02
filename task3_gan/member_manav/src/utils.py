@@ -7,6 +7,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import numpy as np
 import torch
+from PIL import Image
 from torch.optim.lr_scheduler import LambdaLR
 
 
@@ -129,3 +130,18 @@ def save_sample_grid(path, photos, monets, g_a2b, g_b2a, device):
         axes[r][0].set_ylabel(name)
     fig.savefig(path, dpi=100, bbox_inches="tight")
     plt.close(fig)
+
+
+@torch.no_grad()
+def write_predictions(dataset, generator, out_dir, device, batch_size=16):
+    out_dir = Path(out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    files = dataset.files
+    for start in range(0, len(files), batch_size):
+        stop = min(start + batch_size, len(files))
+        batch = torch.stack([dataset[i] for i in range(start, stop)]).to(device)
+        fake = generator(batch).cpu()
+        pixels = ((fake.clamp(-1, 1) + 1) * 127.5).round().to(torch.uint8).permute(0, 2, 3, 1).numpy()
+        for i, array in zip(range(start, stop), pixels):
+            Image.fromarray(array).save(out_dir / files[i].name, quality=95)
+    return len(files)
