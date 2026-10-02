@@ -11,6 +11,7 @@ data:
   load_size: 286
   monet_limit: null
   photo_limit: null
+  num_workers: 4
 
 train:
   total_steps: 60000
