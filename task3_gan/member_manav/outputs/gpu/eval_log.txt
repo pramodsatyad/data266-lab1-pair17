@@ -1,0 +1,12 @@
+checkpoint step 60000: quick score 51.10 | overall score 48.39 <- chosen
+checkpoint step 55000: quick score 51.64 | overall score 48.70
+checkpoint step 50000: quick score 52.93 | overall score 49.94
+chosen checkpoint: ema_step60000.pt
+translated 300 Monets to pred_A2B and 7038 photos to pred_B2A
+translation speed: 133.6 images/sec
+checkpoint step 80000: quick score 48.39 | overall score 45.61 <- chosen
+checkpoint step 75000: quick score 48.74 | overall score 46.06
+checkpoint step 70000: quick score 49.48 | overall score 46.78
+chosen checkpoint: ema_step80000.pt
+translated 300 Monets to pred_A2B and 7038 photos to pred_B2A
+translation speed: 133.9 images/sec
