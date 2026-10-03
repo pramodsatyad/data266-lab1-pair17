@@ -1,0 +1,15 @@
+{
+  "images": {
+    "photo_jpg": 7038,
+    "monet_jpg": 300
+  },
+  "dimensions": {
+    "(256, 256)": 7338
+  },
+  "modes": {
+    "RGB": 7338
+  },
+  "corrupt_images": 0,
+  "excluded": "macOS metadata and non-image entries",
+  "source_zip_sha256": "7529feac2b43278597ea795038f8e10aa673c0dc98d8de9f92071e236281e9cd"
+}
