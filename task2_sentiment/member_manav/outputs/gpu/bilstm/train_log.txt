@@ -1,0 +1,63 @@
+model: bilstm
+device: NVIDIA GeForce RTX 4090
+torch version: 2.14.1+cu132
+config:
+model:
+  embed_dim: 128
+  hidden: 128
+  layers: 1
+  dropout: 0.3
+  lr: 0.001
+train:
+  epochs: 5
+  batch_size: 256
+  patience: 2
+  weight_decay: 0.01
+  grad_clip: 1.0
+  warmup_ratio: 0.1
+  log_every: 100
+
+parameters: 4104449
+step 100 | train loss 0.6798 | lr 0.000272 | grad norm 0.135 | examples/sec 6336
+step 200 | train loss 0.4777 | lr 0.000542 | grad norm 0.638 | examples/sec 6528
+step 300 | train loss 0.3194 | lr 0.000811 | grad norm 0.325 | examples/sec 6674
+step 400 | train loss 0.2607 | lr 0.000991 | grad norm 0.450 | examples/sec 6822
+step 500 | train loss 0.2414 | lr 0.000961 | grad norm 0.370 | examples/sec 6625
+step 600 | train loss 0.2156 | lr 0.000932 | grad norm 0.314 | examples/sec 6791
+step 700 | train loss 0.2147 | lr 0.000902 | grad norm 0.288 | examples/sec 6784
+epoch 1/5 | train loss 0.3356 | val loss 0.2076 | val acc 0.9166 | val macro-F1 0.9166 | time 29.2s | nan losses 0
+step 800 | train loss 0.1766 | lr 0.000872 | grad norm 0.271 | examples/sec 6191
+step 900 | train loss 0.1854 | lr 0.000842 | grad norm 0.472 | examples/sec 6719
+step 1000 | train loss 0.1750 | lr 0.000812 | grad norm 0.411 | examples/sec 6835
+step 1100 | train loss 0.1670 | lr 0.000782 | grad norm 0.435 | examples/sec 6694
+step 1200 | train loss 0.1678 | lr 0.000752 | grad norm 0.304 | examples/sec 6499
+step 1300 | train loss 0.1657 | lr 0.000722 | grad norm 0.407 | examples/sec 6194
+step 1400 | train loss 0.1575 | lr 0.000692 | grad norm 0.364 | examples/sec 6667
+epoch 2/5 | train loss 0.1689 | val loss 0.1719 | val acc 0.9312 | val macro-F1 0.9312 | time 29.5s | nan losses 0
+step 1500 | train loss 0.1362 | lr 0.000662 | grad norm 0.284 | examples/sec 6119
+step 1600 | train loss 0.1322 | lr 0.000632 | grad norm 0.342 | examples/sec 6838
+step 1700 | train loss 0.1326 | lr 0.000603 | grad norm 0.325 | examples/sec 6854
+step 1800 | train loss 0.1291 | lr 0.000573 | grad norm 0.324 | examples/sec 6645
+step 1900 | train loss 0.1271 | lr 0.000543 | grad norm 1.108 | examples/sec 6435
+step 2000 | train loss 0.1347 | lr 0.000513 | grad norm 0.572 | examples/sec 6669
+step 2100 | train loss 0.1351 | lr 0.000483 | grad norm 0.427 | examples/sec 6849
+step 2200 | train loss 0.1291 | lr 0.000453 | grad norm 0.644 | examples/sec 6707
+epoch 3/5 | train loss 0.1316 | val loss 0.1612 | val acc 0.9369 | val macro-F1 0.9369 | time 29.1s | nan losses 0
+step 2300 | train loss 0.1080 | lr 0.000423 | grad norm 0.301 | examples/sec 6475
+step 2400 | train loss 0.1126 | lr 0.000393 | grad norm 0.278 | examples/sec 6388
+step 2500 | train loss 0.1046 | lr 0.000363 | grad norm 0.435 | examples/sec 6382
+step 2600 | train loss 0.1057 | lr 0.000333 | grad norm 0.494 | examples/sec 6443
+step 2700 | train loss 0.0999 | lr 0.000304 | grad norm 0.293 | examples/sec 6815
+step 2800 | train loss 0.1033 | lr 0.000274 | grad norm 0.322 | examples/sec 6643
+step 2900 | train loss 0.1051 | lr 0.000244 | grad norm 0.257 | examples/sec 6724
+epoch 4/5 | train loss 0.1059 | val loss 0.1624 | val acc 0.9386 | val macro-F1 0.9386 | time 29.6s | nan losses 0
+step 3000 | train loss 0.0890 | lr 0.000214 | grad norm 0.341 | examples/sec 6406
+step 3100 | train loss 0.0863 | lr 0.000184 | grad norm 0.396 | examples/sec 6486
+step 3200 | train loss 0.0874 | lr 0.000154 | grad norm 0.467 | examples/sec 6550
+step 3300 | train loss 0.0903 | lr 0.000124 | grad norm 0.362 | examples/sec 6410
+step 3400 | train loss 0.0852 | lr 0.000094 | grad norm 0.505 | examples/sec 6574
+step 3500 | train loss 0.0843 | lr 0.000064 | grad norm 0.224 | examples/sec 6243
+step 3600 | train loss 0.0854 | lr 0.000034 | grad norm 0.361 | examples/sec 6220
+step 3700 | train loss 0.0832 | lr 0.000004 | grad norm 0.336 | examples/sec 6561
+epoch 5/5 | train loss 0.0864 | val loss 0.1660 | val acc 0.9389 | val macro-F1 0.9389 | time 30.1s | nan losses 0
+finished bilstm, best val macro-F1 0.9389

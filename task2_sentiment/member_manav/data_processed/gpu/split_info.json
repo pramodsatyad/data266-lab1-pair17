@@ -1,0 +1,64 @@
+{
+  "seed": 42,
+  "dataset": "fancyzhx/yelp_polarity",
+  "data_cfg": {
+    "dataset": "fancyzhx/yelp_polarity",
+    "train_samples": 200000,
+    "val_fraction": 0.05,
+    "test_samples": null,
+    "max_len": 256,
+    "max_vocab": 30000,
+    "min_freq": 2
+  },
+  "vocab_size": 30000,
+  "max_len": 256,
+  "counts": {
+    "train": 190000,
+    "val": 10000,
+    "test": 38000
+  },
+  "class_counts": {
+    "train": {
+      "negative": 95120,
+      "positive": 94880
+    },
+    "val": {
+      "negative": 5016,
+      "positive": 4984
+    },
+    "test": {
+      "negative": 19000,
+      "positive": 19000
+    }
+  },
+  "empty_after_cleaning": {
+    "train": 15,
+    "val": 0,
+    "test": 0
+  },
+  "cut_share": {
+    "train": 0.02048421052631579,
+    "val": 0.0194,
+    "test": 0.020421052631578947
+  },
+  "dropped": {
+    "train_split": {
+      "not_text": 0,
+      "empty": 0,
+      "bad_label": 0,
+      "escaped": 302789,
+      "unicode_escaped": 12521,
+      "total": 560000,
+      "kept": 560000
+    },
+    "test_split": {
+      "not_text": 0,
+      "empty": 0,
+      "bad_label": 0,
+      "escaped": 20464,
+      "unicode_escaped": 879,
+      "total": 38000,
+      "kept": 38000
+    }
+  }
+}
