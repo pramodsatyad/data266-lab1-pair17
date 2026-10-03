@@ -126,7 +126,7 @@ This plot takes 6 photos and 6 Monet paintings, translates each one to the other
 ## 10. Kaggle
 
 - **Public score: -44.367**
-- **Leaderboard rank:** <MY RANK> out of <NUMBER OF TEAMS> on the public leaderboard (as of <DATE>) *(placeholder — fill in once available)*
+- **Leaderboard rank:** 7 out of 45 teams on the public leaderboard (as of October 3, 2026)
 
 ## 11. Human Audit (Pending)
 
