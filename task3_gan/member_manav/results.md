@@ -47,7 +47,7 @@ Training happened in 3 stages, each one picking up from the last checkpoint:
 2. **60,000 → 80,000 steps** (extended, because the quick score was still clearly improving at 60K, not flattening out).
 3. **80,000 → 100,000 steps** (extended again, same reason — still improving at 80K).
 
-Each extension changed `gpu.yaml` to a new `total_steps` and `decay_start`, so the learning rate schedule restarted (a "smooth restart", not a jump): right after each resume the LR goes from near-zero back up toward the original `2e-4` before decaying again. This caused a small, temporary bump in the loss curves at step 60,000 and 80,000 (see section 8), which recovered within a few hundred steps each time.
+Each extension changed `gpu.yaml` to a new `total_steps` and `decay_start`, so the learning rate schedule restarted (a "smooth restart", not a jump): right after each resume the LR goes back up to about `1e-4` (not the original peak of `2e-4`), then decays linearly to 0 again over the new schedule. This caused a small, temporary bump in the loss curves at step 60,000 and 80,000 (see section 8), which recovered within about 2,000 steps each time.
 
 **Quick score at each checkpoint** (local proxy score, computed every 5,000 steps, lower is better):
 
@@ -115,7 +115,7 @@ Pretrained models (Inception-v3 for FID/KID features, AlexNet for LPIPS) are use
 - **Cycle loss went from about 0.66 (step 200) down to about 0.13 (step 100,000)**, a steady, mostly smooth decline.
 - **Identity loss** follows almost the same shape, from about 0.64 down to about 0.13.
 - **Generator gradient norm** starts very high (~70) in the first steps, drops fast within a few thousand steps, and then stays in the 22–27 range for the rest of training.
-- **The two LR restarts (at 60,000 and 80,000) show up as small, temporary bumps** in the cycle loss, identity loss, and discriminator loss curves — each one recovers back to the pre-restart trend within a few hundred to a couple thousand steps, and the quick score (right panel above) never goes backward across any of the 20 evaluation points from step 5,000 to 100,000.
+- **The two LR restarts (at 60,000 and 80,000) show up as small, temporary bumps** in the cycle loss, identity loss, and discriminator loss curves — each one recovers back to the pre-restart trend within about 2,000 steps. The quick score (right panel above) improves overall across the 20 evaluation points from step 5,000 to 100,000, with a couple of small flat or slightly worse points (e.g. 40K → 45K, 80K → 85K), which is normal noise for GAN scores rather than a sign of instability.
 
 ## 9. Cycle Consistency Check
 
@@ -126,13 +126,13 @@ This plot takes 6 photos and 6 Monet paintings, translates each one to the other
 ## 10. Kaggle
 
 - **Public score: -44.367**
-- **Leaderboard rank: [RANK]** *(placeholder — fill in once available)*
+- **Leaderboard rank:** <MY RANK> out of <NUMBER OF TEAMS> on the public leaderboard (as of <DATE>) *(placeholder — fill in once available)*
 
 ## 11. Human Audit (Pending)
 
 A blinded human audit is planned but not done yet:
 - **Raters:** 2
-- **Images:** 30 blinded pairs (real vs. generated)
+- **Images:** 30 pairs, each pair showing the input image next to its translation, side by side, labeled only with a random code name (not "real vs. generated")
 - **Agreement metric:** Cohen's weighted kappa
 
 Results: **[PENDING]** — to be filled in after both raters complete `audit_sheet_rater1.csv` and `audit_sheet_rater2.csv`.
@@ -145,7 +145,7 @@ All 300 A2B and 7,038 B2A images in the submitted prediction set come directly f
 
 **Strengths**
 - Score improved steadily and meaningfully across all 3 training stages (48.39 → 45.61 → 44.37), with the checkpoint always picked by an actual metric.
-- Training was fully stable: 0 NaNs, 0 grad spikes-worth of instability across 100,000 steps, and the quick score never regressed between any two evaluation checkpoints.
+- Training was stable: 0 NaNs and no gradient explosions across 100,000 steps. The quick score improved overall, with a few small flat or slightly worse points along the way (e.g. 40K 54.92 → 45K 55.13, 80K 48.39 → 85K 48.40), which is normal noise for GAN scores rather than a sign of instability.
 - Cycle consistency is strong, shown both visually and in the cycle L1 number.
 
 **Limitations**

@@ -46,7 +46,7 @@ All 5 are in the **B2A** direction (photo → Monet) — this matches the metric
 ## Shortcomings and Fixes
 
 1. **Checkerboard / grid artifacts on smooth, low-detail regions** (seen in Failure Cases 1, 2, and partly 4). This is a known issue with transposed-convolution-based upsampling in generators.
-   - **Fix to try:** swap the generator's upsampling layers (if transposed convolutions) for a resize-then-convolution approach, or add a light smoothing/blur term to the loss specifically penalizing high-frequency grid patterns. Test by checking whether these same smooth-sunset-style images score better on LPIPS without hurting the overall FID/MiFID score.
+   - **Fix to try:** my `ResNetGenerator` (`src/models.py`) uses `nn.ConvTranspose2d` for upsampling, which is a known source of checkerboard artifacts. Swap it for a resize-then-convolution approach, or add a light smoothing/blur term to the loss specifically penalizing high-frequency grid patterns. Test by checking whether these same smooth-sunset-style images score better on LPIPS without hurting the overall FID/MiFID score.
 
 2. **Color shifts on photos very different from the training Monet style** (seen in Failure Cases 1, 2, 4). Since there are only 300 Monet images, the model has a narrow idea of "Monet colors" and can push unusual input colors toward a Monet-typical palette too aggressively.
    - **Fix to try:** add a stronger color-consistency term (for example, comparing color histograms between input and output) alongside the existing identity loss, and check whether content_cosine and LPIPS improve specifically on the worst-scoring images (like the 5 above) without making the B2A images look less like real Monet paintings (watch the FID score to make sure it doesn't get worse).
