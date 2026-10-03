@@ -1,0 +1,11 @@
+{
+  "seed": 42,
+  "dataset": "roneneldan/TinyStories",
+  "train_stories": 100000,
+  "val_stories": 10000,
+  "train_chars": 90708288,
+  "val_chars": 9064304,
+  "vocab_size": 115,
+  "separator": "<|endoftext|>",
+  "block_size": 256
+}

@@ -1,0 +1,23 @@
+metric,value
+final train loss,0.5388125315566973
+final val loss,0.5331978477710393
+perplexity (train),1.713970367563374
+perplexity (val),1.7043739316185305
+bits per character (train),0.7773421672456753
+bits per character (val),0.7692418907919468
+generalization gap,-0.005614683785657992
+top-1 accuracy (val),0.8288739912154448
+distinct-1,0.2940013183915623
+distinct-2,0.6764314247669774
+distinct-3,0.8231338264963013
+repeated 4-gram rate,0.12703804347826086
+mean grad norm,0.2252693576452919
+max grad norm,10.036096572875977
+grad spikes,0
+nan count,0
+parameter count,10827379
+train tokens/sec,344360.1707943477
+generation tokens/sec,95.74521627591733
+peak memory (MB),3925.2421875
+total training time (s),2718.062723875046
+device name,NVIDIA GeForce RTX 4090
