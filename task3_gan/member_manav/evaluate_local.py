@@ -1,18 +1,27 @@
 import argparse
+import glob
+import os
+import shutil
 import sys
 from pathlib import Path
 
 import lpips
 import numpy as np
 import pandas as pd
+import scipy.linalg
 import torch
+import torchvision.models as tv_models
+import torchvision.transforms as T
 from PIL import Image
 from scipy import linalg
+from scipy.spatial.distance import cosine
 from torchmetrics.image.fid import NoTrainInceptionV3
+from tqdm import tqdm
 
 sys.path.append(str(Path(__file__).resolve().parent / "src"))
-from data import ROOT, list_images, load_config
+from data import ROOT, ImageDataset, list_images, load_config
 from models import ResNetGenerator
+from utils import write_predictions
 
 SUBMISSION_COLUMNS = {"direction": "direction", "fid": "FID", "mifid": "MiFID", "score": "score"}
 INCEPTION_FILE = "weights-inception-2015-12-05-6726825d.pth"
@@ -165,6 +174,154 @@ class QuickScorer:
             result[f"fid_{name}"] = fid_from_features(fake, real)
             result[f"mifid_{name}"] = mifid_from_features(fake, real)
             result[f"score_{name}"] = (result[f"fid_{name}"] + result[f"mifid_{name}"]) / 2
+        result["quick_score"] = (result["score_a2b"] + result["score_b2a"]) / 2
+        return result
+
+
+# ===== verbatim from official_eval.ipynb (the Kaggle-provided evaluation notebook) =====
+# Only change from the notebook: device is passed in instead of read from a module global,
+# and the inception model is cached per-device so repeated calls during training reuse it.
+
+def official_list_images(folder):
+    exts = (".jpg", ".jpeg", ".png")
+    paths = []
+    for ext in exts:
+        paths.extend(glob.glob(os.path.join(folder, f"*{ext}")))
+        paths.extend(glob.glob(os.path.join(folder, f"*{ext.upper()}")))
+    paths = sorted(list(set(paths)))
+    return paths
+
+
+def official_take_n(paths, n):
+    if n is None:
+        return paths
+    return paths[:min(n, len(paths))]
+
+
+_official_inception_cache = {}
+
+
+def official_get_inception_model(device):
+    key = str(device)
+    if key in _official_inception_cache:
+        return _official_inception_cache[key]
+    inception = tv_models.inception_v3(
+        weights=tv_models.Inception_V3_Weights.IMAGENET1K_V1,
+        transform_input=False
+    )
+    inception.fc = torch.nn.Identity()
+    inception.to(device)
+    inception.eval()
+    _official_inception_cache[key] = inception
+    return inception
+
+
+OFFICIAL_INCEPTION_TF = T.Compose([
+    T.Resize(299),
+    T.CenterCrop(299),
+    T.ToTensor(),
+    T.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225))
+])
+
+
+def official_load_batch(paths):
+    imgs = []
+    for p in paths:
+        img = Image.open(p).convert("RGB")
+        imgs.append(OFFICIAL_INCEPTION_TF(img))
+    return torch.stack(imgs, dim=0)
+
+
+@torch.no_grad()
+def official_get_activations(model, image_paths, device, batch_size=32):
+    feats = []
+    for i in range(0, len(image_paths), batch_size):
+        batch_paths = image_paths[i:i+batch_size]
+        x = official_load_batch(batch_paths).to(device)
+        f = model(x).detach().cpu().numpy()
+        feats.append(f)
+    return np.concatenate(feats, axis=0)
+
+
+def official_frechet_distance(mu1, sigma1, mu2, sigma2, eps=1e-6):
+    covmean, _ = scipy.linalg.sqrtm(sigma1.dot(sigma2), disp=False)
+    if not np.isfinite(covmean).all():
+        offset = np.eye(sigma1.shape[0]) * eps
+        covmean = scipy.linalg.sqrtm((sigma1 + offset).dot(sigma2 + offset))
+
+    if np.iscomplexobj(covmean):
+        covmean = covmean.real
+
+    diff = mu1 - mu2
+    return float(diff.dot(diff) + np.trace(sigma1 + sigma2 - 2 * covmean))
+
+
+def official_calculate_fid_mifid(real_paths, gen_paths, device, batch_size=32, subsample_to_match=True):
+    # For fair comparison, match counts
+    real_paths = sorted(real_paths)
+    gen_paths  = sorted(gen_paths)
+
+    if subsample_to_match:
+        n = min(len(real_paths), len(gen_paths))
+        real_paths = real_paths[:n]
+        gen_paths  = gen_paths[:n]
+
+    model = official_get_inception_model(device)
+
+    real_act = official_get_activations(model, real_paths, device, batch_size=batch_size)
+    gen_act  = official_get_activations(model, gen_paths,  device, batch_size=batch_size)
+
+    mu_r, sig_r = real_act.mean(axis=0), np.cov(real_act, rowvar=False)
+    mu_g, sig_g = gen_act.mean(axis=0),  np.cov(gen_act,  rowvar=False)
+
+    fid = official_frechet_distance(mu_r, sig_r, mu_g, sig_g)
+
+    # mean cosine distance between feature vectors,
+    # paired by index after subsampling/matching
+    m = min(len(real_act), len(gen_act))
+    cos_dists = [cosine(real_act[i], gen_act[i]) for i in range(m)]
+    mifid = float(np.mean(cos_dists))
+
+    return fid, mifid
+# ===== end verbatim section =====
+
+
+class OfficialQuickScorer:
+    """Scores checkpoints with the official Kaggle evaluation logic instead of the fast
+    in-memory QuickScorer: all 300 Monets -> photo vs the first 300 real photos sorted,
+    and the first 300 photos sorted -> Monet vs all 300 real Monets."""
+
+    def __init__(self, device, monet_ds, photo_ds, data_dir, work_dir, n_eval=300, batch_size=32):
+        self.device = device
+        self.monet_ds = monet_ds
+        self.photo300_ds = ImageDataset(photo_ds.files[:n_eval], photo_ds.transform)
+        self.work_dir = Path(work_dir)
+        self.n_eval = n_eval
+        self.batch_size = batch_size
+        self.real_monet_paths = official_take_n(official_list_images(str(Path(data_dir) / "monet_jpg")), n_eval)
+        self.real_photo_paths = official_take_n(official_list_images(str(Path(data_dir) / "photo_jpg")), n_eval)
+        official_get_inception_model(device)  # load once, reuse on every score() call
+
+    def score(self, g_a2b, g_b2a, device):
+        pred_a2b_dir = self.work_dir / "pred_A2B"
+        pred_b2a_dir = self.work_dir / "pred_B2A"
+        write_predictions(self.monet_ds, g_a2b, pred_a2b_dir, device)
+        write_predictions(self.photo300_ds, g_b2a, pred_b2a_dir, device)
+
+        gen_a2b_paths = official_take_n(official_list_images(str(pred_a2b_dir)), self.n_eval)
+        gen_b2a_paths = official_take_n(official_list_images(str(pred_b2a_dir)), self.n_eval)
+
+        fid_b2a, mifid_b2a = official_calculate_fid_mifid(
+            self.real_monet_paths, gen_b2a_paths, device, batch_size=self.batch_size)
+        fid_a2b, mifid_a2b = official_calculate_fid_mifid(
+            self.real_photo_paths, gen_a2b_paths, device, batch_size=self.batch_size)
+
+        shutil.rmtree(self.work_dir, ignore_errors=True)
+
+        result = {
+            "fid_b2a": fid_b2a, "mifid_b2a": mifid_b2a, "score_b2a": (fid_b2a + mifid_b2a) / 2,
+            "fid_a2b": fid_a2b, "mifid_a2b": mifid_a2b, "score_a2b": (fid_a2b + mifid_a2b) / 2,
+        }
         result["quick_score"] = (result["score_a2b"] + result["score_b2a"]) / 2
         return result
 

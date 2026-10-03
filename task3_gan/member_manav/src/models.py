@@ -62,7 +62,7 @@ class ResNetGenerator(nn.Module):
 
 
 class PatchDiscriminator(nn.Module):
-    def __init__(self, ndf=64):
+    def __init__(self, ndf=64, spectral_norm=False):
         super().__init__()
         self.model = nn.Sequential(
             nn.Conv2d(3, ndf, 4, stride=2, padding=1),
@@ -79,6 +79,10 @@ class PatchDiscriminator(nn.Module):
             nn.Conv2d(ndf * 8, 1, 4, stride=1, padding=1),
         )
         self.apply(init_weights)
+        if spectral_norm:
+            for i, layer in enumerate(self.model):
+                if isinstance(layer, nn.Conv2d):
+                    self.model[i] = nn.utils.spectral_norm(layer)
 
     def forward(self, x):
         return self.model(x)
