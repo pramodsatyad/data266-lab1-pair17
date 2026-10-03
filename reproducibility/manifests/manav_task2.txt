@@ -1,0 +1,57 @@
+Task 2 (sentiment classification, Yelp Polarity, 3 models) - reproducibility manifest
+Author: Manav Patel
+
+Environment
+-----------
+OS: Windows 11 Pro
+GPU: NVIDIA GeForce RTX 4090
+Python: 3.11.9
+torch: 2.14.1+cu132 (CUDA build 13.2)
+
+Task 2 package versions
+------------------------
+numpy==2.2.6
+pandas==2.2.2
+matplotlib==3.10.9
+PyYAML==6.0.1
+datasets==5.0.1
+scikit-learn==1.4.2
+scipy==1.13.0
+nltk==3.10.3
+pyarrow==25.0.1
+nbconvert==7.17.1
+ipykernel==6.29.5
+
+Dataset
+-------
+fancyzhx/yelp_polarity
+200K sample, seed 42 -> 190K train / 10K val (val_fraction 0.05) / full 38K test
+
+Config
+------
+task2_sentiment/member_manav/configs/gpu.yaml
+  train_samples: 200000
+  val_fraction: 0.05
+  test_samples: null (full test set)
+  max_len: 256
+  max_vocab: 30000
+  min_freq: 2
+  epochs: 5
+  batch_size: 256
+  patience: 2
+  models: baseline / bilstm / bilstm_attn (embed_dim 128, see gpu.yaml for per-model settings)
+
+Results per model
+------------------
+baseline:    parameters 3,840,129   | training time 9.46s    | best val macro-F1 0.9279
+bilstm:      parameters 4,104,449   | training time 147.50s  | best val macro-F1 0.9389
+bilstm_attn: parameters 4,499,970   | training time 380.22s  | best val macro-F1 0.9434
+All 3 models: device NVIDIA GeForce RTX 4090, 5 epochs run, no early stopping, 0 NaN losses.
+
+Checkpoints
+-----------
+checkpoints/gpu/<model>/best.pt (full training state, not committed)
+Weights-only copies committed to the repo:
+  checkpoints/manav_task2_baseline_weights.pt
+  checkpoints/manav_task2_bilstm_weights.pt
+  checkpoints/manav_task2_bilstm_attn_weights.pt
