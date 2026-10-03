@@ -14,6 +14,10 @@ upsampling. Both configurations track raw and EMA generator weights.
 3. Open `src/task3_lab.ipynb` in Jupyter or Colab connected to that lab machine.
    For a local runtime, the Colab browser and Jupyter server run on the lab machine;
    no Google GPU is involved. The notebook includes a setup check and instructions.
+   `src/task3_start_here.ipynb` is the standalone starter with embedded supporting
+   source files. Its bootstrap is for a fresh folder and refuses to replace
+   different existing code. For an existing training run, use its evaluation/package
+   cells with the existing runtime paths; do not rerun setup or benchmark cells.
 4. Set the project root, data root and persistent backup directory in the first cells.
    Put raw images in `data_root/monet_jpg/` and `data_root/photo_jpg/`.
    Use only instructor-permitted development images; do not mix a hidden test set in.
@@ -58,9 +62,12 @@ they never modify submitted images. The run records installed package versions a
 task3_gan/data/{monet_jpg,photo_jpg}/     # shared raw data, not in Git
 task3_gan/Pramod_Dindukurthi/
   src/task3_lab.ipynb                    # execution notebook; save lab outputs
+  src/task3_start_here.ipynb             # standalone starter, tracked without outputs
+  src/Quick_Kaggle_Score.ipynb           # single-cell official score
   src/{models,data,train,infer,metrics,checkpointing}.py
   src/{preflight,smoke_test,audit,report,select_checkpoint}.py
   src/{package_code,record_submission,collect_evidence}.py
+  src/{quick_kaggle_score,package_completed_run}.py
   configs/{baseline,resizeconv}.yaml
   requirements.txt
   data_processed/splits.json             # runtime-created split manifest
@@ -84,6 +91,36 @@ Default `RUN_DIR` is your member folder, matching the requested structure. For a
 second experiment choose a new run directory (e.g. `experiments/resizeconv_seed42`)
 and keep both runs. `collect_evidence.py` copies the selected run's logs/manifests
 into the team's top-level `reproducibility/` folders without changing originals.
+
+## Quick scores and completed-snapshot ZIPs
+
+After a training segment finishes, rerun only Section 9's first snapshot cell,
+then run Section 15 to score that frozen snapshot. This uses the instructor
+evaluator with 300 fixed predictions per direction and saves the actual JPGs and
+CSV. Existing results are reused only when their checkpoint, weights, image count,
+export-manifest hash and evaluator source match. The expected displayed Kaggle
+score is `-(FID + MiFID)/2`; an actual upload remains separate.
+
+Section 16 creates a full snapshot ZIP under `task3_gan/transfer/`. From the member
+folder, the equivalent command is:
+
+```bash
+python src/package_completed_run.py --run-dir . --full --weights ema
+```
+
+The default selects the highest **completed** step. Add `--step NUMBER` to choose
+an exact completed checkpoint. Freeze that checkpoint first; this packager never
+substitutes the active `latest_checkpoint.pt`. It includes earlier completed logs
+with the same configuration and split, the selected model's exports, exact score
+CSV/provenance, notebooks and checksums. Add `--notebook PATH` to include a saved
+executed notebook outside the member folder. A matching evaluator CSV is also
+copied unchanged to the member's `submission.csv` inside the ZIP.
+
+The ZIP excludes the shared original dataset and active training files. Restore
+the dataset separately on another computer. Its `ARCHIVE_EVIDENCE.json` lists
+whether official scores, local validation metrics and a human-audit summary are
+present. Missing metrics, ratings and written analysis still need completion;
+packaging does not complete the assignment. Save the Kaggle result screenshot too.
 
 ## Terminal equivalents
 
@@ -199,8 +236,16 @@ The official reference folders include training images; this is not held-out eva
 Do not reorder or cherry-pick generated images to influence its index-based score.
 
 ```bash
-python src/evaluate_official.py --data-root ../data --export-dir outputs/evaluations/YOUR_EXPORT --output submission.csv
+# Official scoring only: same fixed first 300 predictions as a complete all-input export.
+python src/infer.py --checkpoint checkpoints/evaluation/YOUR_SNAPSHOT.pt --data-root ../data --splits data_processed/splits.json --output outputs/official/YOUR_EXPORT --split all --weights ema --max-per-domain 300 --predictions-only --device cuda
+python src/evaluate_official.py --data-root ../data --export-dir outputs/official/YOUR_EXPORT --output submission.csv
 ```
 This command does not upload anything. The evaluator itself does not specify which
 source input set must be translated; follow instructor input-set instructions. Keep
 inference ordering and sample selection fixed before evaluating.
+
+The fast official export skips input/cycle PNGs and reconstruction inference. It records
+the fixed prefix and hashes in the export manifest and prints progress every 100 images.
+Do not use it for full local validation metrics, which require the complete validation
+export with input and cycle images. If an older full export is already running, let it
+finish if progressing; the evaluator uses the same first-300 prediction prefix.

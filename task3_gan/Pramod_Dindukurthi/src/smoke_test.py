@@ -123,6 +123,22 @@ def main(full_metrics=False):
     for row in meta["records"]:
         with Image.open(exports/row["prediction"]) as im:
             assert im.mode == "RGB" and im.size == (64, 64) and im.format == "JPEG"
+    # The faster official export must preserve the exact fixed-prefix predictions.
+    fast_dir = resumed/"outputs"/"fast_prefix"
+    fast = export(ck, data_root, splits_path, fast_dir, device="cpu",
+                  max_per_domain=8, predictions_only=True)
+    assert len(fast["records"]) == 16 and fast["predictions_only"]
+    for domain in ["A", "B"]:
+        original = [r for r in meta["records"] if r["domain"] == domain][:8]
+        prefix = [r for r in fast["records"] if r["domain"] == domain]
+        assert [r["source"] for r in prefix] == [r["source"] for r in original]
+        assert [r["prediction_sha256"] for r in prefix] == [r["prediction_sha256"] for r in original]
+    assert not (fast_dir/"input_A").exists() and not (fast_dir/"cycle_B").exists()
+    all_fast = export(ck, data_root, splits_path, resumed/"outputs"/"all_prefix",
+                      device="cpu", split="all", max_per_domain=3, predictions_only=True)
+    for domain in ["A", "B"]:
+        expected = (splits["domains"][domain]["train"]+splits["domains"][domain]["val"])[:3]
+        assert [r["source"] for r in all_fast["records"] if r["domain"] == domain] == expected
     audit_dir = resumed/"outputs"/"human_audit"
     prepare_audit(exports, audit_dir)
     # Synthetic ratings exercise validation and agreement; never assignment evidence.

@@ -15,6 +15,8 @@ from metrics import InceptionFeatures, cosine, density_coverage, fid, kid, lpips
 def evaluate(export_dir, run_dir=None, device="auto", batch_size=16, seed=42, subsets=50, k=5):
     export_dir = Path(export_dir)
     meta = json.loads((export_dir/"export_manifest.json").read_text())
+    if meta.get("predictions_only"):
+        raise ValueError("Predictions-only exports are for official scoring. Full local metrics require a validation export with inputs and cycle reconstructions.")
     if meta["split"] != "val":
         warnings.warn("This is NOT held-out validation; report its split honestly and do not compare with validation runs.")
     records = meta["records"]

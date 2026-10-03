@@ -13,6 +13,7 @@ def package(output):
              member/"evaluate_local.py", member/"results.md", member/"failure_analysis.md"]
     files += sorted((member/"src").glob("*.py")) + sorted((member/"src").glob("*.ipynb"))
     files += sorted((member/"configs").glob("*.yaml"))
+    files += sorted((member/"reference").glob("*.ipynb"))
     files = [p for p in files if p.exists()]
     manifest = {p.relative_to(repo).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest() for p in files}
     output = Path(output)
