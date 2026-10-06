@@ -1,7 +1,6 @@
 *.pt
 outputs/*/pred_A2B/
 outputs/*/pred_B2A/
-outputs/*/audit/images/
 outputs/*/candidates/*/pred_A2B/
 outputs/*/candidates/*/pred_B2A/
 __pycache__/
