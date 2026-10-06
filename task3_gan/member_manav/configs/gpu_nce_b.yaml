@@ -1,0 +1,46 @@
+seed: 42
+run_name: gpu_nce_b
+
+paths:
+  data_dir: ../data
+  checkpoint_dir: checkpoints/gpu_nce_b
+  output_dir: outputs/gpu_nce_b
+  init_from: checkpoints/gpu_ft_c1/ema_step165000.pt
+
+data:
+  image_size: 256
+  load_size: 286
+  monet_limit: null
+  photo_limit: null
+  num_workers: 4
+
+train:
+  total_steps: 40000
+  decay_start: 20000
+  batch_size: 1
+  lr: 1.0e-4
+  betas: [0.5, 0.999]
+  ema_decay: 0.999
+  pool_size: 50
+  lambda_cycle: 0.5
+  lambda_identity: 0
+  lambda_nce: 2.0
+  lambda_nce_idt: 1.0
+  nce_layers: [1, 4, 7, 10, 13]
+  nce_t: 0.07
+  num_patches: 256
+  nce_warmup_steps: 3000
+  diffaug: "color,translation,cutout"
+  ckpt_every: 5000
+  eval_every: 5000
+  eval_photos: 1000
+  log_every: 200
+  quick_metric: official
+
+model:
+  n_res_blocks: 9
+  ngf: 64
+  ndf: 64
+
+output:
+  jpg_quality: 95
