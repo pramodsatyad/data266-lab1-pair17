@@ -1,0 +1,74 @@
+2026-10-06 03:37:05,268 | Checkpoint saved: epoch=1 batch=999 step=1000
+2026-10-06 03:37:22,761 | Checkpoint saved: epoch=1 batch=1999 step=2000
+2026-10-06 03:37:39,777 | Checkpoint saved: epoch=1 batch=2999 step=3000
+2026-10-06 03:37:56,206 | Checkpoint saved: epoch=1 batch=3999 step=4000
+2026-10-06 03:38:12,558 | Checkpoint saved: epoch=1 batch=4999 step=5000
+2026-10-06 03:38:20,945 | EPOCH 1/10 | train_loss=1.3606 | val_loss=0.8444 | val_acc=0.7330 | ppl=2.33 | BPC=1.218 | grad=0.808 | tok/s=957,171 | time=1.6min
+2026-10-06 03:38:21,159 | New best val loss: 0.8444
+2026-10-06 03:38:30,209 | Checkpoint saved: epoch=2 batch=531 step=6000
+2026-10-06 03:38:46,694 | Checkpoint saved: epoch=2 batch=1531 step=7000
+2026-10-06 03:39:03,855 | Checkpoint saved: epoch=2 batch=2531 step=8000
+2026-10-06 03:39:20,964 | Checkpoint saved: epoch=2 batch=3531 step=9000
+2026-10-06 03:39:37,405 | Checkpoint saved: epoch=2 batch=4531 step=10000
+2026-10-06 03:39:53,168 | EPOCH 2/10 | train_loss=0.8557 | val_loss=0.7713 | val_acc=0.7553 | ppl=2.16 | BPC=1.113 | grad=0.388 | tok/s=975,947 | time=1.5min
+2026-10-06 03:39:53,371 | New best val loss: 0.7713
+2026-10-06 03:39:54,830 | Checkpoint saved: epoch=3 batch=63 step=11000
+2026-10-06 03:40:11,144 | Checkpoint saved: epoch=3 batch=1063 step=12000
+2026-10-06 03:40:27,794 | Checkpoint saved: epoch=3 batch=2063 step=13000
+2026-10-06 03:40:44,080 | Checkpoint saved: epoch=3 batch=3063 step=14000
+2026-10-06 03:41:00,582 | Checkpoint saved: epoch=3 batch=4063 step=15000
+2026-10-06 03:41:17,242 | Checkpoint saved: epoch=3 batch=5063 step=16000
+2026-10-06 03:41:24,245 | EPOCH 3/10 | train_loss=0.8034 | val_loss=0.7414 | val_acc=0.7641 | ppl=2.10 | BPC=1.070 | grad=0.340 | tok/s=988,113 | time=1.5min
+2026-10-06 03:41:24,445 | New best val loss: 0.7414
+2026-10-06 03:41:35,357 | Checkpoint saved: epoch=4 batch=595 step=17000
+2026-10-06 03:41:53,188 | Checkpoint saved: epoch=4 batch=1595 step=18000
+2026-10-06 03:42:10,821 | Checkpoint saved: epoch=4 batch=2595 step=19000
+2026-10-06 03:42:28,265 | Checkpoint saved: epoch=4 batch=3595 step=20000
+2026-10-06 03:42:45,248 | Checkpoint saved: epoch=4 batch=4595 step=21000
+2026-10-06 03:43:00,761 | EPOCH 4/10 | train_loss=0.7772 | val_loss=0.7238 | val_acc=0.7695 | ppl=2.06 | BPC=1.044 | grad=0.327 | tok/s=932,108 | time=1.6min
+2026-10-06 03:43:00,965 | New best val loss: 0.7238
+2026-10-06 03:43:03,635 | Checkpoint saved: epoch=5 batch=127 step=22000
+2026-10-06 03:43:21,140 | Checkpoint saved: epoch=5 batch=1127 step=23000
+2026-10-06 03:43:38,898 | Checkpoint saved: epoch=5 batch=2127 step=24000
+2026-10-06 03:43:56,573 | Checkpoint saved: epoch=5 batch=3127 step=25000
+2026-10-06 03:44:14,430 | Checkpoint saved: epoch=5 batch=4127 step=26000
+2026-10-06 03:44:32,376 | Checkpoint saved: epoch=5 batch=5127 step=27000
+2026-10-06 03:44:38,769 | EPOCH 5/10 | train_loss=0.7600 | val_loss=0.7109 | val_acc=0.7736 | ppl=2.04 | BPC=1.026 | grad=0.327 | tok/s=917,916 | time=1.6min
+2026-10-06 03:44:38,985 | New best val loss: 0.7109
+2026-10-06 03:44:51,051 | Checkpoint saved: epoch=6 batch=659 step=28000
+2026-10-06 03:45:08,638 | Checkpoint saved: epoch=6 batch=1659 step=29000
+2026-10-06 03:45:26,490 | Checkpoint saved: epoch=6 batch=2659 step=30000
+2026-10-06 03:45:44,352 | Checkpoint saved: epoch=6 batch=3659 step=31000
+2026-10-06 03:46:01,946 | Checkpoint saved: epoch=6 batch=4659 step=32000
+2026-10-06 03:46:16,879 | EPOCH 6/10 | train_loss=0.7469 | val_loss=0.7006 | val_acc=0.7767 | ppl=2.01 | BPC=1.011 | grad=0.338 | tok/s=917,145 | time=1.6min
+2026-10-06 03:46:17,090 | New best val loss: 0.7006
+2026-10-06 03:46:20,942 | Checkpoint saved: epoch=7 batch=191 step=33000
+2026-10-06 03:46:38,617 | Checkpoint saved: epoch=7 batch=1191 step=34000
+2026-10-06 03:46:56,378 | Checkpoint saved: epoch=7 batch=2191 step=35000
+2026-10-06 03:47:14,159 | Checkpoint saved: epoch=7 batch=3191 step=36000
+2026-10-06 03:47:31,994 | Checkpoint saved: epoch=7 batch=4191 step=37000
+2026-10-06 03:47:49,548 | Checkpoint saved: epoch=7 batch=5191 step=38000
+2026-10-06 03:47:54,923 | EPOCH 7/10 | train_loss=0.7363 | val_loss=0.6918 | val_acc=0.7793 | ppl=2.00 | BPC=0.998 | grad=0.354 | tok/s=917,831 | time=1.6min
+2026-10-06 03:47:55,130 | New best val loss: 0.6918
+2026-10-06 03:48:08,238 | Checkpoint saved: epoch=8 batch=723 step=39000
+2026-10-06 03:48:26,101 | Checkpoint saved: epoch=8 batch=1723 step=40000
+2026-10-06 03:48:43,915 | Checkpoint saved: epoch=8 batch=2723 step=41000
+2026-10-06 03:49:01,824 | Checkpoint saved: epoch=8 batch=3723 step=42000
+2026-10-06 03:49:19,395 | Checkpoint saved: epoch=8 batch=4723 step=43000
+2026-10-06 03:49:32,862 | EPOCH 8/10 | train_loss=0.7276 | val_loss=0.6849 | val_acc=0.7815 | ppl=1.98 | BPC=0.988 | grad=0.373 | tok/s=918,688 | time=1.6min
+2026-10-06 03:49:33,067 | New best val loss: 0.6849
+2026-10-06 03:49:37,966 | Checkpoint saved: epoch=9 batch=255 step=44000
+2026-10-06 03:49:55,645 | Checkpoint saved: epoch=9 batch=1255 step=45000
+2026-10-06 03:50:13,381 | Checkpoint saved: epoch=9 batch=2255 step=46000
+2026-10-06 03:50:31,189 | Checkpoint saved: epoch=9 batch=3255 step=47000
+2026-10-06 03:50:48,801 | Checkpoint saved: epoch=9 batch=4255 step=48000
+2026-10-06 03:51:06,387 | Checkpoint saved: epoch=9 batch=5255 step=49000
+2026-10-06 03:51:10,656 | EPOCH 9/10 | train_loss=0.7211 | val_loss=0.6805 | val_acc=0.7827 | ppl=1.97 | BPC=0.982 | grad=0.392 | tok/s=919,983 | time=1.6min
+2026-10-06 03:51:10,864 | New best val loss: 0.6805
+2026-10-06 03:51:25,533 | Checkpoint saved: epoch=10 batch=787 step=50000
+2026-10-06 03:51:43,379 | Checkpoint saved: epoch=10 batch=1787 step=51000
+2026-10-06 03:52:01,044 | Checkpoint saved: epoch=10 batch=2787 step=52000
+2026-10-06 03:52:18,800 | Checkpoint saved: epoch=10 batch=3787 step=53000
+2026-10-06 03:52:36,559 | Checkpoint saved: epoch=10 batch=4787 step=54000
+2026-10-06 03:52:49,024 | EPOCH 10/10 | train_loss=0.7171 | val_loss=0.6788 | val_acc=0.7831 | ppl=1.97 | BPC=0.979 | grad=0.409 | tok/s=914,650 | time=1.6min
+2026-10-06 03:52:49,231 | New best val loss: 0.6788
