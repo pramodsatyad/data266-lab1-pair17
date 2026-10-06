@@ -1,0 +1,33 @@
+{
+  "seed": 42,
+  "hf_dataset": "roneneldan/TinyStories",
+  "train_stories": 100000,
+  "val_stories": 10000,
+  "block_size": 128,
+  "d_model": 256,
+  "n_heads": 8,
+  "n_layers": 4,
+  "ffn_dim": 1024,
+  "dropout": 0.1,
+  "batch_size": 128,
+  "grad_accum_steps": 1,
+  "epochs": 10,
+  "learning_rate": 0.0004,
+  "min_lr_ratio": 0.1,
+  "weight_decay": 0.1,
+  "betas": [
+    0.9,
+    0.95
+  ],
+  "grad_clip": 1.0,
+  "warmup_ratio": 0.05,
+  "num_workers": 6,
+  "use_amp": true,
+  "stride": 128,
+  "checkpoint_every_steps": 1000,
+  "keep_periodic_every_steps": 5000,
+  "eval_batches": 100,
+  "generation_max_new_tokens": 500,
+  "temperature": 0.8,
+  "top_k": 40
+}
