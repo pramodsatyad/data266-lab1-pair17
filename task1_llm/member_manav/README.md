@@ -12,7 +12,7 @@ Measured on the full GPU run (100,000 train stories, 10,000 val stories, 10 epoc
 | Final val loss | 0.5332 |
 | Perplexity (val) | 1.7044 |
 | Top-1 accuracy (val) | 0.8289 |
-| Generalization gap | -0.0056 |
+| Generalization gap | -0.0056 (val can be slightly lower than train because dropout is on during training, not during val) |
 
 A small negative generalization gap means val loss is slightly below train loss, which is normal here (train loss is averaged over the whole epoch including early, worse steps; val is measured once at the end with the better weights and no dropout). Generated text quality: greedy decoding can get stuck repeating the same sentence, and the model can lose track of who a character is partway through a story (see `failure_analysis.md`).
 
