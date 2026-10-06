@@ -1,0 +1,366 @@
+device: NVIDIA GeForce RTX 4090
+torch version: 2.14.1+cu132
+config:
+seed: 42
+run_name: gpu_id05_sn
+paths:
+  data_dir: ../data
+  checkpoint_dir: checkpoints/gpu_id05_sn
+  output_dir: outputs/gpu_id05_sn
+data:
+  image_size: 256
+  load_size: 286
+  monet_limit: null
+  photo_limit: null
+  num_workers: 4
+train:
+  total_steps: 60000
+  decay_start: 30000
+  batch_size: 1
+  lr: 0.0002
+  betas:
+  - 0.5
+  - 0.999
+  ema_decay: 0.999
+  pool_size: 50
+  lambda_cycle: 10
+  lambda_identity: 0.5
+  diffaug: color,translation,cutout
+  ckpt_every: 5000
+  eval_every: 5000
+  eval_photos: 1000
+  log_every: 200
+  quick_metric: official
+model:
+  n_res_blocks: 9
+  ngf: 64
+  ndf: 64
+  spectral_norm: true
+output:
+  jpg_quality: 100
+
+step 200 | G adv 0.753 | cycle 0.659 | identity 0.645 | D_A 0.352 | D_B 0.348 | grad G 41.68 D_A 7.53 D_B 7.58 | lr 0.000200 | images/sec 5.6 | nan 0
+step 400 | G adv 0.625 | cycle 0.564 | identity 0.549 | D_A 0.257 | D_B 0.261 | grad G 33.34 D_A 5.65 D_B 5.36 | lr 0.000200 | images/sec 10.9 | nan 0
+step 600 | G adv 0.642 | cycle 0.549 | identity 0.529 | D_A 0.248 | D_B 0.246 | grad G 31.37 D_A 6.38 D_B 5.71 | lr 0.000200 | images/sec 10.6 | nan 0
+step 800 | G adv 0.625 | cycle 0.549 | identity 0.528 | D_A 0.246 | D_B 0.255 | grad G 30.63 D_A 6.04 D_B 5.90 | lr 0.000200 | images/sec 10.8 | nan 0
+step 1000 | G adv 0.654 | cycle 0.522 | identity 0.503 | D_A 0.250 | D_B 0.249 | grad G 27.64 D_A 6.72 D_B 6.38 | lr 0.000200 | images/sec 10.7 | nan 0
+step 1200 | G adv 0.638 | cycle 0.489 | identity 0.472 | D_A 0.237 | D_B 0.249 | grad G 26.77 D_A 5.28 D_B 5.47 | lr 0.000200 | images/sec 10.9 | nan 0
+step 1400 | G adv 0.649 | cycle 0.473 | identity 0.462 | D_A 0.226 | D_B 0.253 | grad G 25.57 D_A 6.69 D_B 4.73 | lr 0.000200 | images/sec 10.7 | nan 0
+step 1600 | G adv 0.691 | cycle 0.466 | identity 0.467 | D_A 0.235 | D_B 0.243 | grad G 26.17 D_A 6.74 D_B 5.99 | lr 0.000200 | images/sec 10.3 | nan 0
+step 1800 | G adv 0.770 | cycle 0.489 | identity 0.481 | D_A 0.212 | D_B 0.252 | grad G 28.79 D_A 8.00 D_B 5.12 | lr 0.000200 | images/sec 9.7 | nan 0
+step 2000 | G adv 0.715 | cycle 0.448 | identity 0.457 | D_A 0.221 | D_B 0.248 | grad G 25.93 D_A 7.84 D_B 5.45 | lr 0.000200 | images/sec 10.4 | nan 0
+step 2200 | G adv 0.729 | cycle 0.471 | identity 0.472 | D_A 0.207 | D_B 0.251 | grad G 26.74 D_A 7.88 D_B 4.55 | lr 0.000200 | images/sec 10.6 | nan 0
+step 2400 | G adv 0.733 | cycle 0.468 | identity 0.482 | D_A 0.207 | D_B 0.243 | grad G 28.26 D_A 8.37 D_B 5.06 | lr 0.000200 | images/sec 10.4 | nan 0
+step 2600 | G adv 0.782 | cycle 0.441 | identity 0.450 | D_A 0.199 | D_B 0.248 | grad G 27.33 D_A 8.46 D_B 5.36 | lr 0.000200 | images/sec 12.6 | nan 0
+step 2800 | G adv 0.704 | cycle 0.411 | identity 0.422 | D_A 0.222 | D_B 0.245 | grad G 24.33 D_A 8.11 D_B 4.35 | lr 0.000200 | images/sec 16.5 | nan 0
+step 3000 | G adv 0.682 | cycle 0.418 | identity 0.420 | D_A 0.215 | D_B 0.251 | grad G 24.97 D_A 8.00 D_B 4.60 | lr 0.000200 | images/sec 17.2 | nan 0
+step 3200 | G adv 0.624 | cycle 0.421 | identity 0.434 | D_A 0.242 | D_B 0.249 | grad G 24.25 D_A 5.96 D_B 5.07 | lr 0.000200 | images/sec 16.5 | nan 0
+step 3400 | G adv 0.673 | cycle 0.387 | identity 0.401 | D_A 0.235 | D_B 0.246 | grad G 23.24 D_A 6.68 D_B 5.01 | lr 0.000200 | images/sec 15.9 | nan 0
+step 3600 | G adv 0.699 | cycle 0.413 | identity 0.422 | D_A 0.224 | D_B 0.245 | grad G 23.34 D_A 6.83 D_B 4.84 | lr 0.000200 | images/sec 15.9 | nan 0
+step 3800 | G adv 0.648 | cycle 0.394 | identity 0.404 | D_A 0.241 | D_B 0.243 | grad G 22.86 D_A 6.16 D_B 4.83 | lr 0.000200 | images/sec 13.2 | nan 0
+step 4000 | G adv 0.681 | cycle 0.398 | identity 0.403 | D_A 0.245 | D_B 0.234 | grad G 22.99 D_A 6.65 D_B 5.44 | lr 0.000200 | images/sec 15.3 | nan 0
+step 4200 | G adv 0.683 | cycle 0.399 | identity 0.410 | D_A 0.229 | D_B 0.242 | grad G 23.74 D_A 6.08 D_B 5.28 | lr 0.000200 | images/sec 10.8 | nan 0
+step 4400 | G adv 0.653 | cycle 0.399 | identity 0.419 | D_A 0.240 | D_B 0.243 | grad G 24.05 D_A 6.53 D_B 4.71 | lr 0.000200 | images/sec 10.5 | nan 0
+step 4600 | G adv 0.677 | cycle 0.393 | identity 0.403 | D_A 0.217 | D_B 0.234 | grad G 23.68 D_A 6.77 D_B 4.86 | lr 0.000200 | images/sec 10.1 | nan 0
+step 4800 | G adv 0.721 | cycle 0.374 | identity 0.389 | D_A 0.217 | D_B 0.240 | grad G 22.82 D_A 7.63 D_B 5.11 | lr 0.000200 | images/sec 10.4 | nan 0
+step 5000 | G adv 0.704 | cycle 0.401 | identity 0.417 | D_A 0.221 | D_B 0.241 | grad G 23.20 D_A 6.52 D_B 5.30 | lr 0.000200 | images/sec 9.4 | nan 0
+saved checkpoint at step 5000
+quick score at step 5000 | A2B FID 163.2 MiFID 0.455 | B2A FID 157.2 MiFID 0.419 | quick score 80.34 | peak memory 10690 MB
+step 5200 | G adv 0.705 | cycle 0.380 | identity 0.396 | D_A 0.226 | D_B 0.238 | grad G 23.25 D_A 7.04 D_B 5.00 | lr 0.000200 | images/sec 10.5 | nan 0
+step 5400 | G adv 0.745 | cycle 0.384 | identity 0.402 | D_A 0.229 | D_B 0.237 | grad G 23.22 D_A 8.31 D_B 5.14 | lr 0.000200 | images/sec 10.5 | nan 0
+step 5600 | G adv 0.723 | cycle 0.369 | identity 0.379 | D_A 0.199 | D_B 0.244 | grad G 22.05 D_A 7.54 D_B 4.60 | lr 0.000200 | images/sec 10.4 | nan 0
+step 5800 | G adv 0.715 | cycle 0.395 | identity 0.419 | D_A 0.238 | D_B 0.243 | grad G 23.18 D_A 7.27 D_B 4.68 | lr 0.000200 | images/sec 10.3 | nan 0
+step 6000 | G adv 0.712 | cycle 0.372 | identity 0.392 | D_A 0.208 | D_B 0.229 | grad G 22.81 D_A 7.35 D_B 4.97 | lr 0.000200 | images/sec 10.2 | nan 0
+step 6200 | G adv 0.731 | cycle 0.361 | identity 0.405 | D_A 0.205 | D_B 0.236 | grad G 22.94 D_A 7.87 D_B 4.92 | lr 0.000200 | images/sec 10.3 | nan 0
+step 6400 | G adv 0.800 | cycle 0.359 | identity 0.388 | D_A 0.205 | D_B 0.231 | grad G 22.65 D_A 8.82 D_B 4.63 | lr 0.000200 | images/sec 10.4 | nan 0
+step 6600 | G adv 0.735 | cycle 0.373 | identity 0.395 | D_A 0.221 | D_B 0.238 | grad G 22.19 D_A 7.56 D_B 5.02 | lr 0.000200 | images/sec 9.7 | nan 0
+step 6800 | G adv 0.686 | cycle 0.359 | identity 0.375 | D_A 0.203 | D_B 0.240 | grad G 22.73 D_A 7.98 D_B 4.78 | lr 0.000200 | images/sec 9.9 | nan 0
+step 7000 | G adv 0.732 | cycle 0.369 | identity 0.392 | D_A 0.209 | D_B 0.235 | grad G 23.37 D_A 7.62 D_B 4.89 | lr 0.000200 | images/sec 10.6 | nan 0
+step 7200 | G adv 0.720 | cycle 0.359 | identity 0.398 | D_A 0.224 | D_B 0.246 | grad G 23.71 D_A 7.90 D_B 4.40 | lr 0.000200 | images/sec 10.6 | nan 0
+step 7400 | G adv 0.681 | cycle 0.356 | identity 0.395 | D_A 0.231 | D_B 0.237 | grad G 21.88 D_A 6.62 D_B 4.44 | lr 0.000200 | images/sec 9.6 | nan 0
+step 7600 | G adv 0.665 | cycle 0.360 | identity 0.392 | D_A 0.231 | D_B 0.232 | grad G 20.90 D_A 7.01 D_B 4.79 | lr 0.000200 | images/sec 9.8 | nan 0
+step 7800 | G adv 0.703 | cycle 0.362 | identity 0.383 | D_A 0.220 | D_B 0.235 | grad G 21.87 D_A 6.57 D_B 4.57 | lr 0.000200 | images/sec 10.6 | nan 0
+step 8000 | G adv 0.679 | cycle 0.353 | identity 0.396 | D_A 0.222 | D_B 0.234 | grad G 21.73 D_A 6.73 D_B 4.77 | lr 0.000200 | images/sec 10.4 | nan 0
+step 8200 | G adv 0.717 | cycle 0.360 | identity 0.392 | D_A 0.224 | D_B 0.240 | grad G 21.13 D_A 6.69 D_B 4.22 | lr 0.000200 | images/sec 10.5 | nan 0
+step 8400 | G adv 0.703 | cycle 0.362 | identity 0.394 | D_A 0.219 | D_B 0.236 | grad G 21.56 D_A 6.38 D_B 4.37 | lr 0.000200 | images/sec 10.6 | nan 0
+step 8600 | G adv 0.709 | cycle 0.346 | identity 0.373 | D_A 0.237 | D_B 0.234 | grad G 21.90 D_A 6.84 D_B 4.60 | lr 0.000200 | images/sec 10.7 | nan 0
+step 8800 | G adv 0.698 | cycle 0.339 | identity 0.369 | D_A 0.223 | D_B 0.232 | grad G 21.28 D_A 6.35 D_B 4.55 | lr 0.000200 | images/sec 10.9 | nan 0
+step 9000 | G adv 0.681 | cycle 0.342 | identity 0.376 | D_A 0.231 | D_B 0.234 | grad G 19.96 D_A 6.26 D_B 4.06 | lr 0.000200 | images/sec 8.1 | nan 0
+step 9200 | G adv 0.707 | cycle 0.354 | identity 0.378 | D_A 0.223 | D_B 0.223 | grad G 20.87 D_A 5.57 D_B 4.72 | lr 0.000200 | images/sec 9.7 | nan 0
+step 9400 | G adv 0.665 | cycle 0.354 | identity 0.379 | D_A 0.231 | D_B 0.241 | grad G 20.79 D_A 5.96 D_B 4.37 | lr 0.000200 | images/sec 9.5 | nan 0
+step 9600 | G adv 0.713 | cycle 0.351 | identity 0.379 | D_A 0.227 | D_B 0.229 | grad G 21.13 D_A 5.56 D_B 4.23 | lr 0.000200 | images/sec 10.2 | nan 0
+step 9800 | G adv 0.701 | cycle 0.343 | identity 0.379 | D_A 0.232 | D_B 0.231 | grad G 20.77 D_A 6.27 D_B 4.15 | lr 0.000200 | images/sec 10.5 | nan 0
+step 10000 | G adv 0.708 | cycle 0.332 | identity 0.385 | D_A 0.224 | D_B 0.236 | grad G 21.33 D_A 5.54 D_B 4.49 | lr 0.000200 | images/sec 10.6 | nan 0
+saved checkpoint at step 10000
+quick score at step 10000 | A2B FID 135.7 MiFID 0.437 | B2A FID 129.7 MiFID 0.417 | quick score 66.56 | peak memory 10690 MB
+step 10200 | G adv 0.680 | cycle 0.329 | identity 0.388 | D_A 0.235 | D_B 0.237 | grad G 19.16 D_A 5.94 D_B 3.92 | lr 0.000200 | images/sec 9.9 | nan 0
+step 10400 | G adv 0.650 | cycle 0.339 | identity 0.369 | D_A 0.231 | D_B 0.237 | grad G 20.35 D_A 5.71 D_B 4.14 | lr 0.000200 | images/sec 9.1 | nan 0
+step 10600 | G adv 0.647 | cycle 0.336 | identity 0.383 | D_A 0.231 | D_B 0.248 | grad G 20.31 D_A 5.65 D_B 3.67 | lr 0.000200 | images/sec 9.5 | nan 0
+step 10800 | G adv 0.666 | cycle 0.336 | identity 0.388 | D_A 0.230 | D_B 0.233 | grad G 19.56 D_A 5.70 D_B 3.64 | lr 0.000200 | images/sec 10.3 | nan 0
+step 11000 | G adv 0.618 | cycle 0.330 | identity 0.351 | D_A 0.235 | D_B 0.248 | grad G 19.59 D_A 5.13 D_B 3.63 | lr 0.000200 | images/sec 10.5 | nan 0
+step 11200 | G adv 0.702 | cycle 0.335 | identity 0.359 | D_A 0.228 | D_B 0.236 | grad G 20.55 D_A 5.15 D_B 4.00 | lr 0.000200 | images/sec 10.5 | nan 0
+step 11400 | G adv 0.690 | cycle 0.356 | identity 0.387 | D_A 0.232 | D_B 0.223 | grad G 21.66 D_A 5.68 D_B 3.91 | lr 0.000200 | images/sec 10.2 | nan 0
+step 11600 | G adv 0.688 | cycle 0.349 | identity 0.386 | D_A 0.239 | D_B 0.241 | grad G 20.43 D_A 5.46 D_B 4.13 | lr 0.000200 | images/sec 10.1 | nan 0
+step 11800 | G adv 0.663 | cycle 0.317 | identity 0.367 | D_A 0.231 | D_B 0.242 | grad G 18.82 D_A 4.96 D_B 3.77 | lr 0.000200 | images/sec 10.3 | nan 0
+step 12000 | G adv 0.693 | cycle 0.346 | identity 0.382 | D_A 0.221 | D_B 0.235 | grad G 20.94 D_A 5.13 D_B 3.76 | lr 0.000200 | images/sec 10.3 | nan 0
+step 12200 | G adv 0.647 | cycle 0.316 | identity 0.358 | D_A 0.232 | D_B 0.236 | grad G 18.86 D_A 5.70 D_B 4.20 | lr 0.000200 | images/sec 9.9 | nan 0
+step 12400 | G adv 0.669 | cycle 0.315 | identity 0.356 | D_A 0.233 | D_B 0.240 | grad G 18.44 D_A 5.48 D_B 3.55 | lr 0.000200 | images/sec 9.8 | nan 0
+step 12600 | G adv 0.655 | cycle 0.299 | identity 0.364 | D_A 0.246 | D_B 0.239 | grad G 18.07 D_A 5.08 D_B 3.63 | lr 0.000200 | images/sec 9.9 | nan 0
+step 12800 | G adv 0.667 | cycle 0.320 | identity 0.373 | D_A 0.233 | D_B 0.233 | grad G 18.78 D_A 4.55 D_B 3.85 | lr 0.000200 | images/sec 9.9 | nan 0
+step 13000 | G adv 0.673 | cycle 0.323 | identity 0.369 | D_A 0.224 | D_B 0.236 | grad G 19.63 D_A 4.34 D_B 3.78 | lr 0.000200 | images/sec 9.7 | nan 0
+step 13200 | G adv 0.695 | cycle 0.318 | identity 0.356 | D_A 0.221 | D_B 0.236 | grad G 18.55 D_A 4.86 D_B 3.64 | lr 0.000200 | images/sec 9.8 | nan 0
+step 13400 | G adv 0.652 | cycle 0.310 | identity 0.357 | D_A 0.236 | D_B 0.247 | grad G 18.33 D_A 5.11 D_B 3.29 | lr 0.000200 | images/sec 9.7 | nan 0
+step 13600 | G adv 0.673 | cycle 0.312 | identity 0.357 | D_A 0.226 | D_B 0.230 | grad G 19.01 D_A 4.69 D_B 3.69 | lr 0.000200 | images/sec 9.6 | nan 0
+step 13800 | G adv 0.691 | cycle 0.302 | identity 0.353 | D_A 0.232 | D_B 0.243 | grad G 18.09 D_A 4.41 D_B 3.50 | lr 0.000200 | images/sec 8.6 | nan 0
+step 14000 | G adv 0.668 | cycle 0.316 | identity 0.363 | D_A 0.233 | D_B 0.234 | grad G 19.37 D_A 4.44 D_B 3.70 | lr 0.000200 | images/sec 9.9 | nan 0
+step 14200 | G adv 0.650 | cycle 0.302 | identity 0.347 | D_A 0.235 | D_B 0.236 | grad G 18.23 D_A 4.61 D_B 3.63 | lr 0.000200 | images/sec 9.9 | nan 0
+step 14400 | G adv 0.687 | cycle 0.309 | identity 0.350 | D_A 0.232 | D_B 0.227 | grad G 18.87 D_A 4.57 D_B 3.57 | lr 0.000200 | images/sec 9.2 | nan 0
+step 14600 | G adv 0.684 | cycle 0.308 | identity 0.357 | D_A 0.230 | D_B 0.241 | grad G 18.44 D_A 4.49 D_B 3.20 | lr 0.000200 | images/sec 9.9 | nan 0
+step 14800 | G adv 0.672 | cycle 0.311 | identity 0.359 | D_A 0.220 | D_B 0.244 | grad G 18.55 D_A 4.67 D_B 3.49 | lr 0.000200 | images/sec 9.9 | nan 0
+step 15000 | G adv 0.681 | cycle 0.300 | identity 0.342 | D_A 0.221 | D_B 0.239 | grad G 18.21 D_A 5.25 D_B 3.43 | lr 0.000200 | images/sec 9.9 | nan 0
+saved checkpoint at step 15000
+quick score at step 15000 | A2B FID 131.7 MiFID 0.436 | B2A FID 118.5 MiFID 0.413 | quick score 62.74 | peak memory 10690 MB
+step 15200 | G adv 0.669 | cycle 0.307 | identity 0.349 | D_A 0.230 | D_B 0.241 | grad G 19.28 D_A 4.96 D_B 3.61 | lr 0.000200 | images/sec 9.9 | nan 0
+step 15400 | G adv 0.673 | cycle 0.299 | identity 0.332 | D_A 0.226 | D_B 0.237 | grad G 18.48 D_A 5.09 D_B 3.55 | lr 0.000200 | images/sec 10.0 | nan 0
+step 15600 | G adv 0.631 | cycle 0.304 | identity 0.362 | D_A 0.227 | D_B 0.243 | grad G 18.52 D_A 4.83 D_B 3.40 | lr 0.000200 | images/sec 9.9 | nan 0
+step 15800 | G adv 0.663 | cycle 0.302 | identity 0.344 | D_A 0.226 | D_B 0.236 | grad G 18.88 D_A 4.53 D_B 3.19 | lr 0.000200 | images/sec 9.9 | nan 0
+step 16000 | G adv 0.732 | cycle 0.299 | identity 0.352 | D_A 0.209 | D_B 0.229 | grad G 18.36 D_A 4.67 D_B 3.64 | lr 0.000200 | images/sec 10.0 | nan 0
+step 16200 | G adv 0.672 | cycle 0.289 | identity 0.344 | D_A 0.230 | D_B 0.233 | grad G 17.83 D_A 4.49 D_B 3.57 | lr 0.000200 | images/sec 9.7 | nan 0
+step 16400 | G adv 0.719 | cycle 0.312 | identity 0.355 | D_A 0.211 | D_B 0.233 | grad G 19.22 D_A 4.36 D_B 3.51 | lr 0.000200 | images/sec 9.7 | nan 0
+step 16600 | G adv 0.663 | cycle 0.299 | identity 0.353 | D_A 0.225 | D_B 0.231 | grad G 18.31 D_A 4.90 D_B 3.39 | lr 0.000200 | images/sec 9.5 | nan 0
+step 16800 | G adv 0.702 | cycle 0.311 | identity 0.343 | D_A 0.226 | D_B 0.249 | grad G 19.73 D_A 4.33 D_B 3.53 | lr 0.000200 | images/sec 9.6 | nan 0
+step 17000 | G adv 0.680 | cycle 0.302 | identity 0.361 | D_A 0.233 | D_B 0.237 | grad G 19.21 D_A 4.32 D_B 3.32 | lr 0.000200 | images/sec 9.5 | nan 0
+step 17200 | G adv 0.663 | cycle 0.299 | identity 0.367 | D_A 0.231 | D_B 0.228 | grad G 18.70 D_A 4.46 D_B 3.50 | lr 0.000200 | images/sec 9.7 | nan 0
+step 17400 | G adv 0.655 | cycle 0.279 | identity 0.345 | D_A 0.235 | D_B 0.230 | grad G 17.63 D_A 4.10 D_B 3.66 | lr 0.000200 | images/sec 9.8 | nan 0
+step 17600 | G adv 0.677 | cycle 0.300 | identity 0.352 | D_A 0.219 | D_B 0.239 | grad G 18.70 D_A 4.49 D_B 3.34 | lr 0.000200 | images/sec 9.9 | nan 0
+step 17800 | G adv 0.695 | cycle 0.302 | identity 0.354 | D_A 0.220 | D_B 0.238 | grad G 19.51 D_A 4.36 D_B 3.28 | lr 0.000200 | images/sec 9.9 | nan 0
+step 18000 | G adv 0.683 | cycle 0.300 | identity 0.350 | D_A 0.223 | D_B 0.234 | grad G 19.18 D_A 4.25 D_B 3.33 | lr 0.000200 | images/sec 9.9 | nan 0
+step 18200 | G adv 0.681 | cycle 0.295 | identity 0.344 | D_A 0.222 | D_B 0.232 | grad G 18.26 D_A 4.27 D_B 3.47 | lr 0.000200 | images/sec 9.9 | nan 0
+step 18400 | G adv 0.668 | cycle 0.292 | identity 0.352 | D_A 0.229 | D_B 0.242 | grad G 17.81 D_A 4.21 D_B 3.61 | lr 0.000200 | images/sec 9.9 | nan 0
+step 18600 | G adv 0.663 | cycle 0.286 | identity 0.335 | D_A 0.220 | D_B 0.235 | grad G 17.59 D_A 4.29 D_B 3.39 | lr 0.000200 | images/sec 9.8 | nan 0
+step 18800 | G adv 0.655 | cycle 0.283 | identity 0.344 | D_A 0.231 | D_B 0.239 | grad G 17.54 D_A 4.09 D_B 3.27 | lr 0.000200 | images/sec 8.6 | nan 0
+step 19000 | G adv 0.636 | cycle 0.289 | identity 0.353 | D_A 0.237 | D_B 0.236 | grad G 17.97 D_A 3.68 D_B 3.56 | lr 0.000200 | images/sec 9.9 | nan 0
+step 19200 | G adv 0.656 | cycle 0.295 | identity 0.352 | D_A 0.225 | D_B 0.226 | grad G 18.44 D_A 4.04 D_B 3.57 | lr 0.000200 | images/sec 9.8 | nan 0
+step 19400 | G adv 0.697 | cycle 0.298 | identity 0.343 | D_A 0.217 | D_B 0.242 | grad G 19.29 D_A 4.15 D_B 3.34 | lr 0.000200 | images/sec 9.9 | nan 0
+step 19600 | G adv 0.663 | cycle 0.279 | identity 0.336 | D_A 0.237 | D_B 0.229 | grad G 17.10 D_A 4.04 D_B 3.62 | lr 0.000200 | images/sec 9.9 | nan 0
+step 19800 | G adv 0.680 | cycle 0.270 | identity 0.332 | D_A 0.226 | D_B 0.233 | grad G 17.27 D_A 3.90 D_B 3.43 | lr 0.000200 | images/sec 10.0 | nan 0
+step 20000 | G adv 0.697 | cycle 0.283 | identity 0.340 | D_A 0.226 | D_B 0.225 | grad G 18.22 D_A 4.29 D_B 3.90 | lr 0.000200 | images/sec 10.1 | nan 0
+saved checkpoint at step 20000
+quick score at step 20000 | A2B FID 123.6 MiFID 0.433 | B2A FID 112.1 MiFID 0.411 | quick score 59.13 | peak memory 10690 MB
+step 20200 | G adv 0.641 | cycle 0.272 | identity 0.328 | D_A 0.242 | D_B 0.230 | grad G 17.78 D_A 3.90 D_B 3.74 | lr 0.000200 | images/sec 9.9 | nan 0
+step 20400 | G adv 0.677 | cycle 0.282 | identity 0.336 | D_A 0.219 | D_B 0.227 | grad G 18.26 D_A 3.66 D_B 3.81 | lr 0.000200 | images/sec 9.9 | nan 0
+step 20600 | G adv 0.648 | cycle 0.280 | identity 0.338 | D_A 0.222 | D_B 0.238 | grad G 17.50 D_A 3.92 D_B 3.52 | lr 0.000200 | images/sec 9.9 | nan 0
+step 20800 | G adv 0.713 | cycle 0.288 | identity 0.342 | D_A 0.230 | D_B 0.216 | grad G 18.13 D_A 3.63 D_B 4.05 | lr 0.000200 | images/sec 10.0 | nan 0
+step 21000 | G adv 0.696 | cycle 0.291 | identity 0.349 | D_A 0.221 | D_B 0.219 | grad G 18.69 D_A 3.92 D_B 3.98 | lr 0.000200 | images/sec 10.0 | nan 0
+step 21200 | G adv 0.692 | cycle 0.278 | identity 0.339 | D_A 0.221 | D_B 0.224 | grad G 18.67 D_A 3.88 D_B 4.06 | lr 0.000200 | images/sec 10.0 | nan 0
+step 21400 | G adv 0.646 | cycle 0.280 | identity 0.337 | D_A 0.219 | D_B 0.231 | grad G 18.16 D_A 3.58 D_B 4.12 | lr 0.000200 | images/sec 10.0 | nan 0
+step 21600 | G adv 0.715 | cycle 0.271 | identity 0.336 | D_A 0.224 | D_B 0.211 | grad G 18.32 D_A 3.81 D_B 4.41 | lr 0.000200 | images/sec 10.0 | nan 0
+step 21800 | G adv 0.720 | cycle 0.274 | identity 0.323 | D_A 0.234 | D_B 0.222 | grad G 19.28 D_A 4.02 D_B 4.68 | lr 0.000200 | images/sec 10.1 | nan 0
+step 22000 | G adv 0.723 | cycle 0.286 | identity 0.333 | D_A 0.219 | D_B 0.215 | grad G 19.16 D_A 3.52 D_B 4.24 | lr 0.000200 | images/sec 10.0 | nan 0
+step 22200 | G adv 0.695 | cycle 0.278 | identity 0.337 | D_A 0.231 | D_B 0.218 | grad G 19.22 D_A 3.97 D_B 4.74 | lr 0.000200 | images/sec 10.0 | nan 0
+step 22400 | G adv 0.745 | cycle 0.275 | identity 0.330 | D_A 0.219 | D_B 0.207 | grad G 18.80 D_A 3.73 D_B 4.87 | lr 0.000200 | images/sec 9.9 | nan 0
+step 22600 | G adv 0.742 | cycle 0.268 | identity 0.338 | D_A 0.224 | D_B 0.207 | grad G 18.51 D_A 3.64 D_B 4.86 | lr 0.000200 | images/sec 10.0 | nan 0
+step 22800 | G adv 0.731 | cycle 0.282 | identity 0.336 | D_A 0.216 | D_B 0.200 | grad G 19.76 D_A 3.84 D_B 4.75 | lr 0.000200 | images/sec 10.0 | nan 0
+step 23000 | G adv 0.756 | cycle 0.272 | identity 0.335 | D_A 0.236 | D_B 0.216 | grad G 20.02 D_A 4.07 D_B 5.02 | lr 0.000200 | images/sec 10.1 | nan 0
+step 23200 | G adv 0.737 | cycle 0.273 | identity 0.333 | D_A 0.219 | D_B 0.189 | grad G 19.84 D_A 3.64 D_B 4.97 | lr 0.000200 | images/sec 10.0 | nan 0
+step 23400 | G adv 0.706 | cycle 0.269 | identity 0.320 | D_A 0.223 | D_B 0.204 | grad G 20.40 D_A 3.53 D_B 5.59 | lr 0.000200 | images/sec 10.0 | nan 0
+step 23600 | G adv 0.804 | cycle 0.280 | identity 0.334 | D_A 0.228 | D_B 0.185 | grad G 22.40 D_A 3.80 D_B 5.61 | lr 0.000200 | images/sec 9.7 | nan 0
+step 23800 | G adv 0.811 | cycle 0.275 | identity 0.333 | D_A 0.217 | D_B 0.194 | grad G 21.61 D_A 3.72 D_B 5.75 | lr 0.000200 | images/sec 8.6 | nan 0
+step 24000 | G adv 0.810 | cycle 0.287 | identity 0.346 | D_A 0.224 | D_B 0.194 | grad G 22.14 D_A 3.61 D_B 5.63 | lr 0.000200 | images/sec 7.8 | nan 0
+step 24200 | G adv 0.772 | cycle 0.274 | identity 0.338 | D_A 0.225 | D_B 0.203 | grad G 21.69 D_A 3.60 D_B 5.75 | lr 0.000200 | images/sec 7.8 | nan 0
+step 24400 | G adv 0.751 | cycle 0.272 | identity 0.335 | D_A 0.215 | D_B 0.212 | grad G 21.03 D_A 3.46 D_B 5.90 | lr 0.000200 | images/sec 9.2 | nan 0
+step 24600 | G adv 0.818 | cycle 0.273 | identity 0.323 | D_A 0.222 | D_B 0.208 | grad G 21.36 D_A 3.98 D_B 5.59 | lr 0.000200 | images/sec 9.0 | nan 0
+step 24800 | G adv 0.792 | cycle 0.286 | identity 0.340 | D_A 0.213 | D_B 0.199 | grad G 22.88 D_A 3.67 D_B 5.55 | lr 0.000200 | images/sec 8.5 | nan 0
+step 25000 | G adv 0.812 | cycle 0.264 | identity 0.316 | D_A 0.217 | D_B 0.197 | grad G 22.37 D_A 3.76 D_B 5.37 | lr 0.000200 | images/sec 7.8 | nan 0
+saved checkpoint at step 25000
+quick score at step 25000 | A2B FID 120.9 MiFID 0.431 | B2A FID 111.6 MiFID 0.414 | quick score 58.35 | peak memory 10690 MB
+step 25200 | G adv 0.751 | cycle 0.264 | identity 0.328 | D_A 0.221 | D_B 0.201 | grad G 20.65 D_A 3.72 D_B 5.41 | lr 0.000200 | images/sec 7.7 | nan 0
+step 25400 | G adv 0.727 | cycle 0.272 | identity 0.331 | D_A 0.223 | D_B 0.206 | grad G 21.62 D_A 3.30 D_B 5.80 | lr 0.000200 | images/sec 7.5 | nan 0
+step 25600 | G adv 0.764 | cycle 0.263 | identity 0.319 | D_A 0.212 | D_B 0.196 | grad G 22.06 D_A 3.71 D_B 5.60 | lr 0.000200 | images/sec 7.2 | nan 0
+step 25800 | G adv 0.761 | cycle 0.269 | identity 0.332 | D_A 0.221 | D_B 0.203 | grad G 21.35 D_A 3.76 D_B 5.71 | lr 0.000200 | images/sec 8.7 | nan 0
+step 26000 | G adv 0.727 | cycle 0.257 | identity 0.340 | D_A 0.229 | D_B 0.206 | grad G 19.54 D_A 4.01 D_B 5.68 | lr 0.000200 | images/sec 7.6 | nan 0
+step 26200 | G adv 0.756 | cycle 0.259 | identity 0.327 | D_A 0.226 | D_B 0.197 | grad G 20.73 D_A 3.43 D_B 5.66 | lr 0.000200 | images/sec 7.7 | nan 0
+step 26400 | G adv 0.783 | cycle 0.261 | identity 0.325 | D_A 0.215 | D_B 0.205 | grad G 20.50 D_A 3.55 D_B 5.59 | lr 0.000200 | images/sec 7.3 | nan 0
+step 26600 | G adv 0.760 | cycle 0.259 | identity 0.314 | D_A 0.217 | D_B 0.204 | grad G 19.74 D_A 3.40 D_B 5.53 | lr 0.000200 | images/sec 7.4 | nan 0
+step 26800 | G adv 0.725 | cycle 0.252 | identity 0.319 | D_A 0.222 | D_B 0.216 | grad G 19.91 D_A 3.69 D_B 5.58 | lr 0.000200 | images/sec 7.7 | nan 0
+step 27000 | G adv 0.718 | cycle 0.254 | identity 0.320 | D_A 0.231 | D_B 0.218 | grad G 19.40 D_A 3.27 D_B 5.68 | lr 0.000200 | images/sec 7.3 | nan 0
+step 27200 | G adv 0.756 | cycle 0.259 | identity 0.331 | D_A 0.211 | D_B 0.202 | grad G 20.41 D_A 3.11 D_B 5.52 | lr 0.000200 | images/sec 7.8 | nan 0
+step 27400 | G adv 0.749 | cycle 0.256 | identity 0.328 | D_A 0.232 | D_B 0.210 | grad G 20.35 D_A 3.52 D_B 5.69 | lr 0.000200 | images/sec 8.7 | nan 0
+step 27600 | G adv 0.738 | cycle 0.255 | identity 0.309 | D_A 0.228 | D_B 0.190 | grad G 19.33 D_A 3.08 D_B 5.21 | lr 0.000200 | images/sec 8.2 | nan 0
+step 27800 | G adv 0.807 | cycle 0.266 | identity 0.333 | D_A 0.217 | D_B 0.197 | grad G 20.98 D_A 3.19 D_B 5.23 | lr 0.000200 | images/sec 8.2 | nan 0
+step 28000 | G adv 0.806 | cycle 0.256 | identity 0.321 | D_A 0.217 | D_B 0.192 | grad G 22.02 D_A 2.97 D_B 5.61 | lr 0.000200 | images/sec 7.4 | nan 0
+step 28200 | G adv 0.718 | cycle 0.247 | identity 0.303 | D_A 0.230 | D_B 0.222 | grad G 19.50 D_A 3.21 D_B 5.99 | lr 0.000200 | images/sec 7.5 | nan 0
+step 28400 | G adv 0.743 | cycle 0.246 | identity 0.309 | D_A 0.216 | D_B 0.208 | grad G 19.29 D_A 3.20 D_B 5.25 | lr 0.000200 | images/sec 7.9 | nan 0
+step 28600 | G adv 0.690 | cycle 0.250 | identity 0.319 | D_A 0.230 | D_B 0.221 | grad G 19.00 D_A 3.25 D_B 5.02 | lr 0.000200 | images/sec 7.6 | nan 0
+step 28800 | G adv 0.688 | cycle 0.244 | identity 0.317 | D_A 0.229 | D_B 0.220 | grad G 17.83 D_A 3.08 D_B 5.22 | lr 0.000200 | images/sec 7.8 | nan 0
+step 29000 | G adv 0.712 | cycle 0.259 | identity 0.317 | D_A 0.222 | D_B 0.224 | grad G 19.53 D_A 3.14 D_B 5.27 | lr 0.000200 | images/sec 8.9 | nan 0
+step 29200 | G adv 0.704 | cycle 0.246 | identity 0.319 | D_A 0.229 | D_B 0.205 | grad G 18.26 D_A 3.25 D_B 4.87 | lr 0.000200 | images/sec 8.4 | nan 0
+step 29400 | G adv 0.720 | cycle 0.251 | identity 0.329 | D_A 0.223 | D_B 0.221 | grad G 19.06 D_A 3.29 D_B 5.36 | lr 0.000200 | images/sec 8.1 | nan 0
+step 29600 | G adv 0.731 | cycle 0.263 | identity 0.342 | D_A 0.217 | D_B 0.202 | grad G 19.34 D_A 3.09 D_B 4.94 | lr 0.000200 | images/sec 7.2 | nan 0
+step 29800 | G adv 0.756 | cycle 0.263 | identity 0.327 | D_A 0.215 | D_B 0.205 | grad G 20.11 D_A 3.17 D_B 5.06 | lr 0.000200 | images/sec 6.8 | nan 0
+step 30000 | G adv 0.752 | cycle 0.251 | identity 0.326 | D_A 0.222 | D_B 0.204 | grad G 19.14 D_A 3.38 D_B 5.08 | lr 0.000200 | images/sec 8.3 | nan 0
+saved checkpoint at step 30000
+quick score at step 30000 | A2B FID 119.3 MiFID 0.429 | B2A FID 112.2 MiFID 0.414 | quick score 58.08 | peak memory 10690 MB
+step 30200 | G adv 0.746 | cycle 0.262 | identity 0.315 | D_A 0.221 | D_B 0.209 | grad G 19.41 D_A 3.42 D_B 5.12 | lr 0.000199 | images/sec 7.9 | nan 0
+step 30400 | G adv 0.730 | cycle 0.246 | identity 0.316 | D_A 0.231 | D_B 0.217 | grad G 18.87 D_A 3.08 D_B 5.38 | lr 0.000197 | images/sec 12.0 | nan 0
+step 30600 | G adv 0.759 | cycle 0.266 | identity 0.343 | D_A 0.214 | D_B 0.203 | grad G 18.38 D_A 3.04 D_B 5.08 | lr 0.000196 | images/sec 13.1 | nan 0
+step 30800 | G adv 0.758 | cycle 0.256 | identity 0.319 | D_A 0.213 | D_B 0.205 | grad G 19.70 D_A 3.04 D_B 5.29 | lr 0.000195 | images/sec 13.9 | nan 0
+step 31000 | G adv 0.698 | cycle 0.249 | identity 0.321 | D_A 0.223 | D_B 0.211 | grad G 19.95 D_A 3.25 D_B 4.97 | lr 0.000193 | images/sec 13.6 | nan 0
+step 31200 | G adv 0.742 | cycle 0.243 | identity 0.301 | D_A 0.222 | D_B 0.212 | grad G 19.14 D_A 3.52 D_B 4.92 | lr 0.000192 | images/sec 14.1 | nan 0
+step 31400 | G adv 0.770 | cycle 0.244 | identity 0.319 | D_A 0.210 | D_B 0.190 | grad G 19.78 D_A 3.13 D_B 4.93 | lr 0.000191 | images/sec 13.8 | nan 0
+step 31600 | G adv 0.763 | cycle 0.241 | identity 0.309 | D_A 0.220 | D_B 0.200 | grad G 19.39 D_A 3.19 D_B 5.04 | lr 0.000189 | images/sec 14.1 | nan 0
+step 31800 | G adv 0.771 | cycle 0.240 | identity 0.303 | D_A 0.213 | D_B 0.206 | grad G 19.25 D_A 3.26 D_B 5.25 | lr 0.000188 | images/sec 13.9 | nan 0
+step 32000 | G adv 0.693 | cycle 0.245 | identity 0.311 | D_A 0.226 | D_B 0.207 | grad G 18.44 D_A 3.50 D_B 4.77 | lr 0.000187 | images/sec 13.9 | nan 0
+step 32200 | G adv 0.728 | cycle 0.247 | identity 0.323 | D_A 0.220 | D_B 0.211 | grad G 18.85 D_A 3.11 D_B 5.26 | lr 0.000185 | images/sec 13.7 | nan 0
+step 32400 | G adv 0.753 | cycle 0.241 | identity 0.317 | D_A 0.215 | D_B 0.215 | grad G 18.23 D_A 3.18 D_B 5.08 | lr 0.000184 | images/sec 13.7 | nan 0
+step 32600 | G adv 0.728 | cycle 0.239 | identity 0.312 | D_A 0.228 | D_B 0.207 | grad G 18.65 D_A 3.18 D_B 4.84 | lr 0.000183 | images/sec 13.6 | nan 0
+step 32800 | G adv 0.776 | cycle 0.233 | identity 0.317 | D_A 0.215 | D_B 0.199 | grad G 18.03 D_A 3.34 D_B 5.04 | lr 0.000181 | images/sec 13.9 | nan 0
+step 33000 | G adv 0.774 | cycle 0.240 | identity 0.332 | D_A 0.212 | D_B 0.200 | grad G 18.98 D_A 3.46 D_B 5.05 | lr 0.000180 | images/sec 13.7 | nan 0
+step 33200 | G adv 0.734 | cycle 0.238 | identity 0.314 | D_A 0.230 | D_B 0.197 | grad G 18.38 D_A 3.32 D_B 5.06 | lr 0.000179 | images/sec 13.7 | nan 0
+step 33400 | G adv 0.742 | cycle 0.243 | identity 0.333 | D_A 0.215 | D_B 0.207 | grad G 19.14 D_A 3.19 D_B 5.13 | lr 0.000177 | images/sec 14.3 | nan 0
+step 33600 | G adv 0.743 | cycle 0.248 | identity 0.332 | D_A 0.207 | D_B 0.199 | grad G 19.24 D_A 3.19 D_B 5.05 | lr 0.000176 | images/sec 14.4 | nan 0
+step 33800 | G adv 0.719 | cycle 0.234 | identity 0.316 | D_A 0.225 | D_B 0.200 | grad G 18.15 D_A 3.39 D_B 5.08 | lr 0.000175 | images/sec 14.5 | nan 0
+step 34000 | G adv 0.735 | cycle 0.246 | identity 0.316 | D_A 0.204 | D_B 0.198 | grad G 19.70 D_A 3.36 D_B 5.12 | lr 0.000173 | images/sec 14.7 | nan 0
+step 34200 | G adv 0.769 | cycle 0.232 | identity 0.319 | D_A 0.223 | D_B 0.196 | grad G 19.54 D_A 3.58 D_B 5.35 | lr 0.000172 | images/sec 14.6 | nan 0
+step 34400 | G adv 0.740 | cycle 0.246 | identity 0.321 | D_A 0.219 | D_B 0.195 | grad G 19.79 D_A 3.60 D_B 5.25 | lr 0.000171 | images/sec 14.4 | nan 0
+step 34600 | G adv 0.792 | cycle 0.235 | identity 0.317 | D_A 0.217 | D_B 0.188 | grad G 18.84 D_A 3.19 D_B 5.58 | lr 0.000169 | images/sec 14.3 | nan 0
+step 34800 | G adv 0.745 | cycle 0.237 | identity 0.321 | D_A 0.205 | D_B 0.208 | grad G 19.34 D_A 3.50 D_B 4.91 | lr 0.000168 | images/sec 14.2 | nan 0
+step 35000 | G adv 0.706 | cycle 0.232 | identity 0.316 | D_A 0.224 | D_B 0.206 | grad G 18.27 D_A 3.57 D_B 5.05 | lr 0.000167 | images/sec 14.1 | nan 0
+saved checkpoint at step 35000
+quick score at step 35000 | A2B FID 117.7 MiFID 0.428 | B2A FID 112.2 MiFID 0.412 | quick score 57.69 | peak memory 10690 MB
+step 35200 | G adv 0.726 | cycle 0.234 | identity 0.312 | D_A 0.212 | D_B 0.204 | grad G 18.50 D_A 3.10 D_B 5.25 | lr 0.000165 | images/sec 14.1 | nan 0
+step 35400 | G adv 0.747 | cycle 0.236 | identity 0.313 | D_A 0.220 | D_B 0.200 | grad G 19.35 D_A 3.19 D_B 5.41 | lr 0.000164 | images/sec 14.5 | nan 0
+step 35600 | G adv 0.739 | cycle 0.239 | identity 0.319 | D_A 0.217 | D_B 0.206 | grad G 18.68 D_A 3.15 D_B 4.99 | lr 0.000163 | images/sec 14.7 | nan 0
+step 35800 | G adv 0.714 | cycle 0.218 | identity 0.300 | D_A 0.210 | D_B 0.185 | grad G 17.47 D_A 3.27 D_B 4.92 | lr 0.000161 | images/sec 15.1 | nan 0
+step 36000 | G adv 0.779 | cycle 0.232 | identity 0.319 | D_A 0.207 | D_B 0.180 | grad G 19.29 D_A 3.43 D_B 5.07 | lr 0.000160 | images/sec 14.8 | nan 0
+step 36200 | G adv 0.751 | cycle 0.228 | identity 0.317 | D_A 0.222 | D_B 0.213 | grad G 18.70 D_A 3.21 D_B 5.42 | lr 0.000159 | images/sec 14.9 | nan 0
+step 36400 | G adv 0.756 | cycle 0.221 | identity 0.312 | D_A 0.212 | D_B 0.182 | grad G 17.84 D_A 3.30 D_B 4.84 | lr 0.000157 | images/sec 14.6 | nan 0
+step 36600 | G adv 0.755 | cycle 0.224 | identity 0.318 | D_A 0.218 | D_B 0.194 | grad G 18.57 D_A 3.57 D_B 5.04 | lr 0.000156 | images/sec 14.5 | nan 0
+step 36800 | G adv 0.770 | cycle 0.226 | identity 0.324 | D_A 0.217 | D_B 0.207 | grad G 18.67 D_A 3.49 D_B 5.42 | lr 0.000155 | images/sec 14.9 | nan 0
+step 37000 | G adv 0.751 | cycle 0.230 | identity 0.314 | D_A 0.230 | D_B 0.194 | grad G 18.30 D_A 3.32 D_B 5.03 | lr 0.000153 | images/sec 16.7 | nan 0
+step 37200 | G adv 0.777 | cycle 0.225 | identity 0.316 | D_A 0.212 | D_B 0.199 | grad G 19.70 D_A 3.07 D_B 5.08 | lr 0.000152 | images/sec 15.8 | nan 0
+step 37400 | G adv 0.769 | cycle 0.229 | identity 0.319 | D_A 0.218 | D_B 0.186 | grad G 18.92 D_A 3.53 D_B 4.86 | lr 0.000151 | images/sec 16.3 | nan 0
+step 37600 | G adv 0.783 | cycle 0.222 | identity 0.302 | D_A 0.217 | D_B 0.201 | grad G 18.67 D_A 3.31 D_B 5.19 | lr 0.000149 | images/sec 16.7 | nan 0
+step 37800 | G adv 0.758 | cycle 0.219 | identity 0.309 | D_A 0.209 | D_B 0.198 | grad G 18.57 D_A 3.15 D_B 4.98 | lr 0.000148 | images/sec 15.9 | nan 0
+step 38000 | G adv 0.765 | cycle 0.220 | identity 0.305 | D_A 0.212 | D_B 0.206 | grad G 18.82 D_A 3.56 D_B 4.93 | lr 0.000147 | images/sec 18.1 | nan 0
+step 38200 | G adv 0.758 | cycle 0.226 | identity 0.324 | D_A 0.213 | D_B 0.188 | grad G 18.22 D_A 3.21 D_B 4.82 | lr 0.000145 | images/sec 18.0 | nan 0
+step 38400 | G adv 0.795 | cycle 0.216 | identity 0.317 | D_A 0.216 | D_B 0.181 | grad G 18.91 D_A 3.21 D_B 4.80 | lr 0.000144 | images/sec 16.8 | nan 0
+step 38600 | G adv 0.799 | cycle 0.223 | identity 0.325 | D_A 0.208 | D_B 0.200 | grad G 18.41 D_A 3.46 D_B 5.34 | lr 0.000143 | images/sec 15.4 | nan 0
+step 38800 | G adv 0.739 | cycle 0.216 | identity 0.304 | D_A 0.207 | D_B 0.206 | grad G 17.63 D_A 3.21 D_B 5.28 | lr 0.000141 | images/sec 15.3 | nan 0
+step 39000 | G adv 0.715 | cycle 0.213 | identity 0.291 | D_A 0.221 | D_B 0.199 | grad G 17.29 D_A 3.44 D_B 4.91 | lr 0.000140 | images/sec 8.4 | nan 0
+step 39200 | G adv 0.731 | cycle 0.228 | identity 0.320 | D_A 0.218 | D_B 0.205 | grad G 18.24 D_A 3.43 D_B 5.10 | lr 0.000139 | images/sec 8.3 | nan 0
+step 39400 | G adv 0.755 | cycle 0.210 | identity 0.309 | D_A 0.216 | D_B 0.203 | grad G 18.16 D_A 3.22 D_B 5.18 | lr 0.000137 | images/sec 9.4 | nan 0
+step 39600 | G adv 0.745 | cycle 0.221 | identity 0.298 | D_A 0.223 | D_B 0.204 | grad G 18.47 D_A 3.34 D_B 4.96 | lr 0.000136 | images/sec 14.3 | nan 0
+step 39800 | G adv 0.754 | cycle 0.215 | identity 0.312 | D_A 0.213 | D_B 0.205 | grad G 17.93 D_A 3.38 D_B 5.28 | lr 0.000135 | images/sec 11.6 | nan 0
+step 40000 | G adv 0.720 | cycle 0.216 | identity 0.300 | D_A 0.216 | D_B 0.208 | grad G 17.17 D_A 3.43 D_B 5.11 | lr 0.000133 | images/sec 13.0 | nan 0
+saved checkpoint at step 40000
+quick score at step 40000 | A2B FID 114.3 MiFID 0.425 | B2A FID 112.5 MiFID 0.414 | quick score 56.91 | peak memory 10690 MB
+step 40200 | G adv 0.741 | cycle 0.210 | identity 0.310 | D_A 0.218 | D_B 0.199 | grad G 17.38 D_A 3.45 D_B 4.99 | lr 0.000132 | images/sec 16.4 | nan 0
+step 40400 | G adv 0.732 | cycle 0.213 | identity 0.299 | D_A 0.217 | D_B 0.191 | grad G 17.29 D_A 3.72 D_B 4.82 | lr 0.000131 | images/sec 16.1 | nan 0
+step 40600 | G adv 0.745 | cycle 0.217 | identity 0.306 | D_A 0.213 | D_B 0.186 | grad G 18.31 D_A 3.17 D_B 5.21 | lr 0.000129 | images/sec 16.6 | nan 0
+step 40800 | G adv 0.768 | cycle 0.208 | identity 0.290 | D_A 0.211 | D_B 0.193 | grad G 17.86 D_A 3.45 D_B 5.14 | lr 0.000128 | images/sec 16.9 | nan 0
+step 41000 | G adv 0.782 | cycle 0.208 | identity 0.292 | D_A 0.208 | D_B 0.198 | grad G 17.26 D_A 3.55 D_B 4.96 | lr 0.000127 | images/sec 17.4 | nan 0
+step 41200 | G adv 0.770 | cycle 0.212 | identity 0.312 | D_A 0.221 | D_B 0.191 | grad G 17.67 D_A 3.55 D_B 5.20 | lr 0.000125 | images/sec 17.2 | nan 0
+step 41400 | G adv 0.728 | cycle 0.215 | identity 0.315 | D_A 0.215 | D_B 0.202 | grad G 18.74 D_A 3.47 D_B 4.88 | lr 0.000124 | images/sec 17.9 | nan 0
+step 41600 | G adv 0.730 | cycle 0.213 | identity 0.315 | D_A 0.215 | D_B 0.203 | grad G 18.33 D_A 3.50 D_B 5.39 | lr 0.000123 | images/sec 17.7 | nan 0
+step 41800 | G adv 0.739 | cycle 0.209 | identity 0.299 | D_A 0.215 | D_B 0.194 | grad G 18.59 D_A 3.75 D_B 5.01 | lr 0.000121 | images/sec 17.7 | nan 0
+step 42000 | G adv 0.747 | cycle 0.207 | identity 0.294 | D_A 0.217 | D_B 0.203 | grad G 18.35 D_A 3.70 D_B 5.30 | lr 0.000120 | images/sec 17.5 | nan 0
+step 42200 | G adv 0.732 | cycle 0.217 | identity 0.312 | D_A 0.208 | D_B 0.193 | grad G 18.46 D_A 3.32 D_B 4.97 | lr 0.000119 | images/sec 15.8 | nan 0
+step 42400 | G adv 0.789 | cycle 0.207 | identity 0.293 | D_A 0.214 | D_B 0.183 | grad G 19.11 D_A 3.54 D_B 4.96 | lr 0.000117 | images/sec 16.3 | nan 0
+step 42600 | G adv 0.726 | cycle 0.209 | identity 0.306 | D_A 0.210 | D_B 0.206 | grad G 18.21 D_A 3.29 D_B 5.75 | lr 0.000116 | images/sec 15.8 | nan 0
+step 42800 | G adv 0.741 | cycle 0.203 | identity 0.298 | D_A 0.223 | D_B 0.201 | grad G 17.94 D_A 3.36 D_B 5.29 | lr 0.000115 | images/sec 12.3 | nan 0
+step 43000 | G adv 0.740 | cycle 0.201 | identity 0.298 | D_A 0.211 | D_B 0.197 | grad G 18.18 D_A 3.32 D_B 5.25 | lr 0.000113 | images/sec 8.6 | nan 0
+step 43200 | G adv 0.757 | cycle 0.197 | identity 0.285 | D_A 0.213 | D_B 0.204 | grad G 18.03 D_A 3.48 D_B 5.35 | lr 0.000112 | images/sec 8.6 | nan 0
+step 43400 | G adv 0.732 | cycle 0.199 | identity 0.297 | D_A 0.215 | D_B 0.213 | grad G 17.69 D_A 3.57 D_B 5.65 | lr 0.000111 | images/sec 8.3 | nan 0
+step 43600 | G adv 0.729 | cycle 0.207 | identity 0.303 | D_A 0.214 | D_B 0.202 | grad G 17.47 D_A 3.56 D_B 5.07 | lr 0.000109 | images/sec 15.0 | nan 0
+step 43800 | G adv 0.768 | cycle 0.207 | identity 0.294 | D_A 0.208 | D_B 0.191 | grad G 17.60 D_A 3.25 D_B 5.01 | lr 0.000108 | images/sec 15.2 | nan 0
+step 44000 | G adv 0.718 | cycle 0.205 | identity 0.295 | D_A 0.212 | D_B 0.196 | grad G 18.77 D_A 3.48 D_B 4.90 | lr 0.000107 | images/sec 12.6 | nan 0
+step 44200 | G adv 0.768 | cycle 0.202 | identity 0.289 | D_A 0.202 | D_B 0.210 | grad G 17.70 D_A 3.41 D_B 5.07 | lr 0.000105 | images/sec 12.0 | nan 0
+step 44400 | G adv 0.731 | cycle 0.199 | identity 0.291 | D_A 0.217 | D_B 0.202 | grad G 17.10 D_A 3.75 D_B 4.97 | lr 0.000104 | images/sec 16.2 | nan 0
+step 44600 | G adv 0.715 | cycle 0.196 | identity 0.285 | D_A 0.211 | D_B 0.207 | grad G 17.23 D_A 3.40 D_B 5.37 | lr 0.000103 | images/sec 17.0 | nan 0
+step 44800 | G adv 0.770 | cycle 0.205 | identity 0.302 | D_A 0.204 | D_B 0.191 | grad G 18.17 D_A 3.73 D_B 5.42 | lr 0.000101 | images/sec 17.5 | nan 0
+step 45000 | G adv 0.758 | cycle 0.208 | identity 0.292 | D_A 0.196 | D_B 0.200 | grad G 18.12 D_A 3.57 D_B 5.43 | lr 0.000100 | images/sec 17.4 | nan 0
+saved checkpoint at step 45000
+quick score at step 45000 | A2B FID 113.2 MiFID 0.427 | B2A FID 110.2 MiFID 0.412 | quick score 56.06 | peak memory 10690 MB
+step 45200 | G adv 0.783 | cycle 0.202 | identity 0.298 | D_A 0.214 | D_B 0.205 | grad G 17.99 D_A 3.93 D_B 4.80 | lr 0.000099 | images/sec 17.0 | nan 0
+step 45400 | G adv 0.741 | cycle 0.207 | identity 0.313 | D_A 0.211 | D_B 0.199 | grad G 17.62 D_A 3.57 D_B 5.27 | lr 0.000097 | images/sec 18.0 | nan 0
+step 45600 | G adv 0.772 | cycle 0.198 | identity 0.290 | D_A 0.201 | D_B 0.186 | grad G 17.39 D_A 3.41 D_B 4.67 | lr 0.000096 | images/sec 17.5 | nan 0
+step 45800 | G adv 0.743 | cycle 0.197 | identity 0.299 | D_A 0.214 | D_B 0.217 | grad G 17.94 D_A 3.53 D_B 5.28 | lr 0.000095 | images/sec 17.5 | nan 0
+step 46000 | G adv 0.730 | cycle 0.194 | identity 0.287 | D_A 0.219 | D_B 0.202 | grad G 17.72 D_A 3.70 D_B 5.52 | lr 0.000093 | images/sec 17.9 | nan 0
+step 46200 | G adv 0.729 | cycle 0.194 | identity 0.282 | D_A 0.205 | D_B 0.201 | grad G 17.45 D_A 3.76 D_B 5.16 | lr 0.000092 | images/sec 18.1 | nan 0
+step 46400 | G adv 0.730 | cycle 0.193 | identity 0.286 | D_A 0.216 | D_B 0.195 | grad G 17.38 D_A 3.79 D_B 5.17 | lr 0.000091 | images/sec 18.0 | nan 0
+step 46600 | G adv 0.766 | cycle 0.197 | identity 0.294 | D_A 0.211 | D_B 0.198 | grad G 18.29 D_A 3.70 D_B 5.21 | lr 0.000089 | images/sec 17.5 | nan 0
+step 46800 | G adv 0.755 | cycle 0.197 | identity 0.295 | D_A 0.211 | D_B 0.193 | grad G 18.56 D_A 3.48 D_B 5.01 | lr 0.000088 | images/sec 14.7 | nan 0
+step 47000 | G adv 0.784 | cycle 0.195 | identity 0.303 | D_A 0.204 | D_B 0.188 | grad G 18.09 D_A 3.48 D_B 5.53 | lr 0.000087 | images/sec 15.0 | nan 0
+step 47200 | G adv 0.744 | cycle 0.195 | identity 0.297 | D_A 0.215 | D_B 0.207 | grad G 17.83 D_A 3.62 D_B 5.42 | lr 0.000085 | images/sec 15.1 | nan 0
+step 47400 | G adv 0.734 | cycle 0.186 | identity 0.291 | D_A 0.204 | D_B 0.196 | grad G 16.86 D_A 3.69 D_B 5.54 | lr 0.000084 | images/sec 14.9 | nan 0
+step 47600 | G adv 0.734 | cycle 0.191 | identity 0.305 | D_A 0.206 | D_B 0.198 | grad G 16.95 D_A 3.98 D_B 5.19 | lr 0.000083 | images/sec 14.1 | nan 0
+step 47800 | G adv 0.724 | cycle 0.189 | identity 0.284 | D_A 0.216 | D_B 0.211 | grad G 16.83 D_A 3.67 D_B 5.56 | lr 0.000081 | images/sec 12.5 | nan 0
+step 48000 | G adv 0.723 | cycle 0.195 | identity 0.304 | D_A 0.203 | D_B 0.195 | grad G 18.57 D_A 3.72 D_B 5.29 | lr 0.000080 | images/sec 10.4 | nan 0
+step 48200 | G adv 0.707 | cycle 0.188 | identity 0.291 | D_A 0.208 | D_B 0.208 | grad G 17.29 D_A 3.70 D_B 5.24 | lr 0.000079 | images/sec 10.1 | nan 0
+step 48400 | G adv 0.788 | cycle 0.193 | identity 0.287 | D_A 0.201 | D_B 0.186 | grad G 19.04 D_A 3.93 D_B 5.17 | lr 0.000077 | images/sec 10.5 | nan 0
+step 48600 | G adv 0.715 | cycle 0.184 | identity 0.284 | D_A 0.213 | D_B 0.209 | grad G 17.30 D_A 3.86 D_B 5.45 | lr 0.000076 | images/sec 10.2 | nan 0
+step 48800 | G adv 0.768 | cycle 0.200 | identity 0.293 | D_A 0.208 | D_B 0.181 | grad G 18.75 D_A 3.89 D_B 5.21 | lr 0.000075 | images/sec 10.4 | nan 0
+step 49000 | G adv 0.705 | cycle 0.182 | identity 0.294 | D_A 0.209 | D_B 0.195 | grad G 17.37 D_A 3.90 D_B 5.40 | lr 0.000073 | images/sec 10.5 | nan 0
+step 49200 | G adv 0.786 | cycle 0.190 | identity 0.291 | D_A 0.209 | D_B 0.191 | grad G 18.80 D_A 4.06 D_B 5.78 | lr 0.000072 | images/sec 10.5 | nan 0
+step 49400 | G adv 0.763 | cycle 0.191 | identity 0.287 | D_A 0.205 | D_B 0.199 | grad G 18.19 D_A 3.90 D_B 5.41 | lr 0.000071 | images/sec 10.4 | nan 0
+step 49600 | G adv 0.825 | cycle 0.183 | identity 0.279 | D_A 0.206 | D_B 0.202 | grad G 18.63 D_A 4.08 D_B 6.06 | lr 0.000069 | images/sec 10.5 | nan 0
+step 49800 | G adv 0.766 | cycle 0.181 | identity 0.282 | D_A 0.194 | D_B 0.194 | grad G 17.27 D_A 3.79 D_B 5.68 | lr 0.000068 | images/sec 10.2 | nan 0
+step 50000 | G adv 0.786 | cycle 0.185 | identity 0.288 | D_A 0.218 | D_B 0.208 | grad G 17.89 D_A 4.07 D_B 5.54 | lr 0.000067 | images/sec 10.5 | nan 0
+saved checkpoint at step 50000
+quick score at step 50000 | A2B FID 112.1 MiFID 0.426 | B2A FID 109.8 MiFID 0.413 | quick score 55.68 | peak memory 10690 MB
+step 50200 | G adv 0.738 | cycle 0.176 | identity 0.291 | D_A 0.205 | D_B 0.199 | grad G 17.17 D_A 3.89 D_B 5.74 | lr 0.000065 | images/sec 10.0 | nan 0
+step 50400 | G adv 0.764 | cycle 0.187 | identity 0.296 | D_A 0.213 | D_B 0.196 | grad G 18.18 D_A 3.90 D_B 5.51 | lr 0.000064 | images/sec 9.7 | nan 0
+step 50600 | G adv 0.810 | cycle 0.180 | identity 0.290 | D_A 0.202 | D_B 0.190 | grad G 17.37 D_A 4.16 D_B 5.42 | lr 0.000063 | images/sec 9.7 | nan 0
+step 50800 | G adv 0.724 | cycle 0.177 | identity 0.292 | D_A 0.206 | D_B 0.201 | grad G 17.50 D_A 4.20 D_B 5.73 | lr 0.000061 | images/sec 9.7 | nan 0
+step 51000 | G adv 0.740 | cycle 0.173 | identity 0.295 | D_A 0.206 | D_B 0.205 | grad G 16.57 D_A 4.11 D_B 5.83 | lr 0.000060 | images/sec 9.6 | nan 0
+step 51200 | G adv 0.771 | cycle 0.188 | identity 0.293 | D_A 0.211 | D_B 0.200 | grad G 17.98 D_A 4.44 D_B 5.69 | lr 0.000059 | images/sec 9.7 | nan 0
+step 51400 | G adv 0.774 | cycle 0.181 | identity 0.284 | D_A 0.203 | D_B 0.192 | grad G 18.47 D_A 4.16 D_B 5.40 | lr 0.000057 | images/sec 9.7 | nan 0
+step 51600 | G adv 0.746 | cycle 0.180 | identity 0.285 | D_A 0.205 | D_B 0.204 | grad G 17.39 D_A 4.29 D_B 5.44 | lr 0.000056 | images/sec 10.1 | nan 0
+step 51800 | G adv 0.747 | cycle 0.179 | identity 0.285 | D_A 0.211 | D_B 0.201 | grad G 17.84 D_A 4.27 D_B 5.20 | lr 0.000055 | images/sec 10.3 | nan 0
+step 52000 | G adv 0.801 | cycle 0.178 | identity 0.284 | D_A 0.196 | D_B 0.190 | grad G 18.57 D_A 4.11 D_B 5.37 | lr 0.000053 | images/sec 10.3 | nan 0
+step 52200 | G adv 0.751 | cycle 0.179 | identity 0.288 | D_A 0.215 | D_B 0.175 | grad G 17.77 D_A 4.31 D_B 4.99 | lr 0.000052 | images/sec 10.4 | nan 0
+step 52400 | G adv 0.765 | cycle 0.178 | identity 0.291 | D_A 0.208 | D_B 0.198 | grad G 17.92 D_A 4.26 D_B 5.46 | lr 0.000051 | images/sec 10.3 | nan 0
+step 52600 | G adv 0.763 | cycle 0.178 | identity 0.288 | D_A 0.205 | D_B 0.182 | grad G 18.14 D_A 4.34 D_B 5.28 | lr 0.000049 | images/sec 10.9 | nan 0
+step 52800 | G adv 0.760 | cycle 0.181 | identity 0.283 | D_A 0.200 | D_B 0.199 | grad G 18.31 D_A 4.35 D_B 5.64 | lr 0.000048 | images/sec 10.4 | nan 0
+step 53000 | G adv 0.721 | cycle 0.186 | identity 0.296 | D_A 0.218 | D_B 0.189 | grad G 17.26 D_A 4.57 D_B 5.58 | lr 0.000047 | images/sec 10.4 | nan 0
+step 53200 | G adv 0.766 | cycle 0.174 | identity 0.296 | D_A 0.202 | D_B 0.190 | grad G 17.60 D_A 3.97 D_B 5.41 | lr 0.000045 | images/sec 10.3 | nan 0
+step 53400 | G adv 0.736 | cycle 0.173 | identity 0.283 | D_A 0.195 | D_B 0.195 | grad G 17.85 D_A 3.86 D_B 5.71 | lr 0.000044 | images/sec 9.9 | nan 0
+step 53600 | G adv 0.762 | cycle 0.174 | identity 0.284 | D_A 0.204 | D_B 0.207 | grad G 17.45 D_A 4.26 D_B 5.60 | lr 0.000043 | images/sec 9.6 | nan 0
+step 53800 | G adv 0.766 | cycle 0.175 | identity 0.293 | D_A 0.193 | D_B 0.189 | grad G 17.79 D_A 4.20 D_B 5.57 | lr 0.000041 | images/sec 9.6 | nan 0
+step 54000 | G adv 0.741 | cycle 0.181 | identity 0.290 | D_A 0.217 | D_B 0.187 | grad G 17.87 D_A 4.64 D_B 5.75 | lr 0.000040 | images/sec 10.5 | nan 0
+step 54200 | G adv 0.743 | cycle 0.169 | identity 0.277 | D_A 0.211 | D_B 0.206 | grad G 17.65 D_A 4.58 D_B 5.99 | lr 0.000039 | images/sec 10.1 | nan 0
+step 54400 | G adv 0.768 | cycle 0.169 | identity 0.294 | D_A 0.215 | D_B 0.188 | grad G 17.56 D_A 4.48 D_B 5.75 | lr 0.000037 | images/sec 10.2 | nan 0
+step 54600 | G adv 0.741 | cycle 0.168 | identity 0.282 | D_A 0.201 | D_B 0.197 | grad G 18.22 D_A 5.02 D_B 5.76 | lr 0.000036 | images/sec 9.9 | nan 0
+step 54800 | G adv 0.781 | cycle 0.168 | identity 0.265 | D_A 0.209 | D_B 0.209 | grad G 17.57 D_A 4.62 D_B 6.11 | lr 0.000035 | images/sec 10.1 | nan 0
+step 55000 | G adv 0.723 | cycle 0.165 | identity 0.265 | D_A 0.200 | D_B 0.189 | grad G 17.40 D_A 4.41 D_B 5.86 | lr 0.000033 | images/sec 10.1 | nan 0
+saved checkpoint at step 55000
+quick score at step 55000 | A2B FID 110.7 MiFID 0.427 | B2A FID 108.4 MiFID 0.411 | quick score 54.99 | peak memory 10690 MB
+step 55200 | G adv 0.746 | cycle 0.169 | identity 0.286 | D_A 0.207 | D_B 0.199 | grad G 17.13 D_A 4.52 D_B 5.89 | lr 0.000032 | images/sec 10.0 | nan 0
+step 55400 | G adv 0.768 | cycle 0.167 | identity 0.284 | D_A 0.200 | D_B 0.186 | grad G 18.14 D_A 4.47 D_B 5.72 | lr 0.000031 | images/sec 10.0 | nan 0
+step 55600 | G adv 0.767 | cycle 0.173 | identity 0.293 | D_A 0.198 | D_B 0.192 | grad G 17.93 D_A 4.69 D_B 5.57 | lr 0.000029 | images/sec 9.7 | nan 0
+step 55800 | G adv 0.777 | cycle 0.168 | identity 0.281 | D_A 0.213 | D_B 0.187 | grad G 18.40 D_A 4.69 D_B 5.72 | lr 0.000028 | images/sec 10.1 | nan 0
+step 56000 | G adv 0.769 | cycle 0.171 | identity 0.290 | D_A 0.204 | D_B 0.186 | grad G 18.20 D_A 4.66 D_B 5.81 | lr 0.000027 | images/sec 9.9 | nan 0
+step 56200 | G adv 0.776 | cycle 0.166 | identity 0.276 | D_A 0.204 | D_B 0.197 | grad G 18.00 D_A 4.88 D_B 6.19 | lr 0.000025 | images/sec 9.9 | nan 0
+step 56400 | G adv 0.817 | cycle 0.166 | identity 0.284 | D_A 0.207 | D_B 0.188 | grad G 17.64 D_A 5.02 D_B 6.12 | lr 0.000024 | images/sec 10.2 | nan 0
+step 56600 | G adv 0.711 | cycle 0.164 | identity 0.278 | D_A 0.212 | D_B 0.204 | grad G 17.93 D_A 4.89 D_B 6.33 | lr 0.000023 | images/sec 10.3 | nan 0
+step 56800 | G adv 0.766 | cycle 0.167 | identity 0.288 | D_A 0.205 | D_B 0.197 | grad G 17.99 D_A 4.79 D_B 6.14 | lr 0.000021 | images/sec 10.3 | nan 0
+step 57000 | G adv 0.784 | cycle 0.164 | identity 0.283 | D_A 0.202 | D_B 0.181 | grad G 18.04 D_A 4.64 D_B 5.89 | lr 0.000020 | images/sec 10.2 | nan 0
+step 57200 | G adv 0.744 | cycle 0.162 | identity 0.268 | D_A 0.202 | D_B 0.200 | grad G 18.21 D_A 4.98 D_B 6.17 | lr 0.000019 | images/sec 10.0 | nan 0
+step 57400 | G adv 0.711 | cycle 0.163 | identity 0.277 | D_A 0.206 | D_B 0.201 | grad G 17.64 D_A 4.99 D_B 6.26 | lr 0.000017 | images/sec 10.2 | nan 0
+step 57600 | G adv 0.746 | cycle 0.161 | identity 0.265 | D_A 0.210 | D_B 0.203 | grad G 17.80 D_A 4.84 D_B 6.08 | lr 0.000016 | images/sec 7.9 | nan 0
+step 57800 | G adv 0.752 | cycle 0.159 | identity 0.272 | D_A 0.202 | D_B 0.198 | grad G 17.64 D_A 4.62 D_B 5.94 | lr 0.000015 | images/sec 9.9 | nan 0
+step 58000 | G adv 0.798 | cycle 0.165 | identity 0.269 | D_A 0.198 | D_B 0.191 | grad G 17.90 D_A 4.70 D_B 5.85 | lr 0.000013 | images/sec 10.3 | nan 0
+step 58200 | G adv 0.762 | cycle 0.166 | identity 0.276 | D_A 0.207 | D_B 0.189 | grad G 18.28 D_A 4.99 D_B 6.20 | lr 0.000012 | images/sec 10.2 | nan 0
+step 58400 | G adv 0.754 | cycle 0.164 | identity 0.290 | D_A 0.205 | D_B 0.195 | grad G 18.13 D_A 5.20 D_B 6.08 | lr 0.000011 | images/sec 10.1 | nan 0
+step 58600 | G adv 0.712 | cycle 0.162 | identity 0.283 | D_A 0.193 | D_B 0.195 | grad G 17.38 D_A 5.10 D_B 6.05 | lr 0.000009 | images/sec 10.2 | nan 0
+step 58800 | G adv 0.725 | cycle 0.157 | identity 0.286 | D_A 0.206 | D_B 0.206 | grad G 17.24 D_A 5.16 D_B 6.11 | lr 0.000008 | images/sec 9.8 | nan 0
+step 59000 | G adv 0.728 | cycle 0.163 | identity 0.278 | D_A 0.200 | D_B 0.187 | grad G 18.00 D_A 5.14 D_B 5.61 | lr 0.000007 | images/sec 9.8 | nan 0
+step 59200 | G adv 0.771 | cycle 0.160 | identity 0.278 | D_A 0.187 | D_B 0.187 | grad G 17.88 D_A 4.63 D_B 5.90 | lr 0.000005 | images/sec 9.7 | nan 0
+step 59400 | G adv 0.799 | cycle 0.160 | identity 0.270 | D_A 0.205 | D_B 0.184 | grad G 18.12 D_A 4.94 D_B 5.67 | lr 0.000004 | images/sec 9.8 | nan 0
+step 59600 | G adv 0.760 | cycle 0.158 | identity 0.276 | D_A 0.200 | D_B 0.191 | grad G 17.67 D_A 4.83 D_B 5.87 | lr 0.000003 | images/sec 9.9 | nan 0
+step 59800 | G adv 0.798 | cycle 0.161 | identity 0.275 | D_A 0.200 | D_B 0.185 | grad G 17.87 D_A 4.91 D_B 5.86 | lr 0.000001 | images/sec 10.4 | nan 0
+step 60000 | G adv 0.755 | cycle 0.160 | identity 0.268 | D_A 0.198 | D_B 0.199 | grad G 17.23 D_A 4.78 D_B 5.90 | lr 0.000000 | images/sec 10.0 | nan 0
+saved checkpoint at step 60000
+quick score at step 60000 | A2B FID 112.4 MiFID 0.428 | B2A FID 109.6 MiFID 0.412 | quick score 55.72 | peak memory 10690 MB
+training finished at step 60000
