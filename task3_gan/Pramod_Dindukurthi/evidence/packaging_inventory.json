@@ -1,0 +1,3975 @@
+{
+  "files": [
+    {
+      "path": "reproducibility/manifests/task3_Pramod_control_id5/completed_2026-10-04T02-18-30.541722+00-00_792713.json",
+      "sha256": "d1c80fc0b6206627cbe1976b6adc764d3ea25aa4f6acde8044573809e68452a1",
+      "bytes": 2302
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_control_id5/completed_2026-10-04T02-30-47.973264+00-00_98cbbe.json",
+      "sha256": "760ac7d7c4b4049b3adfaeac9a2faa1bff0d2ee5a70e49453e5caf265528de98",
+      "bytes": 2307
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_control_id5/completed_2026-10-04T02-43-48.442518+00-00_e6cbd6.json",
+      "sha256": "2b6dfa88ce183a32cdcc9e2adee390c147494e98ececcc589f101c847269425d",
+      "bytes": 2307
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_control_id5/completed_2026-10-04T02-56-50.345828+00-00_c3bbb9.json",
+      "sha256": "68f8207c993dda2c7dedc99b6f470a710f16af3b361168372a2049edd2aa3fef",
+      "bytes": 2306
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_control_id5/run_2026-10-04T02-18-30.541722+00-00_792713.json",
+      "sha256": "184fadefdecd14d57f207834c4715d6c72bc777fc8cc39e6b5b9d5ed2d35c5bf",
+      "bytes": 1816
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_control_id5/run_2026-10-04T02-18-30.541722+00-00_792713.requirements.txt",
+      "sha256": "e5edf8ae82ea79c995ea270831856681411c23031c01e59eed7c295c4d4819b0",
+      "bytes": 6801
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_control_id5/run_2026-10-04T02-30-47.973264+00-00_98cbbe.json",
+      "sha256": "131ba238a75e20c105812441a222d1235755dd8bd24dbe3c53312f00de27e16e",
+      "bytes": 1819
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_control_id5/run_2026-10-04T02-30-47.973264+00-00_98cbbe.requirements.txt",
+      "sha256": "e5edf8ae82ea79c995ea270831856681411c23031c01e59eed7c295c4d4819b0",
+      "bytes": 6801
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_control_id5/run_2026-10-04T02-43-48.442518+00-00_e6cbd6.json",
+      "sha256": "0f952d09ffe0c4a69658e67561f0bfa2a2929b0f3f1fb787df5c4e4bb04a196a",
+      "bytes": 1820
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_control_id5/run_2026-10-04T02-43-48.442518+00-00_e6cbd6.requirements.txt",
+      "sha256": "e5edf8ae82ea79c995ea270831856681411c23031c01e59eed7c295c4d4819b0",
+      "bytes": 6801
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_control_id5/run_2026-10-04T02-56-50.345828+00-00_c3bbb9.json",
+      "sha256": "8c1a17ff45a4c81874274fca2647bf29383ac42d86ec027ab92114d82023a4e7",
+      "bytes": 1820
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_control_id5/run_2026-10-04T02-56-50.345828+00-00_c3bbb9.requirements.txt",
+      "sha256": "e5edf8ae82ea79c995ea270831856681411c23031c01e59eed7c295c4d4819b0",
+      "bytes": 6801
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_experiment_id2p5/completed_2026-10-04T03-10-02.857174+00-00_283c28.json",
+      "sha256": "0b7b01ba19d8a46ae6a692ed3609b1f26ec2aeae3bb8e8cbe6967d94ebb8a15c",
+      "bytes": 2302
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_experiment_id2p5/completed_2026-10-04T03-22-18.702898+00-00_8b0ef8.json",
+      "sha256": "a45d7d38a6d8b45f0a6540b0423563aa6192bae9a238dd9cf896f97f747d9c6e",
+      "bytes": 2307
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_experiment_id2p5/completed_2026-10-04T03-35-23.041966+00-00_7919c6.json",
+      "sha256": "2caf13e5cb167e04ed08550b39beae3bebfadb78652796be37b07349512e3e4d",
+      "bytes": 2308
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_experiment_id2p5/completed_2026-10-04T03-48-27.759417+00-00_05c86a.json",
+      "sha256": "dca5e7eb9bb7471864b202d5585d837d1abf6949dfacbf9ad052a97879fd5e51",
+      "bytes": 2306
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_experiment_id2p5/run_2026-10-04T03-10-02.857174+00-00_283c28.json",
+      "sha256": "bc7f37a110cc233df7afcbb2b747c65295a9f2cd13b8b3343dd4388b979a19b6",
+      "bytes": 1816
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_experiment_id2p5/run_2026-10-04T03-10-02.857174+00-00_283c28.requirements.txt",
+      "sha256": "e5edf8ae82ea79c995ea270831856681411c23031c01e59eed7c295c4d4819b0",
+      "bytes": 6801
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_experiment_id2p5/run_2026-10-04T03-22-18.702898+00-00_8b0ef8.json",
+      "sha256": "90fe1c0e86819ebe765c90b51267bf1c8887d848dbb5a556520277d367fc99af",
+      "bytes": 1819
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_experiment_id2p5/run_2026-10-04T03-22-18.702898+00-00_8b0ef8.requirements.txt",
+      "sha256": "e5edf8ae82ea79c995ea270831856681411c23031c01e59eed7c295c4d4819b0",
+      "bytes": 6801
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_experiment_id2p5/run_2026-10-04T03-35-23.041966+00-00_7919c6.json",
+      "sha256": "093ea986ce208317f370842bdb6158a9f575201092ebd8ee26c79a0d113a0350",
+      "bytes": 1820
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_experiment_id2p5/run_2026-10-04T03-35-23.041966+00-00_7919c6.requirements.txt",
+      "sha256": "e5edf8ae82ea79c995ea270831856681411c23031c01e59eed7c295c4d4819b0",
+      "bytes": 6801
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_experiment_id2p5/run_2026-10-04T03-48-27.759417+00-00_05c86a.json",
+      "sha256": "92e248e5264dce45d1558d132c5f56373335b334280700f2021b3f56c9d29642",
+      "bytes": 1820
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_experiment_id2p5/run_2026-10-04T03-48-27.759417+00-00_05c86a.requirements.txt",
+      "sha256": "e5edf8ae82ea79c995ea270831856681411c23031c01e59eed7c295c4d4819b0",
+      "bytes": 6801
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_main/completed_2026-10-03T00-41-52.243287+00-00_e7b885.json",
+      "sha256": "5f4b4520fedda97675fbbf1cb44a58c05fc4ea803822eebd98a5d06086e93075",
+      "bytes": 2291
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_main/completed_2026-10-03T06-28-15.371761+00-00_9048b7.json",
+      "sha256": "94aeebfe1fd798613b3cbda0db2a8c9ea4d843631f496fd2adfbf1882114ad6c",
+      "bytes": 2294
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_main/completed_2026-10-03T08-50-45.932272+00-00_cd03cb.json",
+      "sha256": "b631d3080f575d6dc4a28cf21c0d61c2853d022cd05b3eeec68e42b350ebd1d4",
+      "bytes": 2295
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_main/run_2026-10-03T00-41-52.243287+00-00_e7b885.json",
+      "sha256": "dac132bf37a6555d41e636b549f3b0ea2c42caf34bcc2e3ff222a805f1bc801b",
+      "bytes": 1800
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_main/run_2026-10-03T00-41-52.243287+00-00_e7b885.requirements.txt",
+      "sha256": "2e6ab071100510f81509f22e01927e04e966e8439066bc63976f95790d197a00",
+      "bytes": 6480
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_main/run_2026-10-03T06-28-15.371761+00-00_9048b7.json",
+      "sha256": "77f70e370a4722886db34cce7002442aec51a3c2d92bfe5e2753ce8aeea11f57",
+      "bytes": 1805
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_main/run_2026-10-03T06-28-15.371761+00-00_9048b7.requirements.txt",
+      "sha256": "2e6ab071100510f81509f22e01927e04e966e8439066bc63976f95790d197a00",
+      "bytes": 6480
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_main/run_2026-10-03T08-50-45.932272+00-00_cd03cb.json",
+      "sha256": "3fab523f961cff7234a9127a5d00fbd1973c6431ab167fa6c5ccafa91624611d",
+      "bytes": 1806
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_main/run_2026-10-03T08-50-45.932272+00-00_cd03cb.requirements.txt",
+      "sha256": "2e6ab071100510f81509f22e01927e04e966e8439066bc63976f95790d197a00",
+      "bytes": 6480
+    },
+    {
+      "path": "reproducibility/manifests/task3_Pramod_main/splits.json",
+      "sha256": "f1b19d249f68201ccddb578804f5c23998cc6085e3c55dcfaecef1b293c84783",
+      "bytes": 1027653
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_control_id5/history_2026-10-04T02-18-30.541722+00-00_792713.csv",
+      "sha256": "5d0ae47c2aaece566d65ccb2c62d86fcaa4a66eb1d210267ab190fce8fbc96ff",
+      "bytes": 1866543
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_control_id5/history_2026-10-04T02-30-47.973264+00-00_98cbbe.csv",
+      "sha256": "146aedd642cc2d3f0d9aa6f61846cb8110082255915108fd65208e561842d06d",
+      "bytes": 1863403
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_control_id5/history_2026-10-04T02-43-48.442518+00-00_e6cbd6.csv",
+      "sha256": "80db3d9bcd4ddb5ef96ad7f0cde94520cb32be7037fadc6b89379226f57df896",
+      "bytes": 1916942
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_control_id5/history_2026-10-04T02-56-50.345828+00-00_c3bbb9.csv",
+      "sha256": "ccb563706ebce38215f41225e05f4e6dccb184cc4d9fac6f3c99962633bfe7a1",
+      "bytes": 1932848
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_control_id5/train_2026-10-04T02-18-30.541722+00-00_792713.log",
+      "sha256": "d1b60e6bd3c0b8f3222c0c4bd2460c73472e9e733e94e0f8806d620e1c054502",
+      "bytes": 11661
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_control_id5/train_2026-10-04T02-30-47.973264+00-00_98cbbe.log",
+      "sha256": "a965f38bbf3e286725861bc886330f8e4bc9abffaa50820abd22f144e267e311",
+      "bytes": 10385
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_control_id5/train_2026-10-04T02-43-48.442518+00-00_e6cbd6.log",
+      "sha256": "cc7859e5a7460a7d7052d8889af37e5caefa4229da5dea6b3e69441b4788dab6",
+      "bytes": 10476
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_control_id5/train_2026-10-04T02-56-50.345828+00-00_c3bbb9.log",
+      "sha256": "5f8d4fd7b94b1b1b8b3962c62df555dee30313b29f0c1bf8627e2d9c20fafe84",
+      "bytes": 10508
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_experiment_id2p5/history_2026-10-04T03-10-02.857174+00-00_283c28.csv",
+      "sha256": "ae7e2c2791f8eb7403e669f23d859a8bd374e9f4b5c41b4517910c150c3fe783",
+      "bytes": 1866019
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_experiment_id2p5/history_2026-10-04T03-22-18.702898+00-00_8b0ef8.csv",
+      "sha256": "7ab5d3d496695e2d819a4ba7b08f574b77e62ad48de379bd80a36350d8907864",
+      "bytes": 1863375
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_experiment_id2p5/history_2026-10-04T03-35-23.041966+00-00_7919c6.csv",
+      "sha256": "2233b5f80e17a24a917c0845720d4c33e1a8779cd2c8838a10c4bb6e422f9ca9",
+      "bytes": 1916398
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_experiment_id2p5/history_2026-10-04T03-48-27.759417+00-00_05c86a.csv",
+      "sha256": "4de6e554c22eeb6617d035c9f60e283287235430eccbdb1e93587e07333cdc0f",
+      "bytes": 1932692
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_experiment_id2p5/train_2026-10-04T03-10-02.857174+00-00_283c28.log",
+      "sha256": "83e64d456a653a6fc0e0aca7eaf7ce610c38c4890c2482f72259c36449c59591",
+      "bytes": 11078
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_experiment_id2p5/train_2026-10-04T03-22-18.702898+00-00_8b0ef8.log",
+      "sha256": "45c6db62d4336e6c2367073076d8565ee8409d56650351396974628f64db6966",
+      "bytes": 10389
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_experiment_id2p5/train_2026-10-04T03-35-23.041966+00-00_7919c6.log",
+      "sha256": "7c84234dac11084b70d87d834004dea6156bcba7f7841c988bdb61b08aab0f1c",
+      "bytes": 10469
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_experiment_id2p5/train_2026-10-04T03-48-27.759417+00-00_05c86a.log",
+      "sha256": "c40d8dd2367a978dd64703b7edc08bac3e45a5a1954be58d9030e1bed49d9356",
+      "bytes": 10520
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_main/history_2026-10-03T00-41-52.243287+00-00_e7b885.csv",
+      "sha256": "a6f1c1bc48454e51f2049507c910698b5466305c345e77c4ab3e77eca6393f2b",
+      "bytes": 42028494
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_main/history_2026-10-03T06-28-15.371761+00-00_9048b7.csv",
+      "sha256": "3c3557bcd951ee018cd4dd77a3d7283c8a3ba56e9869ff67dd0d2774239a2492",
+      "bytes": 9866777
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_main/history_2026-10-03T08-50-45.932272+00-00_cd03cb.csv",
+      "sha256": "98f7e9e881eb4826a61b0aa55376496d99cf8c0584c170ca0230a714f74e73c7",
+      "bytes": 82052429
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_main/train_2026-10-03T00-41-52.243287+00-00_e7b885.log",
+      "sha256": "c2901f3df5117534782aa4656110fdbceffdd53e476a0c718abe956d0ed87785",
+      "bytes": 3191147
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_main/train_2026-10-03T06-28-15.371761+00-00_9048b7.log",
+      "sha256": "bc0d818e8ca882dbf8a3cb07eeb50d1face9c982b7309127ee338c00505780cc",
+      "bytes": 749647
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_main/train_2026-10-03T08-50-45.932272+00-00_cd03cb.log",
+      "sha256": "ca559863b8071a64538e48fb85bc953344dde3dd92258452d10766a5b2585da2",
+      "bytes": 6111390
+    },
+    {
+      "path": "reproducibility/raw_logs/task3_Pramod_pilot_worker/pilot.log",
+      "sha256": "577d6caec1f873bcb45a1a8fa45dd41266a757c2f7b511f86943a970ed1b35e9",
+      "bytes": 145588
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/configs/baseline.yaml",
+      "sha256": "80effa9ae7d437eb9bf2a4d977a5e4b3d3a5bb0dbb108fe066575c9b3b527d00",
+      "bytes": 455
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/configs/resizeconv.yaml",
+      "sha256": "04bea4f3fe2ea5bf83357c8fe334530ad2ad4edc052bbf27cc18d637ee648515",
+      "bytes": 454
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/configs/runtime_main.yaml",
+      "sha256": "bcaa0af6259f76e74a6ee5a2fcb47d578f32ba876740517873d951a452bedd49",
+      "bytes": 458
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/data_processed/splits.json",
+      "sha256": "f1b19d249f68201ccddb578804f5c23998cc6085e3c55dcfaecef1b293c84783",
+      "bytes": 1027653
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evaluate_local.py",
+      "sha256": "3f1199c7cb7486e560c5b8ef771b99bb8a6d487fefba8670c772f2bf9546ae94",
+      "bytes": 5533
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_exports/step_00112805_ema/export_manifest.json",
+      "sha256": "597ed5d93bc97b6cb802f5488aa52c6ff633c5d79315dd3011528d298d6372e6",
+      "bytes": 3995948
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_exports/step_00112805_raw_quick_a96debdca8b4/export_manifest.json",
+      "sha256": "b97d20b4207a044c05ab54cca709ca873ff55c2fb2366090a05ca4e494baf7a2",
+      "bytes": 145110
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_exports/step_00139130_ema_quick_b1a1ffeacd9e/export_manifest.json",
+      "sha256": "f6d835afa475ebdfaa132251a5e1529e68876a1eb129d7d73d7a558ba6d8abeb",
+      "bytes": 145110
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_exports/step_00160000_ema_quick_64fd142898be/export_manifest.json",
+      "sha256": "95193def8571c0e2bf928e679d249f96a1790863872db69636fce5cf4eae5862",
+      "bytes": 145110
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_exports/step_00176000_raw_quick_05e0bf321ad6/export_manifest.json",
+      "sha256": "b93451933ad04b9c826179e6b62d5cc91c464505736be9ee4fbe36a6b1311784",
+      "bytes": 145110
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_exports/step_00250000_raw_quick_3c3b35718f2e/export_manifest.json",
+      "sha256": "3643f7d84dee88b22b9d36529fa5a138b2041efe6e2570349d1f87a5e67dba6d",
+      "bytes": 145110
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_exports/step_00350704_ema_quick_346f84cbd5cc/export_manifest.json",
+      "sha256": "b63ef70313248fc3e4a5a8b0eb317c47eb7797c1a2da605661fc1629437b243e",
+      "bytes": 145110
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_exports/step_00350704_raw_quick_346f84cbd5cc/export_manifest.json",
+      "sha256": "1fc253d76e6639ce0f723d9d5c89e7f57d01e836738ab75c9e02e2e03222c461",
+      "bytes": 145110
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_scores/submission_step_00112805_ema.csv",
+      "sha256": "e65345e673e4883923378c19020e63aa591827e0932f8bc0110d27c1d8072af4",
+      "bytes": 55
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_scores/submission_step_00112805_ema.metrics.json",
+      "sha256": "24bb441ee47e7804d976b3ce47390d29ea8b9c84f5dc6ca5d6a0f6fb2533e37b",
+      "bytes": 949
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_scores/submission_step_00112805_raw_quick_a96debdca8b4.csv",
+      "sha256": "5c769ba0cfc2c7a276fc5a4edcec95ace76ba7a190a4591a4317c7d8e8bf6b1e",
+      "bytes": 56
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_scores/submission_step_00112805_raw_quick_a96debdca8b4.metrics.json",
+      "sha256": "1bb5f0146495a1217baeb9e72699005b0dc4e9e9258304fba89395cc14b89d45",
+      "bytes": 88498
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_scores/submission_step_00139130_ema_quick_b1a1ffeacd9e.csv",
+      "sha256": "17a6d7deb17cc83073db2c758389feeac6a47109958c4519fac3cf3e5f6ffb84",
+      "bytes": 55
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_scores/submission_step_00139130_ema_quick_b1a1ffeacd9e.metrics.json",
+      "sha256": "606e232666fc367439e21cd0ecb38c0cbdb00e70b0188e1ec7e13a2988df56de",
+      "bytes": 823
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_scores/submission_step_00160000_ema_quick_64fd142898be.csv",
+      "sha256": "159caf9ca468ae84177bec4dbe7f90db61930a4762f41bfde3488536e72a3921",
+      "bytes": 55
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_scores/submission_step_00160000_ema_quick_64fd142898be.metrics.json",
+      "sha256": "e6e9546d4c8154b56a05fc00fadecde47b724ee832a67e70eed4825ab0d9c2c5",
+      "bytes": 821
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_scores/submission_step_00176000_raw_quick_05e0bf321ad6.csv",
+      "sha256": "f0b0d82146010befb41e26b78f9954526372591b0857be2261a26e42f6763424",
+      "bytes": 55
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_scores/submission_step_00176000_raw_quick_05e0bf321ad6.metrics.json",
+      "sha256": "b218ff0986d47bbdf906aa23cb883234a3025cbe6c397536dd3157cf5c47de03",
+      "bytes": 88494
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_scores/submission_step_00250000_raw_quick_3c3b35718f2e.csv",
+      "sha256": "fd801009246b4a67d39f266151baff17a8233c359ed2420cf5fc23a67bd89bf3",
+      "bytes": 55
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_scores/submission_step_00250000_raw_quick_3c3b35718f2e.metrics.json",
+      "sha256": "8ce043c72110c4a9c4a8b4d464226dfa53083b9060a1930378992807d0e6d7ce",
+      "bytes": 88497
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_scores/submission_step_00350704_ema_quick_346f84cbd5cc.csv",
+      "sha256": "b0fc45979bc33c4572a9b69d7baeabf0bc42f4e29283d3cb2bed58f273ed904f",
+      "bytes": 56
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_scores/submission_step_00350704_ema_quick_346f84cbd5cc.metrics.json",
+      "sha256": "8908da3891e42c2a5ce23ad7a392d6c9042d982790fb73170fdcf5090f38d4fe",
+      "bytes": 823
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_scores/submission_step_00350704_raw_quick_346f84cbd5cc.csv",
+      "sha256": "24534ced65d9a02e451f62f9ea3837b01b34b0633daaaa688146c1a13e572d69",
+      "bytes": 55
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/official_scores/submission_step_00350704_raw_quick_346f84cbd5cc.metrics.json",
+      "sha256": "46720fc65c2a62bb328ca5607d130aac12f3388b064c4cc270742e738b8dd1dc",
+      "bytes": 823
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/evidence/main_run/training_summary.json",
+      "sha256": "b631d3080f575d6dc4a28cf21c0d61c2853d022cd05b3eeec68e42b350ebd1d4",
+      "bytes": 2295
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/best_pilot.json",
+      "sha256": "1584733ef300f413a7d299aace9a7ddd51dfe3cd11a1653ac7dc5bf92c86644a",
+      "bytes": 876
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/comparison.csv",
+      "sha256": "faaae47b80c8da3bd9fb6ff7bca09abc06fd1d4d4c8de78d93f2e8eb8ae2ada1",
+      "bytes": 4380
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/config.yaml",
+      "sha256": "2247ab10d37b4ae1ffa207633120553488d6fc4d4997190f950f4985e2abb035",
+      "bytes": 459
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/evaluations/extra_00005000_raw_fe8f6cd3c086/export_manifest.json",
+      "sha256": "c76540a2d3f365dd956a601872ca64363cd6f5fd2ace14089299309d78c65902",
+      "bytes": 144934
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/evaluations/extra_00005000_raw_fe8f6cd3c086/metrics.json",
+      "sha256": "a59c69f333b32670c96eea2b432144c1580f4448fac7de598f7eec14b8751a82",
+      "bytes": 88346
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/evaluations/extra_00005000_raw_fe8f6cd3c086/raw_preview.png",
+      "sha256": "7205c901308214273884ec33476408f4574cdfce5c8522af7135550a9b96b2a5",
+      "bytes": 2016529
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/evaluations/extra_00005000_raw_fe8f6cd3c086/submission.csv",
+      "sha256": "b1f1ddb6c3a36190a3321c7d259b392e009980902cf5dbea0efc8a109d22ec51",
+      "bytes": 55
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/evaluations/extra_00010000_raw_11c63e9b681f/export_manifest.json",
+      "sha256": "c69449a4112d27134ff328abd5164b9a6500efafd503e9c1464da97c080ccf31",
+      "bytes": 144935
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/evaluations/extra_00010000_raw_11c63e9b681f/metrics.json",
+      "sha256": "780ac44fceda6a49a7f1641cda51413860691d64a0b11c7e403447a1ba3f80df",
+      "bytes": 88345
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/evaluations/extra_00010000_raw_11c63e9b681f/raw_preview.png",
+      "sha256": "0c60f1b480b31dfb030f40effbaff5896cea7cc8985f69b28b7920f38fe14e7a",
+      "bytes": 2026256
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/evaluations/extra_00010000_raw_11c63e9b681f/submission.csv",
+      "sha256": "20cef20d013e1f98397771b6b1934b8c01d78e6046d88c4ba1e5a1c28869da32",
+      "bytes": 54
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/evaluations/extra_00015000_raw_36f519da4fec/export_manifest.json",
+      "sha256": "eca193add29d2f7ae355c42b57bbfd2f8e6c3661e408979ce9b448fd1f42857a",
+      "bytes": 144935
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/evaluations/extra_00015000_raw_36f519da4fec/metrics.json",
+      "sha256": "42b7ffd95e46a1be2fd8e6023d91c79d0beda929b0b91cb30050308fe4d20690",
+      "bytes": 88345
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/evaluations/extra_00015000_raw_36f519da4fec/raw_preview.png",
+      "sha256": "4870d99171c35f25dd084507fc096e705a77e376d31555f1744787925a82d740",
+      "bytes": 2021367
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/evaluations/extra_00015000_raw_36f519da4fec/submission.csv",
+      "sha256": "5dcf02810edbf8fa4ffafceac378cd9ffe64f8ce7a3dc993f306c86c281b252a",
+      "bytes": 55
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/evaluations/extra_00020000_raw_252358688f3f/export_manifest.json",
+      "sha256": "5e307475cd6e511ea3adc73d546a01568bd20c6845f161c92e400092a420fa9c",
+      "bytes": 144935
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/evaluations/extra_00020000_raw_252358688f3f/metrics.json",
+      "sha256": "0d802a95bae327d1e34449ffb542ecc137555a1409b330d0de6daecb28b9c533",
+      "bytes": 88345
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/evaluations/extra_00020000_raw_252358688f3f/raw_preview.png",
+      "sha256": "7dc83d7f173253da70c173f02e5ac10d7ae7247b5d3700e6adf1f5a90cda48c9",
+      "bytes": 2021178
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/evaluations/extra_00020000_raw_252358688f3f/submission.csv",
+      "sha256": "73b606241962e29122194b0893ecd94e401d3922d4459892e6359364657b6dc7",
+      "bytes": 55
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/result_extra_00005000.json",
+      "sha256": "83fe6fc8a83e0d6246f22162d8f327187f2813f870263a960f2bcb5fccf24356",
+      "bytes": 728
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/result_extra_00010000.json",
+      "sha256": "ff5976e3d928f7242e8f6cfe257473ce21e93a6c5b2d90ea8acf358e027bc2b1",
+      "bytes": 729
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/result_extra_00015000.json",
+      "sha256": "21e0b49103a7ee2fd0c8417925346401937d04710b08d60b6b6ef9f5d31ac9b9",
+      "bytes": 730
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/result_extra_00020000.json",
+      "sha256": "b7a3a071d47328ebb9eb0f5fbcec4f17947c1a902980c5fe06f1eaf679acbcd3",
+      "bytes": 730
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/training_summary.json",
+      "sha256": "68f8207c993dda2c7dedc99b6f470a710f16af3b361168372a2049edd2aa3fef",
+      "bytes": 2306
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/control_id5/warm_start.json",
+      "sha256": "080b375ccc09f06e9f071720391c2ccaa4d9b3790979cdd95822659e773a7711",
+      "bytes": 310
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/config.yaml",
+      "sha256": "02a2fdcad349963a595f656acb18995e2d3b94c3051517af8ca0eba55d97c936",
+      "bytes": 459
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/evaluations/extra_00005000_raw_2c2124442ae6/export_manifest.json",
+      "sha256": "b36df08e3d823661d5f36c6e4b1489581ff3ae502da0c862b12f64ff50d9a931",
+      "bytes": 144934
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/evaluations/extra_00005000_raw_2c2124442ae6/metrics.json",
+      "sha256": "3e41f2cce28cd56b91e479b93c6f424b2528c165a42c45d36aa9a390bbc85ebc",
+      "bytes": 88345
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/evaluations/extra_00005000_raw_2c2124442ae6/raw_preview.png",
+      "sha256": "318d2621014618b8fc744372a2693a782b00730d8011ed5e98791745c2663014",
+      "bytes": 2027249
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/evaluations/extra_00005000_raw_2c2124442ae6/submission.csv",
+      "sha256": "974740981c8365aaa94e574c2a0537475748f10a5fa5319a171caf2fb4232ef9",
+      "bytes": 56
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/evaluations/extra_00010000_raw_fdb5210e3cc7/export_manifest.json",
+      "sha256": "ddf4be55c31fdf700b67c6349eb3a1601f1de6f0a2f8223ab2703912423be870",
+      "bytes": 144935
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/evaluations/extra_00010000_raw_fdb5210e3cc7/metrics.json",
+      "sha256": "51a04c201ba3d136068474e709f3fa615b3887b35ebffeb4b726a1ca3feb389b",
+      "bytes": 88346
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/evaluations/extra_00010000_raw_fdb5210e3cc7/raw_preview.png",
+      "sha256": "d7e5fffc999948b0559a3262c92982fca58d368e849fceebf266a3bca599f012",
+      "bytes": 2026394
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/evaluations/extra_00010000_raw_fdb5210e3cc7/submission.csv",
+      "sha256": "3e5574369d095ab08bc158f20943971fcb599750003aa8b942d7b1d8b9a4b3db",
+      "bytes": 56
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/evaluations/extra_00015000_raw_84249aff5cd5/export_manifest.json",
+      "sha256": "940451d02f1e1020de40324e5b9e4248659719dffec816da35a1317fac446b2c",
+      "bytes": 144935
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/evaluations/extra_00015000_raw_84249aff5cd5/metrics.json",
+      "sha256": "7adee668dd2cff042a2017c0bdac812ca0d7f8084791bc47f6025cae03086735",
+      "bytes": 88347
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/evaluations/extra_00015000_raw_84249aff5cd5/raw_preview.png",
+      "sha256": "2eb8f2c53cc96d9cc309a5fd0f4e6fed8005e3cf7a1df6df7eddaa89d8aa7cc7",
+      "bytes": 2021844
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/evaluations/extra_00015000_raw_84249aff5cd5/submission.csv",
+      "sha256": "193a313fc242c085337e7fbebe91a57d1d1c89e0ed32d9c0ad37ea3eb4c3a0a5",
+      "bytes": 55
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/evaluations/extra_00020000_raw_59e2eebf0605/export_manifest.json",
+      "sha256": "86f38bc1319673c1c7947de2d79b8a461c21f75c41577745b3e66af8dd765f54",
+      "bytes": 144935
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/evaluations/extra_00020000_raw_59e2eebf0605/metrics.json",
+      "sha256": "5081bb2a72ab288549d7d8b6d1cf87f6cd4ad3d423f7c7ad2fc118428f774370",
+      "bytes": 88345
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/evaluations/extra_00020000_raw_59e2eebf0605/raw_preview.png",
+      "sha256": "ab8ff33c8867366dcb7f54b01576eed1ae5232c9b187429bbfc247fc62330a32",
+      "bytes": 2021855
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/evaluations/extra_00020000_raw_59e2eebf0605/submission.csv",
+      "sha256": "5c10bf404a47e33461777d0f63841837143677848e46be872e49a4240d2dba43",
+      "bytes": 55
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/result_extra_00005000.json",
+      "sha256": "7558142a22623dc00bca00a4ed3bc247a98f02426e01b5d1a0283c68f3e60e5c",
+      "bytes": 748
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/result_extra_00010000.json",
+      "sha256": "affdc9402dc376ad29f7603275a119465c2835f982929ddb7b3dc7cc099cebec",
+      "bytes": 751
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/result_extra_00015000.json",
+      "sha256": "487e3e07a740218edcbd2624f4957a36ed61a007ff5321190fb3a80bfbf9a27f",
+      "bytes": 750
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/result_extra_00020000.json",
+      "sha256": "153eee512235aa85889dccc2474cab9967f174ca1d2c5b5bc2762b6e0a4645c6",
+      "bytes": 751
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/training_summary.json",
+      "sha256": "dca5e7eb9bb7471864b202d5585d837d1abf6949dfacbf9ad052a97879fd5e51",
+      "bytes": 2306
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/warm_start.json",
+      "sha256": "080b375ccc09f06e9f071720391c2ccaa4d9b3790979cdd95822659e773a7711",
+      "bytes": 310
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/pilot_worker.py",
+      "sha256": "c1a31072e8c48faf28635b3e8f6409914a48bdf7019f2cc440ab5fae9affa674",
+      "bytes": 16820
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/plan.json",
+      "sha256": "5cb19eba3e096a65a5ddd5c7f079df64fd11690c8b1db326f232c8fb312e1202",
+      "bytes": 2050
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/source/audit.py",
+      "sha256": "2a8077fd7aa1a2b80b2abab1a6a9ecdf403b06d40498d7229a96510b76c68608",
+      "bytes": 5149
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/source/background.py",
+      "sha256": "0c5fff98a126bdbc06c176ef4285edb73c9c9d92386d95f7bd807822795e3d7e",
+      "bytes": 4293
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/source/checkpointing.py",
+      "sha256": "ccc09bf77a6eda955fe9d640d6ae80fd208924bb2529fb829407584c9245a5f0",
+      "bytes": 2715
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/source/collect_evidence.py",
+      "sha256": "6336e3d81509f2c7c863ce03e68464f56d257d6edb97aa9363f96c94f17021e9",
+      "bytes": 1571
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/source/common.py",
+      "sha256": "4bd27b527265881e852a4276344388f5e39516e613ebe13dcce93aec7e7e0d38",
+      "bytes": 4171
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/source/data.py",
+      "sha256": "26d1778c26da2f8942e4f86504f24d3d0b19eb0e19ca49f2ecfb277f77df2447",
+      "bytes": 5822
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/source/evaluate_official.py",
+      "sha256": "76e281e2baf88d86fc721fab7612d1a93d591f94604c530e1a5df9c59e0bad3f",
+      "bytes": 6341
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/source/infer.py",
+      "sha256": "a9945360538fcd1a0e3c98c554a7f9c9c7fd80ec9aaa059966e23a11f57bcdab",
+      "bytes": 3796
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/source/metrics.py",
+      "sha256": "fbc8c434928c626ebc1977f4f1b5ac27fd561b995a89c1e49548060741b05eac",
+      "bytes": 5712
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/source/models.py",
+      "sha256": "115b88a6c60958dcf9c70b5cf9528696c4d327a63a984b913106b6b021514bb9",
+      "bytes": 3062
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/source/package_code.py",
+      "sha256": "22a78a0c51e06db3e8a5025ed77a8841fa15f4bfa46431556803280a2af4d09f",
+      "bytes": 1321
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/source/preflight.py",
+      "sha256": "c610efb2cf30e87b00f5832e2955aea17128f9b06e6802418f95f8abc2cee530",
+      "bytes": 1079
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/source/record_submission.py",
+      "sha256": "ee97fb86f794c430c047dad775e2cb8fcb0d6d85dc45f271054b34ff107486d2",
+      "bytes": 2344
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/source/report.py",
+      "sha256": "2e6738066cb0b63725b3db1ee742c3292823c08333c0dbaff50ff53a535244f5",
+      "bytes": 5284
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/source/select_checkpoint.py",
+      "sha256": "13a5a2bec4ebcdf98b2c567dfb7036d870823578d442b341e9f560a282c10143",
+      "bytes": 1989
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/source/smoke_test.py",
+      "sha256": "5731b5b4a38dc5c3526edcd2fc7be88ca399a8219bd5796cf981b84f663da2d6",
+      "bytes": 7384
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/source/train.py",
+      "sha256": "fb4f317b35708d0824e39709175758b876463f21b4f1dc324ce6f25c1ed724ae",
+      "bytes": 16881
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/splits.json",
+      "sha256": "f1b19d249f68201ccddb578804f5c23998cc6085e3c55dcfaecef1b293c84783",
+      "bytes": 1027653
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/status.json",
+      "sha256": "cf69fb0128eb67d70c62f5ea32b7921e33001f064f74dfb34a4cee68a730ade6",
+      "bytes": 193
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/failure_analysis.md",
+      "sha256": "97ce462e6eb1cca0f319ca2a0099615797e8cf3a34a789d4567c05432aeb96cb",
+      "bytes": 513
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/full_metrics_report.csv",
+      "sha256": "3d45dd1259ad0512b1cd15de08f3efb0906fa201966d123580a8333dfdacb7fd",
+      "bytes": 2354
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/metrics_report.csv",
+      "sha256": "3d45dd1259ad0512b1cd15de08f3efb0906fa201966d123580a8333dfdacb7fd",
+      "bytes": 2354
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/checkpoint_comparisons/raw_comparison_5f93ee65.csv",
+      "sha256": "7ba030abc5f83589b1e85c1e16e68c687f338dd620042a7a2e76d06ff6a5f04d",
+      "bytes": 1232
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/export_manifest.json",
+      "sha256": "b36df08e3d823661d5f36c6e4b1489581ff3ae502da0c862b12f64ff50d9a931",
+      "bytes": 144934
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/metrics.json",
+      "sha256": "3e41f2cce28cd56b91e479b93c6f424b2528c165a42c45d36aa9a390bbc85ebc",
+      "bytes": 88345
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/plots/adversarial.png",
+      "sha256": "9b1005947a264ddbc98eb82ba2299958e32d079723fa876092ab635cf9a68b4f",
+      "bytes": 77442
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/plots/cycle_identity.png",
+      "sha256": "baf1ff326e517b98f3aac5da22caee31361e453fd2d4c8e603d2210657db0a66",
+      "bytes": 91179
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/plots/gradients.png",
+      "sha256": "5793378523f22e4a62f6896a9c0fdcdf4c03c48fd2f172d4c0d710affba3e88a",
+      "bytes": 89180
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/plots/learning_rate.png",
+      "sha256": "d306cd82e3bdb94c7368e2e8c72b537d477f6a75c47276de4e39c00a4a98bd34",
+      "bytes": 48041
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/plots/preview_00000500.png",
+      "sha256": "b6acd4f66b4f6d3f0711bc6042f09df4626aa9dadc054c71edb44e56a36e8c42",
+      "bytes": 3813064
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/plots/preview_00117000.png",
+      "sha256": "a2d2bcd74f40b2ee0b36ea118728310568290a8b0cc15f15034fb692457efcd1",
+      "bytes": 2970836
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/plots/preview_00234000.png",
+      "sha256": "491986c30e921882aa8ffa8962068efec665d68216b872e1481478b20074112b",
+      "bytes": 2983882
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/plots/preview_00350500.png",
+      "sha256": "d1fb5f29d47e1f8afcfdace60873937f8f3154cbbcebb7efa2ab4ab037df425e",
+      "bytes": 2980669
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000000.jpg",
+      "sha256": "601ed0049f89467bffb1f171a39b36f6f0b6ed403ef73b5fe4f0ae059170623e",
+      "bytes": 39100
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000001.jpg",
+      "sha256": "dd97c6c3f96e6ca992e2917c9bf6ab3886e684a9d502ad25e75c6912f840d396",
+      "bytes": 29165
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000002.jpg",
+      "sha256": "2b54b924165afc2bf133937f0e010f3e0c45f1acb031a88ff12a8d65195191bc",
+      "bytes": 48667
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000003.jpg",
+      "sha256": "ef9621324800a9d3c6a9ef92810dde91217b5c4490e404cbdb6c7aaa886c4c0d",
+      "bytes": 42154
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000004.jpg",
+      "sha256": "b25e1df0481bd379bd64beeba63a1944bae19d6c4e198b23f011eff4268115d5",
+      "bytes": 48171
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000005.jpg",
+      "sha256": "de4de3e47a2e936ea5e91cc2a7430155f7981392dc4a8afa3387d7238acf9eff",
+      "bytes": 34524
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000006.jpg",
+      "sha256": "f75ea62f22903510f012042ee75b0f97cd183528bab73c867190850d615c490b",
+      "bytes": 48275
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000007.jpg",
+      "sha256": "4d31b028ba25d3932359161cb436fa2981f8c18743459b90f4c457da5b13c420",
+      "bytes": 50875
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000008.jpg",
+      "sha256": "06780cae9ab8a52f8af5d8f3f594734548404e921d27122478d3c3e6f64e008e",
+      "bytes": 58799
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000009.jpg",
+      "sha256": "4b0c4d8408bec45fd84a1f72e412c5470497975c0369d4888332791eb1355d71",
+      "bytes": 45426
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000010.jpg",
+      "sha256": "266eb15c5bcd0bc41faf784dab781d3e3d8a829bb7d08ceae004079afa58e465",
+      "bytes": 39264
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000011.jpg",
+      "sha256": "8f4b8772e33bd2b40b17e2d8da3c603ca50b2ec67d9a889263ead37a275c38f4",
+      "bytes": 67631
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000012.jpg",
+      "sha256": "902604dd3fc5c665b43947b395544153965705a2d8ce78a9f120399fb299606b",
+      "bytes": 38324
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000013.jpg",
+      "sha256": "65ca23ee8212e3bb9dbef37de7e10799b9b2978dda06afc354308fd1bc2c6f8c",
+      "bytes": 50879
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000014.jpg",
+      "sha256": "df40feaf4e4b3e5c536951eaecd5f7346d796955fcdea40fa9526235e4149653",
+      "bytes": 43858
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000015.jpg",
+      "sha256": "733432d832e58f42aa15c03b2cf890aa1eec0c514f258779c26ab51a9dffc5f4",
+      "bytes": 34822
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000016.jpg",
+      "sha256": "96db5a98ab4d3b0f08d30850bb1ee354f8d810e893c3f7d5e83154bf18bf1b6a",
+      "bytes": 55384
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000017.jpg",
+      "sha256": "4138dfec2e026f0ad32456421640ef30fb0a42474483b9457173147e236d9744",
+      "bytes": 48842
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000018.jpg",
+      "sha256": "09e28625920e581995f2ece7345870e1ff0d80d41ca2590b67b0817e32850acc",
+      "bytes": 49226
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000019.jpg",
+      "sha256": "cc8fe0b040a381abbf96991d194195abfd5a13bdffce7eafccdd0313343514d4",
+      "bytes": 45286
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000020.jpg",
+      "sha256": "66a092068f0a164f5f28e95b584b234fa4c2813d3f9679ebb08253e87e8c800e",
+      "bytes": 57645
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000021.jpg",
+      "sha256": "bab550f474d5d65b5fd224bd7f3a8ce35fc4cb2a2efa6bee9c9cb191947d45c7",
+      "bytes": 39682
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000022.jpg",
+      "sha256": "c43b827fe28d336fa7256456ed852208b1c0bbca030e6ee8392c8bd9c3a2577f",
+      "bytes": 46309
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000023.jpg",
+      "sha256": "4a2d714f0703a82fca0dee3c2fb6324d02897f8e6c4943ee1253b0afab6b3834",
+      "bytes": 50426
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000024.jpg",
+      "sha256": "fb741eb649954a54b0dc4fa5579c2ad6b9ff4fd0f35306b439318e6cb0c8d508",
+      "bytes": 46199
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000025.jpg",
+      "sha256": "4cd5897ee083594ead04661d9d990f3e1b6e101189c83b5210275a21b82c1950",
+      "bytes": 38791
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000026.jpg",
+      "sha256": "5709ae720cfb31df84a693ec45aa88d48667c7561776df503a589a9c6ebcb429",
+      "bytes": 37350
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000027.jpg",
+      "sha256": "e1f2c27dffd06a3a0b5d475d88ab1b2ab4e63fab2d75a19a41ee44227c02a4a3",
+      "bytes": 33985
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000028.jpg",
+      "sha256": "d5c98a44a549e5204779653aaf937000ab130d272c8b7731dbc56dd660c842d6",
+      "bytes": 39018
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000029.jpg",
+      "sha256": "7fb5f6ceb7a6024af81f573d69ac2fa5380c92a3df3f4548391e1c543a7aa08b",
+      "bytes": 46570
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000030.jpg",
+      "sha256": "529f4ac1ca2852ce9c6d7692fa8c35e916e67a0226d748bde8410cdc00d79ed3",
+      "bytes": 47223
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000031.jpg",
+      "sha256": "23871a929a5727bfbf933540ed609f675d10e09ac2a28ad0de2c1e4bb898a2ef",
+      "bytes": 52495
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000032.jpg",
+      "sha256": "0d96984458745d75c66e2e5c05d2b179a306585c63cd6f192f2e5f57520b29b3",
+      "bytes": 29387
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000033.jpg",
+      "sha256": "a284d486c4c55f69f26acc453dc6c6428539da246ae3021217707a17905515db",
+      "bytes": 64252
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000034.jpg",
+      "sha256": "c39ee24c7d27a01a3917898218b2396fe65cf141f3fa7acbaa069f3b8c689652",
+      "bytes": 43302
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000035.jpg",
+      "sha256": "ddc5cddb7ea61b54e53f57b527e800baac37ad476f4c0c0121efadde83d61d8a",
+      "bytes": 40309
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000036.jpg",
+      "sha256": "091c0e9773cc499f649d0c3d9fd3a92817b61e41305c4a38a3e43da1785e3c17",
+      "bytes": 30135
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000037.jpg",
+      "sha256": "d9147b122c4d59eb7f446a5d57efc1b6f8dc756ff0e9379a398fbcdce12fb529",
+      "bytes": 56270
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000038.jpg",
+      "sha256": "dcc60792b37bb1e36af4743c106f5dd0a424478bab38e44aff357108ae1309c6",
+      "bytes": 57388
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000039.jpg",
+      "sha256": "3e95d4ec0ee4d725b8b6852599905322db324073e6f338e11c1263e5552941de",
+      "bytes": 38594
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000040.jpg",
+      "sha256": "ffdb99e81f19b429f72daddfc095902755c4d4cd06c1d98754d7aa117c2619cd",
+      "bytes": 42651
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000041.jpg",
+      "sha256": "10de4d1cad74cffecc883bf9f2327e504edef79ed7b560dca5f0feeabc214175",
+      "bytes": 37194
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000042.jpg",
+      "sha256": "6997db007b1af2d8c63cbc6d45ba7db7f453bcffebff3f69e8229699b8f9436c",
+      "bytes": 44432
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000043.jpg",
+      "sha256": "842a04bdd2c7fa51954267833373c6006ec737c52c442d7b4cc97269f43fe96a",
+      "bytes": 30133
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000044.jpg",
+      "sha256": "f4a3e458a42147ae4fec4b02180a4ffc434a39f9ff98df4afb29eb4e7f29f72c",
+      "bytes": 41699
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000045.jpg",
+      "sha256": "6adee02cbf3c6be4b5044a4bca0cb484e870c4241ba6c012b722f5f89a92db83",
+      "bytes": 41370
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000046.jpg",
+      "sha256": "57941b6e594c5b1d64bb1e8f94fa6e11cbd6477865ce14629ca46f32c7940915",
+      "bytes": 52575
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000047.jpg",
+      "sha256": "fb685e09081a6448f259bfa8cc66f0a8018102e7387368d1b46c9442244eafa9",
+      "bytes": 77355
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000048.jpg",
+      "sha256": "7a4195e2d790b81ab8684fd87b71c7a23ca047224e833741fbfced495da5f07f",
+      "bytes": 39502
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000049.jpg",
+      "sha256": "ff24eab234c7e1e11dada16fba0beb69496aee9fcadb2e8b1b840bc5f247b517",
+      "bytes": 50729
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000050.jpg",
+      "sha256": "5476c51db18ef5f7f618a06d4a55d22d49ff77c7c45ebc6fff8d6ad0c5c855d0",
+      "bytes": 35530
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000051.jpg",
+      "sha256": "a635fb9789b2dd3d0ce8bf042a6845febc6fb6a498fd3b0807650d214510a07f",
+      "bytes": 50334
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000052.jpg",
+      "sha256": "fc050377bd13b21b54217355e4a9ac04b707c632bb7d67fc0c110d5615c82709",
+      "bytes": 27602
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000053.jpg",
+      "sha256": "3b2b4ea3b568bc9fedbcae00dd5e3415454f3b1cf0e0f321d3f9bcf9a9c50a03",
+      "bytes": 35410
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000054.jpg",
+      "sha256": "aa022b6774171c75143b07c7899111126853d007a1ab00f3dc6849978f6b123b",
+      "bytes": 40279
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000055.jpg",
+      "sha256": "12a711667f39356eee66d88fed37e226de7c18d197debf08bc1da4cc069d7d49",
+      "bytes": 49479
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000056.jpg",
+      "sha256": "10bf8d9ddfaba7931ed5c4bb9818ef757ed1b4dd59ed52d2220b778035a9fee6",
+      "bytes": 45486
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000057.jpg",
+      "sha256": "65ea4b61a1c68d2e2dcf481564fe224f98e26b644a9c29fb36a976d103516bde",
+      "bytes": 28820
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000058.jpg",
+      "sha256": "c1a6327039c58fa54e7641c1c0767e5b3a431374e1abc8fa3347d3681648e973",
+      "bytes": 26410
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000059.jpg",
+      "sha256": "d3a943d740f5389cd4e4881a168be79ce8be4dcea293e0cdf8f0165de4bde4ec",
+      "bytes": 50167
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000060.jpg",
+      "sha256": "3fba3428688eb167476608a7f55329650ae1ac3bb6c6f206075d46c2af587cb2",
+      "bytes": 36697
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000061.jpg",
+      "sha256": "46fc4bf187b49d1346e31d1f851078443b6c6750bb70f6300367381b243fd41c",
+      "bytes": 42180
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000062.jpg",
+      "sha256": "7a75a9ed521ca2b6504f4d83894ffa27e2c12af3bea4301d16923b3df7242596",
+      "bytes": 33135
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000063.jpg",
+      "sha256": "addd3e4eacaf831784e0a69554d3f1b71c9075810ccaacef48777a69e96ba15d",
+      "bytes": 33652
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000064.jpg",
+      "sha256": "958485bf6a9dd64c0a83ffe6a44dadd14ca85a527551a0801e872366d5f143c0",
+      "bytes": 76915
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000065.jpg",
+      "sha256": "d7b4fd87de7b3051353331324546112f278bab9adf6ab1c58d7769e9910e53ba",
+      "bytes": 47603
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000066.jpg",
+      "sha256": "fc27270f503902ea64636c5e06b8eeff88f219b2f3159f1bc75f9197c7ae22da",
+      "bytes": 49458
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000067.jpg",
+      "sha256": "f8f3f06db216712b6558e00797eaac82569d8265d80928f0fa0de73542145fc1",
+      "bytes": 32605
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000068.jpg",
+      "sha256": "057843588d663c14f534b0e823e7c4bcf5de0540be94c8a0c2bdf038a1003da1",
+      "bytes": 46336
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000069.jpg",
+      "sha256": "3663ab168d578c61aa65ebe43e6df899ad25c3af8f005b9bfe921a30857d72bd",
+      "bytes": 54064
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000070.jpg",
+      "sha256": "ffa4e60ce072f60eccd65af3400561cc7b0d1404524029e61c29beb304eabebe",
+      "bytes": 53440
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000071.jpg",
+      "sha256": "50e198c97e32b7e5c4b7bc2fcad4e890a92e88d22439a36ce647d65e49fa75d4",
+      "bytes": 69230
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000072.jpg",
+      "sha256": "7e59aab548de876408f10fafbeb3f716556134634bb1c5360d7233fece6e4fda",
+      "bytes": 40471
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000073.jpg",
+      "sha256": "eca0803e55bf53fa5d3e62678e9883f6780a1dcbc80faa69de6c8e06db084cd6",
+      "bytes": 53362
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000074.jpg",
+      "sha256": "6d09f2ad11972cddb62776ea7d8f4aa8ed2c3bf9da95f916c4fb4050ff3c63c1",
+      "bytes": 45347
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000075.jpg",
+      "sha256": "ff31fb8706529f8c37d37db01929afa68aceba94e3a1dbcb627bf5c8489ae23f",
+      "bytes": 26868
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000076.jpg",
+      "sha256": "827373b0e345d5f4a5c8dab54cbfa59c9307fe08eaaf58ae29fcb9ce0e9aac7c",
+      "bytes": 25948
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000077.jpg",
+      "sha256": "ed3bfbfa863ca30926614dadaf15ee45d63ac969c70f10a8bbb5c4ce53fbd292",
+      "bytes": 50015
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000078.jpg",
+      "sha256": "dc3a37c2813bd4c89ea871def7e03c99e5fb598c1dfd8ac58692e548a76f8b0c",
+      "bytes": 31749
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000079.jpg",
+      "sha256": "2ef9f13436cd21cb6784530256634998d12c9b17dbcf3eba8cd1942de21cc908",
+      "bytes": 26572
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000080.jpg",
+      "sha256": "c7d373add3d70fff18604770e4b87bfe977ebbf5e7ac3a97f02a2558671c852b",
+      "bytes": 38344
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000081.jpg",
+      "sha256": "b7fdc98f8a76a7b8a4dd6104e6efe0d5cf022b1a451e0274124489d8ad4c4619",
+      "bytes": 34883
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000082.jpg",
+      "sha256": "3db0c6c1c90ed4858f40236e1b823a49bccbd87f680544b49c27004ca596da8c",
+      "bytes": 44587
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000083.jpg",
+      "sha256": "f86e5237b9fa19bb5df42fb29d77b2a2363611c8ba23ab48898d98af411468e6",
+      "bytes": 37692
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000084.jpg",
+      "sha256": "7f9ec00053b13c86a83f766681c9354dcd853e79a1971c308368093659abfabb",
+      "bytes": 55506
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000085.jpg",
+      "sha256": "f33ce87ecfafbd69dbfdf9e9c1057cedb5fc30431b53d288c84a7d855fa43368",
+      "bytes": 50223
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000086.jpg",
+      "sha256": "f87ee30650d4dd897f785069fc36e2348e0905684424594c5421f6d7b0cac118",
+      "bytes": 30680
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000087.jpg",
+      "sha256": "274a71aa8650a162484c18b881302296136df80864e4a4d9f7038fab0c7ebb7c",
+      "bytes": 42318
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000088.jpg",
+      "sha256": "2adc0f223e55ca5a093018128938eabbd04522c644da0a4e83bec8d5d1c448c1",
+      "bytes": 61943
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000089.jpg",
+      "sha256": "da8fa7119884114849f9057203d6bba75b56cde764e41b48aa3bee91fcbe61ea",
+      "bytes": 41532
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000090.jpg",
+      "sha256": "8f0601ed58f981e25ddb455b089f0838a41be426b984afcc3ae44e46ef53fe20",
+      "bytes": 58196
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000091.jpg",
+      "sha256": "66be1591b8ee28edcb29a993020c779f11b5310c14f351d4bd17a61f0ca24cd2",
+      "bytes": 32260
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000092.jpg",
+      "sha256": "58f5b7de4453e478d2153aa9ccc5ff5caa8cee49715821d8a701a0e40c6e3992",
+      "bytes": 48901
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000093.jpg",
+      "sha256": "9811597685b779ab950010329521cfa40a88442f8a4b07f1a23d36fb318f62b2",
+      "bytes": 67489
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000094.jpg",
+      "sha256": "b9d7abeecd2e485044515ac38cd91ac6bc495176424f4295a6a2ead2a4874338",
+      "bytes": 49412
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000095.jpg",
+      "sha256": "b0ee470c648a673ef947b40244cb23a62672deeb148a0f113c0d5698b60ed8c8",
+      "bytes": 49437
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000096.jpg",
+      "sha256": "a26dc365de419b910a35e30eae5c363fc088ca793ec019e25821d9f56889c505",
+      "bytes": 30935
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000097.jpg",
+      "sha256": "0d8b7ce6bb4e7c234f369863f897dbf509b7e714a54a2132adddb0d847aa53f0",
+      "bytes": 53318
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000098.jpg",
+      "sha256": "c89381adc2eb24cc89c036438585d83ba9f05c56ce2672a99c985283af4c6e21",
+      "bytes": 39051
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000099.jpg",
+      "sha256": "1746733c969ac56af94bf68c5e39eff9e8acc1dc3ae207cf95c399c9bc6dd62b",
+      "bytes": 36271
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000100.jpg",
+      "sha256": "fc30cd09a52cf036cc9cbd3663ed1e89f0eca25d50a65c91d1ab9cfac3f52106",
+      "bytes": 52426
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000101.jpg",
+      "sha256": "07c1219706bc14985dfc181ca0afe3af6f9da3a4db56efecbf6543bf3b5c288e",
+      "bytes": 52021
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000102.jpg",
+      "sha256": "ef14d7a3bfc26f2c0ef2fd17f825d3054709a876c022bb0267d7d106233cddfb",
+      "bytes": 39370
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000103.jpg",
+      "sha256": "acd338cfd38afbb24de8a008cfc1f42a4df51761daf2f96215a962c0e9cb3878",
+      "bytes": 47441
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000104.jpg",
+      "sha256": "b30ac94a6241868686b854abd1b919baccb7edc9d1af29e05a42ab5026a7742b",
+      "bytes": 37881
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000105.jpg",
+      "sha256": "88a3278698e8fd4125b047f200d9ac8557518b44de53ebfb3755a32698841956",
+      "bytes": 57309
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000106.jpg",
+      "sha256": "4c4012843cac3b99c06e6af70dd756e677ce6823c4fef9192634487ce2c6cdcc",
+      "bytes": 29663
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000107.jpg",
+      "sha256": "a86e37e22211057daab5ab313012e97f3614490e5b1cd6b82c29c551e4d28b8a",
+      "bytes": 34195
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000108.jpg",
+      "sha256": "0792b2ff8fc4b847aa09bd8be4fd58915bc6852d80b9b50cec366c41bae1a710",
+      "bytes": 51812
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000109.jpg",
+      "sha256": "f8293bbbfd2f7ff6d3f67806151a114a38e178a2b7d52736d601e8a0afba2a13",
+      "bytes": 45406
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000110.jpg",
+      "sha256": "0a25b75387358a1f25a8d4989b738a92c82ce63d9174333c0c4cbae37a6374fe",
+      "bytes": 47121
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000111.jpg",
+      "sha256": "8a1bb1068cb5f1c779b6f949a9e09dd718072abec62e191b8759551b55af2771",
+      "bytes": 29412
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000112.jpg",
+      "sha256": "3ccf29fbf8cbb223748d7805039ba27cbc04a19d7a7ab628275c85edb7cad3b7",
+      "bytes": 38699
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000113.jpg",
+      "sha256": "071a136519400549bbadb83d3f244c90da311acf087351730cbc934e08cee44b",
+      "bytes": 39913
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000114.jpg",
+      "sha256": "935e428597d8609a820074cf56175bc8c0880c5899dddb2c30d25a41d5f45f3f",
+      "bytes": 36607
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000115.jpg",
+      "sha256": "733acd57c9462d10d2b3fae09c55c86bfa03d2dc5489b264ab11c20210f5d5fd",
+      "bytes": 27531
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000116.jpg",
+      "sha256": "83ed8ae54438fb706e8835d514bb470c45d7fdbe5deaed043af82211b7fc7cff",
+      "bytes": 51429
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000117.jpg",
+      "sha256": "0edc85a070edb7d5dac269c80d8e329dd93472338cc1f7a05361c1e814d9c73a",
+      "bytes": 37472
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000118.jpg",
+      "sha256": "9e8dd830bcd530fb0d3596988f2da99b58f28917b06a6d3a2fa709af30202adc",
+      "bytes": 39610
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000119.jpg",
+      "sha256": "480dd2be6b71a538b6f5d54bb4047f844d872c755528df6ad6058087764ede01",
+      "bytes": 56034
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000120.jpg",
+      "sha256": "aca6ae585060db15b96d430e6471c7e1a37b4cba90904621156cb034cf0a88c1",
+      "bytes": 76611
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000121.jpg",
+      "sha256": "8bf7b132a5a7d3b4847f139d870acc9edc3aee3a6781f4f5024ebf6a256fe8ba",
+      "bytes": 52991
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000122.jpg",
+      "sha256": "8aea3880ca43c61e56f4f42ae93795d578d332fd56ee3ecfc5ff06e62a800e69",
+      "bytes": 45331
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000123.jpg",
+      "sha256": "63c792ca1f7bea3a7078fbff7216dfd5f276d03613fa5ddc7617d12d5f624f97",
+      "bytes": 41960
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000124.jpg",
+      "sha256": "387da527d30c5bfcca6b83076d85b31579236739e543f600a0e91c0177612694",
+      "bytes": 55525
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000125.jpg",
+      "sha256": "d9ab459ae2c73c710528ea0b5a864d6abab3844d1dc553395c21833072fd89b6",
+      "bytes": 38542
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000126.jpg",
+      "sha256": "7a4830978663c4abe27d111bc5f597215dde30be594f0b1bf57967f1d632b8b6",
+      "bytes": 41055
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000127.jpg",
+      "sha256": "b32d05dbe2c182035939ad41eddbb5ec0621504bed862d39a3e92355ea5e607a",
+      "bytes": 22403
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000128.jpg",
+      "sha256": "a6d0ef0f03bb6834a1ff5bb8ef91e4b223fd907a4753a13223c6ff71a180dc8e",
+      "bytes": 52313
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000129.jpg",
+      "sha256": "775d1bcf2d6626ec3d08083654bbb29a8deafa97658b8c4dae20083909bcfd3e",
+      "bytes": 17909
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000130.jpg",
+      "sha256": "50d8ab5966f142304290979ae4513fb7f2a9fc4cad333170d357bfb774db0a90",
+      "bytes": 78458
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000131.jpg",
+      "sha256": "0adc3d41d0efbd9a491f017be77118e63bbb9c80b15b4d74b6f42ca5dd678875",
+      "bytes": 44975
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000132.jpg",
+      "sha256": "0023a455f4a88295bbb0dde828c75cf40b3f83aadf3a6fe198e59e4cb67959cd",
+      "bytes": 52573
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000133.jpg",
+      "sha256": "912c8976d7574f4b540bd7936375626335dd3ccbac1671c4c24cd8f952b79d38",
+      "bytes": 25523
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000134.jpg",
+      "sha256": "7b9d65fe1c484e6cf4608227d7f825862c45c5b9d3feed9d195cd863fc8eb843",
+      "bytes": 62927
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000135.jpg",
+      "sha256": "2a1488d9261e119402606ca2cdf777054b577918cee361e08378e22ef0b5119d",
+      "bytes": 46419
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000136.jpg",
+      "sha256": "c1752cd23d2569f939bdb864d4c093f3b12c01acfd3b547c498d2d4d21cdaa16",
+      "bytes": 53945
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000137.jpg",
+      "sha256": "712971f7b66a0fe07fa0b7650a30d9d631324e8ba3c7a9350b7fd4c52cba353d",
+      "bytes": 39022
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000138.jpg",
+      "sha256": "bb9abb488bd875f860300a08a9b0448bda964a3946f7cb6d72af6cc818572bfc",
+      "bytes": 41912
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000139.jpg",
+      "sha256": "c5b0a425781a3a660ee888f0142151140f1203346137e1dd2ddd047c35bdec68",
+      "bytes": 44175
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000140.jpg",
+      "sha256": "f01a8f0b94f895caa9f5523bcbf5d51d8871792a45fea298cbbc33f681543983",
+      "bytes": 36486
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000141.jpg",
+      "sha256": "b7147decf3b4460c7b39fe2bb456ecc60c3bb1682ff5503e65212a31968f3a6c",
+      "bytes": 46915
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000142.jpg",
+      "sha256": "80e494218e1d7b70e7f33f04a9d9a93be9fb515519eb93d80cf0dea477351fd6",
+      "bytes": 43735
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000143.jpg",
+      "sha256": "2b917f8c515f7442b3b4a845013a53dedc43a353bb5fbbf2402eea743d8569d3",
+      "bytes": 26952
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000144.jpg",
+      "sha256": "c6bf91828ca4774ea17124ea704783ff7d0a65f385755e836076615b0b161a59",
+      "bytes": 41634
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000145.jpg",
+      "sha256": "d1fa9ff098a5e38690d4647968a81768c2e00589ff80b4fde38ccc539651fb15",
+      "bytes": 38515
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000146.jpg",
+      "sha256": "83caa6cb7fd645589191b083218cefeebae5f7aee17d57813dc27f97ff12cf9c",
+      "bytes": 45039
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000147.jpg",
+      "sha256": "f625d2b08c1551e55a4d176e438c9ef7a344682fe4ce8db7d239d0a6405cf46e",
+      "bytes": 32525
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000148.jpg",
+      "sha256": "ce0c364e2471b4d366903dc81f341bdca8f1ff9b535edcc71f333fa42630d7cc",
+      "bytes": 40618
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000149.jpg",
+      "sha256": "3ed19c75c17a3ad0c8cd003f0a64c9422a68895b06d57eafabaaef99376f3a77",
+      "bytes": 36210
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000150.jpg",
+      "sha256": "87d1c2a3791946aa66f59dd0b03394873984e23c6bd595bd9397dd69980e8008",
+      "bytes": 57975
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000151.jpg",
+      "sha256": "132fc8fd4d1066d0a12181562be3b15b9f87bbc1b795b1ea999e79de979061e1",
+      "bytes": 57791
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000152.jpg",
+      "sha256": "4ae80c965c0d3b42a9f6ece26bc076aa0a05f7c4435e05bde9388a212528ff92",
+      "bytes": 39989
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000153.jpg",
+      "sha256": "06acf68641a24f2e5d4c820a08956797041022b2ba8faf831e0d3f52bfc61a9a",
+      "bytes": 36439
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000154.jpg",
+      "sha256": "1145bf6e5ac3da1f6fc97026de3f91a3c623dd15de7624eb5295148324cccdc6",
+      "bytes": 48904
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000155.jpg",
+      "sha256": "6addcd9ba5fe31119a1cad34e87c38812be2300043a9c65525d224531a73af11",
+      "bytes": 34121
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000156.jpg",
+      "sha256": "8287900cd8756c0add06f2680e24a99f29eefba5a3a9dd7ec6e6d26fd961750b",
+      "bytes": 46579
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000157.jpg",
+      "sha256": "8927f622fcdd1c986dc7a18ccc02995ffc9b5827f758998725997122096810cc",
+      "bytes": 37775
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000158.jpg",
+      "sha256": "dfbaaea82b24ca81bbe899b8fdeb835b6eb48ef8081f5828a64804a0daeed825",
+      "bytes": 42502
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000159.jpg",
+      "sha256": "56e8433f681f007806c1320357cbe5c8309e4219b8eea1dc0ce30817ffbfaec2",
+      "bytes": 28522
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000160.jpg",
+      "sha256": "5a8fd1171e1d7728d8d1b2d2085ccdfe85309d05fb8c60b95601f459833bd7fe",
+      "bytes": 54339
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000161.jpg",
+      "sha256": "a2792e8cf2e56edca07e13e81154b02c15f16da1cc122a821cdb89f02f3d35c6",
+      "bytes": 31118
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000162.jpg",
+      "sha256": "f73121cb59e58b8adc1b800d19d6222ae75d427fb0e7326916a34107d0025483",
+      "bytes": 49440
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000163.jpg",
+      "sha256": "e0aa5e03e671b34e2e645034e4526707d22da1579c046189bac6bad5c6395342",
+      "bytes": 36770
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000164.jpg",
+      "sha256": "d8fdd78e3f052f50e0578c4d7efec831b9b4eb52182a43de8fd41acc8ef76c9d",
+      "bytes": 40481
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000165.jpg",
+      "sha256": "001797f97f60478ca31f4b975d5742614742968f9cbaa713403e3ad0add7cb71",
+      "bytes": 19495
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000166.jpg",
+      "sha256": "22ef7393a85218be091e1519f3c4659b649e6e472da40890b844881c434a6fbb",
+      "bytes": 55521
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000167.jpg",
+      "sha256": "30cb0b00dd53567fd7e67b565022b64a5a0f50dec1fa974fb0b444b6f206aefa",
+      "bytes": 48020
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000168.jpg",
+      "sha256": "85bb406292d411ed10edf15c037632006c9fccf615ea89600dbdc0247d52b40b",
+      "bytes": 46502
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000169.jpg",
+      "sha256": "0d8950a34f4af8bc03948ce4ebd1fa5d53c5a5d2a458be77944a56d761b3b031",
+      "bytes": 31445
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000170.jpg",
+      "sha256": "030b6a98e5c4632eab05efaa77f61a3a9c116ce23d63ad37ef084a251c1a6b24",
+      "bytes": 54431
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000171.jpg",
+      "sha256": "9533d60f2e1889bde07803a6d571ca1327ed121d2365d4da340243310b04abaf",
+      "bytes": 32885
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000172.jpg",
+      "sha256": "e1bd6846d4ca3c8a77b34aaee7a685e14e4d527018565c7e138fe1cc725a6df0",
+      "bytes": 30127
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000173.jpg",
+      "sha256": "3856a41ee866cdebab315e135032e8d3532b71b74ddf3491ec6d274336701fc1",
+      "bytes": 36224
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000174.jpg",
+      "sha256": "6a21582d1ad6492a9d36363d2cd9732f3d2b598adea594d76ba4aab08e27b5a4",
+      "bytes": 57428
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000175.jpg",
+      "sha256": "e302bb9b27cef4ca417072863d79578fdeb0cb0b770188307d62bef152d718d2",
+      "bytes": 42745
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000176.jpg",
+      "sha256": "d2b12f36b6398300bbfdf2a298239de177ca0694b0c4bff6ce30ac2ab294a822",
+      "bytes": 35216
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000177.jpg",
+      "sha256": "86621056e3c773edda809f287f331dfa66ef1b2e34fbda192a9408490aab1af1",
+      "bytes": 44313
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000178.jpg",
+      "sha256": "e6cddded43f957b3e6541f46cc8d6a0f4da5d10efad9a91689a090c76217ac99",
+      "bytes": 30295
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000179.jpg",
+      "sha256": "1a6f0a656ae9f4efa3857116e0e6afffab95a89073dd2df7514f9698e35c5c72",
+      "bytes": 48430
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000180.jpg",
+      "sha256": "1a1b1999f1e9c663e03bb20882dfe613c4d5dc68fb560d351511e848c814cb64",
+      "bytes": 52231
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000181.jpg",
+      "sha256": "a983ccc7c54a1a9954ebd094b8d2ddff2e9c1e101cf427886c38673263f6eeb5",
+      "bytes": 33429
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000182.jpg",
+      "sha256": "b0d36c67e570c52a7f13ce4a647bf4b3ef631e5d3695462c6e8ae122df8bba82",
+      "bytes": 29153
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000183.jpg",
+      "sha256": "3bb523e916c016011b6d2065d753340bf6c7d09e72c29204c8011e7e7bb8f565",
+      "bytes": 53484
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000184.jpg",
+      "sha256": "534a02e9fe1f57d795c41c9566474aa70716f65dd8d956552c7ca325dfd8b580",
+      "bytes": 33223
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000185.jpg",
+      "sha256": "2e5556e313359b7a41f27fee78137538bdcb7800978b223c7a1762b2a27e1fac",
+      "bytes": 69780
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000186.jpg",
+      "sha256": "5e93807b812a6c54299878de8427984c6a2c14e5a8be3f144de8ace17a2fc1e9",
+      "bytes": 23815
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000187.jpg",
+      "sha256": "f9c9b1192b9b2a6e0aa0a86b9091e6a7e258d5ab841bf1d86847278a63dea018",
+      "bytes": 47758
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000188.jpg",
+      "sha256": "0d3f5b34391c3abf636e9afb7546ee60377a1c75fd00e68bd3f546406eff5292",
+      "bytes": 45769
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000189.jpg",
+      "sha256": "e7d949bd9178a8691680faca976d4b9596c3fd49cca1b6835b67a84b249ea43c",
+      "bytes": 48999
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000190.jpg",
+      "sha256": "8704524da6b1310de881ccd9aa74493901e6ac6cfa66e912ee0632f325425d97",
+      "bytes": 60660
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000191.jpg",
+      "sha256": "c7f85fe71415a7b22555df26ccc6482ba56cda760272a9a4d9c1a31f4f96a1e1",
+      "bytes": 26907
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000192.jpg",
+      "sha256": "0aab4a89e93cf78a8c5119c019eedd1911295df3b66e7de3d2683d4477a7c55f",
+      "bytes": 61443
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000193.jpg",
+      "sha256": "372b225f453be2bd2aa463eec7bcbe5ba3ac581c09b67d6d2250ba815036f43a",
+      "bytes": 28635
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000194.jpg",
+      "sha256": "6d024bb862cc2b10edba80e49e12a131aaab725726898e5f05b0d33e712fbaac",
+      "bytes": 23616
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000195.jpg",
+      "sha256": "756076547532ee86f697ca2898864407f548bd42e306824b6820d127fe0f4754",
+      "bytes": 45567
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000196.jpg",
+      "sha256": "2640e9c665c8889803f801208ad045481658fdefc98324905056169bd1dfe58b",
+      "bytes": 59158
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000197.jpg",
+      "sha256": "929d2adeb2fef8491af3db0ff30d3682534e1be291b5dab97aae9e7c05d91c13",
+      "bytes": 37272
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000198.jpg",
+      "sha256": "a7ef00f97d35e93213ac6c799fe66f7f05a9aa10c9271050cecb5436a97f0c03",
+      "bytes": 30931
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000199.jpg",
+      "sha256": "2eb3a98a693468dc348617debac7634e93119346adbd52e1911843616f239e0a",
+      "bytes": 36229
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000200.jpg",
+      "sha256": "54a925cb1b80a961c42a6f0cd09265a37aa25567c6e7f1c40f6451040bbd3cec",
+      "bytes": 39601
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000201.jpg",
+      "sha256": "c82648931082c4740a037932a055ed89ae3d09e69c4803e2807665c3b9d0ba5a",
+      "bytes": 41159
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000202.jpg",
+      "sha256": "806ec57a2348febf1ab1615b9628ca2c8e961ef23e82e65c4b72c076217610f1",
+      "bytes": 64822
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000203.jpg",
+      "sha256": "e8489c1ec9930cd84a3292ddecc94aa75103c2ba5b8a36befea74877f56bee99",
+      "bytes": 39436
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000204.jpg",
+      "sha256": "c8886b31552882ff81d87cd615e49b8074a32511ccc328a4a4dffdafced48f55",
+      "bytes": 43666
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000205.jpg",
+      "sha256": "2d25d5e403d6ddfeef1a3abf967c6614b3c0adcc90babb21783f423d9d49b748",
+      "bytes": 77732
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000206.jpg",
+      "sha256": "6c368db787ca7d9f1846f1f3b5d254655b0147dab355ed14b9fb3dc51f7b6da2",
+      "bytes": 52947
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000207.jpg",
+      "sha256": "c8bc350f45e553e3787647f29186a42706241b629b06ae9d1240a34d1f535909",
+      "bytes": 53028
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000208.jpg",
+      "sha256": "ed25b8025411d559a37f46724627ab69fb15f5eba29d54093e03c0d11cd925ef",
+      "bytes": 37054
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000209.jpg",
+      "sha256": "89806545f0f0a0de3fb2606b462dbe7ad313e0384dcaec3a3fcbb3cde6023467",
+      "bytes": 31780
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000210.jpg",
+      "sha256": "4409b068b1e0981cdaa4f3b0d09904b83ce7292b0830cd9b77a60d646d7e721b",
+      "bytes": 19954
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000211.jpg",
+      "sha256": "67200a522fa2f2e8985d4594781eb4479a8d904e3dafd835b8d01a170de83626",
+      "bytes": 44820
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000212.jpg",
+      "sha256": "318e6c515d0e5595c586c5ded87a01f4cd11493ac4a5813e9d70d2bd4ed0e06e",
+      "bytes": 52088
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000213.jpg",
+      "sha256": "deb1fca93019db5edaa9fc7d032fbc342808fe00ff8b3f0f84ccf231088e249f",
+      "bytes": 36950
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000214.jpg",
+      "sha256": "cdf3a091484bcda0baef762902b7184bb057e5dc3e1f8e8a40425ffa134cea01",
+      "bytes": 58433
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000215.jpg",
+      "sha256": "3bd39c917179e3e28b333d6303eb7f6474753005724b34e9ea80e2e9e24f368c",
+      "bytes": 34279
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000216.jpg",
+      "sha256": "c2dd4a10804ac662ed855001e2e6a95f7fb16ef5bf3a1e79e8d62b5e2b7a35e8",
+      "bytes": 55434
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000217.jpg",
+      "sha256": "7c195da5ea81d59f9cdef65a3d56609d792fc495f3f3d33431cfef013720057d",
+      "bytes": 36070
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000218.jpg",
+      "sha256": "7d4e4cde64eb0c63c12221ceebc091bcbc98460afdb4b8fb67c126fa64849319",
+      "bytes": 45918
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000219.jpg",
+      "sha256": "7b340d88b1480ef45944a3faad432d4304f19b80d60443e970dbbe618259d145",
+      "bytes": 61772
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000220.jpg",
+      "sha256": "bba3c7c4737b9af3f43ec1f348bd84e53ba739868a33cc6290ff7015d9a80185",
+      "bytes": 33510
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000221.jpg",
+      "sha256": "97a7062fa3bc2da17030769c5189cf93738ae2731d1b3205ebaf307d2d666e6d",
+      "bytes": 35590
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000222.jpg",
+      "sha256": "d96422647f9cf873ddac31620ffa7fc235588ab9251afef365301bde42f39edc",
+      "bytes": 49095
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000223.jpg",
+      "sha256": "64d40e7a176aee13a0dfc98cace5fab09db322e9e620f6265fc7eab140b53f9b",
+      "bytes": 56094
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000224.jpg",
+      "sha256": "4982cc7927b4edee13f97d30d1c60cb8b2acf417a6b4e516908eb45fe6f52ef8",
+      "bytes": 57692
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000225.jpg",
+      "sha256": "d7353fd8665deabc6ee7086dc8d4929810ebf6804c437805d398525541bd6187",
+      "bytes": 35580
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000226.jpg",
+      "sha256": "0f0d50657f045fd833ac04124a315c82ed54f2ccc0d6a688e2fa0ab021982ca5",
+      "bytes": 51049
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000227.jpg",
+      "sha256": "622addd14a049119c14c6299e4b2a06a55473a250968298e4e91ca9735035601",
+      "bytes": 47508
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000228.jpg",
+      "sha256": "8c0c81603ee3bb3b73b21c4c7cf7622a193660b11ca4df860014a14bc0f0a50e",
+      "bytes": 40589
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000229.jpg",
+      "sha256": "665c3377ef971b74d502026aa48c7a0f0685bac300b3d9d088cd0c813e5b3db6",
+      "bytes": 35826
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000230.jpg",
+      "sha256": "83936ef5696c8202f3d65aac7e1f1a275c2026c400b72dc1a4a6b5bbc49a8cf4",
+      "bytes": 40861
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000231.jpg",
+      "sha256": "eb9516707e1205cff0ef5a50a3f0bf7f4829e3fcc1379d6dbcaf4e22b79d594c",
+      "bytes": 25196
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000232.jpg",
+      "sha256": "aa3c18f00abe8b8072ae1c5c55938140018c0f83f15d305542c9d86abd26def7",
+      "bytes": 36872
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000233.jpg",
+      "sha256": "7ae0f631304ea109d953a44de2831d03cbdb192d5f4c8ebee681bfa799bb6930",
+      "bytes": 36836
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000234.jpg",
+      "sha256": "7c466958ca9ef09fb517e12d0864795a2e49d2ef232fc4cd8c177355eef7272d",
+      "bytes": 37420
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000235.jpg",
+      "sha256": "16cf557f4610cbe286a3fc0a297b23f413d5f9fbd9a7b3089052d6318e1773b1",
+      "bytes": 48415
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000236.jpg",
+      "sha256": "6e1c2aa93783c6b8615f85c472536284d69085355aa8128c0df076d127af598c",
+      "bytes": 27708
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000237.jpg",
+      "sha256": "e093ecce12fae331a244b767082e23f697c352ee25767940376a48673af348a4",
+      "bytes": 32902
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000238.jpg",
+      "sha256": "346add8a669f14bef023f8fb1c3da2853d1ec5226113b4b8a5c072ba55a4461a",
+      "bytes": 43248
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000239.jpg",
+      "sha256": "6132c478caee7f4a5646c14418d57d74c5aa2a797b8f1b8166539e525aeed602",
+      "bytes": 59525
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000240.jpg",
+      "sha256": "af5dc56a46c1d2b2e10a59c4a3d38b07ac2de20f9a541d0d121081d89fb4fee0",
+      "bytes": 48767
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000241.jpg",
+      "sha256": "e6cbdd232e4dff15bea829687a4db4aef5efd6f4b30527f53042d4cf9df2f391",
+      "bytes": 38702
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000242.jpg",
+      "sha256": "1b97b87fd73a0b77779b5b34ec22ebaec22b0b1cc08efd686c8d9adefcab5c3c",
+      "bytes": 50646
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000243.jpg",
+      "sha256": "11b02ddaea892e0f82a23f3f250e216ede1062369c05b3b8df6bdd7c03826f4c",
+      "bytes": 27974
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000244.jpg",
+      "sha256": "50b7f5b4a5a8ff25090c3328c11485fa433552a1226980c6183ce65a32e20908",
+      "bytes": 46707
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000245.jpg",
+      "sha256": "ce74424a4c313302719e2249ba5c725b2253325fe6473b92feddd86adfd906b6",
+      "bytes": 46133
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000246.jpg",
+      "sha256": "90ef3e2686e404d74c79a2b97db529e1d74ebed68d0ac202884a6636fb63d0bf",
+      "bytes": 37809
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000247.jpg",
+      "sha256": "08160c921be641cd3f902b8e53822cfb23e310ecb31e5300846e2c16be46c00d",
+      "bytes": 37208
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000248.jpg",
+      "sha256": "1033f5a48fdcd2f06fd2b30a238fa9439440cb27c32b16032fbba3ffc6516cac",
+      "bytes": 45169
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000249.jpg",
+      "sha256": "b158775e04a70b3c5cee4d402e2d9e0835c0dc9b93b807b2e3d7d0ebeb168c6d",
+      "bytes": 64395
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000250.jpg",
+      "sha256": "70cb3ccb11eefb0e2190e1cef9a38ee05039e5b564363ab9b99a3a4379ca0e2e",
+      "bytes": 29138
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000251.jpg",
+      "sha256": "a5dc29ebbf5b701e3e8701b18f4168416c2d61544be7531d8ddbbb0de40be762",
+      "bytes": 40741
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000252.jpg",
+      "sha256": "4018368c5785a12c009ac523e1681877137bbafb21843ac2413aa0656ae69cb8",
+      "bytes": 34233
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000253.jpg",
+      "sha256": "2e1cd7dd95015b1c481eb646d670f886a72612f3514cc20daa7fd149842a2364",
+      "bytes": 64885
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000254.jpg",
+      "sha256": "cc539245112e85b963a27a905587259cce2459e672edda70a321e88108eef027",
+      "bytes": 47048
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000255.jpg",
+      "sha256": "2202f65b0394a804041868ba80e1a1fcd9e4d273d3b19917bdfcdc8f3e98023e",
+      "bytes": 30155
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000256.jpg",
+      "sha256": "fe05d6396da272b0de6072713ff6d159d4bdc443c57c2741e560aeabe88db28a",
+      "bytes": 30688
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000257.jpg",
+      "sha256": "1864eea45ed3bef42099608f6ba795d4fa5cfd81e6e5f585d5ca52f8f61c85e8",
+      "bytes": 57358
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000258.jpg",
+      "sha256": "122d7fe0bee229d5bda8a1ca72604d7636ac5ffcd111e7c6dfb067d0ee5ab8b8",
+      "bytes": 50029
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000259.jpg",
+      "sha256": "89728f508bf59ccd07ac628ae46f62563aa6a6b3c93bc39fbb3cf54ff9062646",
+      "bytes": 68859
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000260.jpg",
+      "sha256": "65c3b05360891d554ab6835df910460e017db605ec41d08286b113838c1a2fd5",
+      "bytes": 45647
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000261.jpg",
+      "sha256": "fc1e437abc6f13597c82e4bcb900d38dc76f884cd80c8502eac922c17e10e4bd",
+      "bytes": 29416
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000262.jpg",
+      "sha256": "f184ba052bd31815b22c6804e62436cbe845090b4f42d6746abfd2837ce45853",
+      "bytes": 69093
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000263.jpg",
+      "sha256": "8492c462d44b0a82b560ff8b60e0e3d52bc6870bcfe5ae9f75e2c8cadf289a1c",
+      "bytes": 44875
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000264.jpg",
+      "sha256": "1c061c7c8d17e8b2f5a81828f326745f5d4bcf6aa0064fec730439747f681805",
+      "bytes": 33299
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000265.jpg",
+      "sha256": "d3522cbfc49231b26238e73d13e9779c19d1465e7aa654f663eaf3f0b57359fa",
+      "bytes": 24571
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000266.jpg",
+      "sha256": "85f374e500b313a23b6668372de9c7d7cbae86cd0988d2eff7de709708d8c71f",
+      "bytes": 57177
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000267.jpg",
+      "sha256": "7c4767d23f5a37661651ebe544c12404de4f109793868974440b2739f3d96780",
+      "bytes": 45181
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000268.jpg",
+      "sha256": "90181ee5c95accbceaa6d9aec93082fd1c5451f1379a49ff1194bf96cda73bf1",
+      "bytes": 36720
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000269.jpg",
+      "sha256": "4f921f28d92e3c7dcc1968bff68a34555863bec23fe180d08a14dbd86465709d",
+      "bytes": 46030
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000270.jpg",
+      "sha256": "ae926a1047d69112072bf46226185fa1752cee2b3b1e81b888d1d0c82e08f249",
+      "bytes": 45057
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000271.jpg",
+      "sha256": "f74081662f01bb5863165986f03c89bcdf779e1ba502c0440040fa78519744aa",
+      "bytes": 30336
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000272.jpg",
+      "sha256": "fdc6ec1cc097de6f9678baddab6318bb1845c90e7a69adb9b90c2d9612c7315b",
+      "bytes": 32741
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000273.jpg",
+      "sha256": "f7a00dc688e6f3f3f5a22adbdcb3b171fe29b35fa51300401748338c6feeac15",
+      "bytes": 48629
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000274.jpg",
+      "sha256": "222bf90489c61ddb587341070b8661739d5e6645b8f13df555d8e5ed04596dd2",
+      "bytes": 42889
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000275.jpg",
+      "sha256": "b587ad641f5623a179d7b219037e14fc29a08e802a39443254f7c088948036ef",
+      "bytes": 33951
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000276.jpg",
+      "sha256": "df3d092864e1b763f5de16023bd831d0d529a34df6fa3ee76584d295802db1f1",
+      "bytes": 54176
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000277.jpg",
+      "sha256": "98b2a5e83e42f7019ac67690624f56a83be58b1bee3c5238549cb48c71fc4b71",
+      "bytes": 51538
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000278.jpg",
+      "sha256": "eecf3a880c2b2d9c9037509bd555d698f52df37bc6dead6f9b85cc14e585e1c9",
+      "bytes": 54210
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000279.jpg",
+      "sha256": "7f76c4602245554b5965e871b8570e4de496ca55607767b8ae7e72ff91155da8",
+      "bytes": 67234
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000280.jpg",
+      "sha256": "a8baf5dd0e7e37a73ce0abe9f5e6e8020a775362f210b00279193e1f4d7a0093",
+      "bytes": 39207
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000281.jpg",
+      "sha256": "b32410ccae34817d1a7f810dbd84622aeee531b8df98fec8522fbba061420620",
+      "bytes": 46452
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000282.jpg",
+      "sha256": "896b38603c8b9a5d2d18231ad37da18d7dfaaf85ed5de502bb541ef3336025fc",
+      "bytes": 33261
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000283.jpg",
+      "sha256": "aba920cd1fb471967d0f1ac72cfcc59a40281743c695ac24e9a61159e7ea1891",
+      "bytes": 39250
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000284.jpg",
+      "sha256": "f5e7966eef2a78ae73c0a8563b10ff15fcfe6f6e8a514ec6c3a8356898a73cb2",
+      "bytes": 54270
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000285.jpg",
+      "sha256": "769358861e4737375979a3021c237a7b6160f32e285b43e198299e6de1f4ce5d",
+      "bytes": 40612
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000286.jpg",
+      "sha256": "d0ad70c4279e9709ce38deb3fddd844fdb416fe889dd0ae414cd9ca11646fac4",
+      "bytes": 37596
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000287.jpg",
+      "sha256": "7d66e724b1e54bfdd22faddd9669288b1fc3f630857e3db5910fa22ff2fd593b",
+      "bytes": 36095
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000288.jpg",
+      "sha256": "00b49ad7ed12ccc8aefcc43623e84a442091ec08fe8225edb633a1665646043b",
+      "bytes": 33201
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000289.jpg",
+      "sha256": "0a99262602672d7deb7a3afdc3bbeb01fc44bea1dcf05694d46fdbdc32dc1e37",
+      "bytes": 45033
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000290.jpg",
+      "sha256": "479ebd77bbc3c3266d1d5f7f057b4187846290227c5cb67084cd9415a40fc997",
+      "bytes": 44843
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000291.jpg",
+      "sha256": "3121e7a9e5e1ec359f3d95f4c91b83a8aacd2af1c8e001199b3fb9f2a0e0dac9",
+      "bytes": 33534
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000292.jpg",
+      "sha256": "2d43d0e79ce6b54f89176ab74a2fd15e3b9045b78220dc3ad2699d0da5d1652f",
+      "bytes": 43551
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000293.jpg",
+      "sha256": "cbefa35cd157ec1e0702c71c261b7a34f2c9e23dba0a116c45d1715f42ba643d",
+      "bytes": 46775
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000294.jpg",
+      "sha256": "6139ae51f8261c779c0c6c73c5a75cccc34ab1650881d80c898773e63677cb75",
+      "bytes": 48303
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000295.jpg",
+      "sha256": "b7238f7e748d5d69ee6f041327a15f5d66c5eb022940a89d4dad6644c05a26b1",
+      "bytes": 32771
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000296.jpg",
+      "sha256": "e911b5618a8abf8a9cc27cdce2775e7fe9078bfc35f31adbdee82e74e1d189d2",
+      "bytes": 55996
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000297.jpg",
+      "sha256": "75489460c4e4d92b71acfcc5d8503ffc12588018fed0d0fdb43186f68063e8a6",
+      "bytes": 38093
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000298.jpg",
+      "sha256": "2a24a7b208da4caaa335eb34c97fd3de8b3d647f3b4608256a8729b74963b32f",
+      "bytes": 33368
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_A2B/000299.jpg",
+      "sha256": "19c966f42b88f8f551eac55f17443970ee6750b0a5275c7a683146071b4d7d77",
+      "bytes": 46027
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000000.jpg",
+      "sha256": "8def35066efc9ef2f5e987c00398c0586358edbbae50790da479d5b003a250be",
+      "bytes": 52476
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000001.jpg",
+      "sha256": "f78842d217a00c4542dda70a5e3c9d92c5d2d8b402b9b789720dcff1b954b7bb",
+      "bytes": 52315
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000002.jpg",
+      "sha256": "d620913fa946a41d14eceb8617482055c1bcc85020dda0fa850c698787ce82af",
+      "bytes": 49276
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000003.jpg",
+      "sha256": "9a9868bd93de04466479cf8feb0c0ef09417e1554d3531090f460084003d9471",
+      "bytes": 38140
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000004.jpg",
+      "sha256": "3e4c1037eb13026297623b24d41d4b9696e8e2a540ffaee9fa74a5a9fdfad474",
+      "bytes": 55029
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000005.jpg",
+      "sha256": "180d6e9bdb853f41f97d379d3d48834300c0dc1ac586c73bec67a1bc2405effb",
+      "bytes": 37209
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000006.jpg",
+      "sha256": "0bfe5535b4861445368d49c3f4f51514b7eea092ddd0622f52be43e056ec6d06",
+      "bytes": 47446
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000007.jpg",
+      "sha256": "4a3047e9865b515ff29d740529af93c9543b81a7585e90b43bd327b72fb3e644",
+      "bytes": 40628
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000008.jpg",
+      "sha256": "31621f7c0f0b12cc958dc972a7eceeaa9c64e903a35d1d2a510e8f297866850d",
+      "bytes": 43527
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000009.jpg",
+      "sha256": "bea573f15cdca84520363520dcca9ddcaf68b06ebd333b67a9ed22fbdff21d04",
+      "bytes": 43216
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000010.jpg",
+      "sha256": "15df890bd1637b464f8a0730049fa85e7ac6dd546c8021d252ca4f1ebd6cf280",
+      "bytes": 42365
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000011.jpg",
+      "sha256": "bde60850a83909702fdc76f2bea5a8380f113c7395767a9d75416e3112566202",
+      "bytes": 41745
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000012.jpg",
+      "sha256": "9e59fc05b8e3ffcba0d3048892fda6bb8d90e57ba68914b6250c5f4ec8129790",
+      "bytes": 41710
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000013.jpg",
+      "sha256": "bfe1222c92275e80055419f93a3c792d4da30b51d9e709018400e811a14be403",
+      "bytes": 26718
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000014.jpg",
+      "sha256": "e9c3b85978d3d7bc864780e570eb7222930a3cc08cd442321139977522cc59a2",
+      "bytes": 45615
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000015.jpg",
+      "sha256": "fafb0ae10d2f7d9346fd74fd2d129cf44ac5245f039c3b6a3289452c6ed43ab8",
+      "bytes": 42641
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000016.jpg",
+      "sha256": "9aa57341ead98a41811fbe900bec0775461f9f1f0ec15cf7a5c2a8c1088846b6",
+      "bytes": 51383
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000017.jpg",
+      "sha256": "e724b41095be64f0e6f05e359e6ab99fdd5add260c81ad979fc67164419a39bb",
+      "bytes": 48549
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000018.jpg",
+      "sha256": "deadb7dc76d6d4494148651ec325974144b3e20a8aba61c82ce852cb5a6b1c77",
+      "bytes": 43967
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000019.jpg",
+      "sha256": "3587c4a42646a3ec422a5eeb341917c2da8c223e7cd23fc2a4bdd07ad58813b7",
+      "bytes": 42166
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000020.jpg",
+      "sha256": "f0ea2f659051e8e919a1b8b899d5c85bd708c905bbb5082f68e2f006ba58bf9b",
+      "bytes": 42440
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000021.jpg",
+      "sha256": "16b3163d9f2624252004d5f2f72b08c348e08f8c61634c9cc2203e8c97385d08",
+      "bytes": 42010
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000022.jpg",
+      "sha256": "d0355d74c02e166c46e01a7eede12ea076242b7d9870011782129b4199ef3e18",
+      "bytes": 54175
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000023.jpg",
+      "sha256": "50ae42efa56a0558957b98ea6555d9a041432a7cde0d0e9e86edc74d4124d4d5",
+      "bytes": 33370
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000024.jpg",
+      "sha256": "1c6d456267f0795d16eb8b8f7de0449a4e9f35a942dca42ae1f1e4885d547afd",
+      "bytes": 55695
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000025.jpg",
+      "sha256": "494d4fa40717a401d5ac960708a22389fd0f5d48537447aaac075bf4e86f1e70",
+      "bytes": 48218
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000026.jpg",
+      "sha256": "20e8f37eeccee54e80c686ddea9e655cc49e49b1cb373d1a294f716cf85f3644",
+      "bytes": 46818
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000027.jpg",
+      "sha256": "66a4172d35137547834d43e08a8b02d5976086562e088414a6a2de1802896d5f",
+      "bytes": 49265
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000028.jpg",
+      "sha256": "ce2cf7de4b01229cf951f79eb8318c9c11e85dfad836730d9d502e28d9b19724",
+      "bytes": 40885
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000029.jpg",
+      "sha256": "b116566ed38d371fc57d811c84e4a9bc0f5a789435ba331fb43ea7cb6abeb7d9",
+      "bytes": 45193
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000030.jpg",
+      "sha256": "bdfbb305e52685a2c392436f7917c003e224cddc4d539124c16d4b08c7f860fd",
+      "bytes": 47972
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000031.jpg",
+      "sha256": "c8a31e2ffa070506ea2014961137e470e90fde720bd44a105488dce06ddef7be",
+      "bytes": 39703
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000032.jpg",
+      "sha256": "53be2e33a240b2b34e7cb4035c56552385183924cb979e9fa7e99e98e18b8b56",
+      "bytes": 29725
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000033.jpg",
+      "sha256": "0874a33d56baf91244e07d0f1a6d8d8c03af660f6f8b488ac26753f0e35766e8",
+      "bytes": 38201
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000034.jpg",
+      "sha256": "985d6822f338e021ad88e76027158c81555cb17a8b2af121728bd4aa93ef2eb4",
+      "bytes": 48387
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000035.jpg",
+      "sha256": "6de10d44a0363b0bf0c50d829cfc298565d177be87f7995264d82dfe4aff8b03",
+      "bytes": 36391
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000036.jpg",
+      "sha256": "c0777903f2d0c62d735f418c0fdf214100257de9d6c8ea02d333255d3be9056a",
+      "bytes": 33502
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000037.jpg",
+      "sha256": "8d58af5a1d0d047884901c239e373bf235aed4d832d7a22dd62de7cfc6e3e2ad",
+      "bytes": 49332
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000038.jpg",
+      "sha256": "99df94e947bea0f67ed8aab02ec367027678278ca4020d883cdaae3e62162065",
+      "bytes": 45429
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000039.jpg",
+      "sha256": "811c6aabeba3d71aea8c0a9d1b20767ebced8bbaf3cdc090d4e8c2a5d20c9bde",
+      "bytes": 28256
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000040.jpg",
+      "sha256": "127d5ffa3f60a2a37ce8e4bc34972d5123402d8f65152cb6dea37a131d64e213",
+      "bytes": 35830
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000041.jpg",
+      "sha256": "d1c94cabc0b196fa2fbe29631a25f3a28c198ff618b810fbd13991b3eb5f8721",
+      "bytes": 56336
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000042.jpg",
+      "sha256": "1e580208eeb5bc03248c81a1e045ecd0573efecaade5fc61c61f3dcdc940aa7d",
+      "bytes": 48017
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000043.jpg",
+      "sha256": "14ee9f33108a7043de0b99de4086b42b43081b8c3461b95080470becf6b9bd36",
+      "bytes": 38977
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000044.jpg",
+      "sha256": "bdecf971d26772aaae6091bcf240ea0df46d09ea71bb7d16126337d3199c7a66",
+      "bytes": 41751
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000045.jpg",
+      "sha256": "cad82f675f56431c9e734b5276ac867e0a7fba134c5117468998baea3fe8605d",
+      "bytes": 34795
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000046.jpg",
+      "sha256": "17dfcb565ad25e5c790f500ec3e3d147add763fa033ad6f72303d1fe26d2be91",
+      "bytes": 41393
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000047.jpg",
+      "sha256": "84b4c16ddc2f98d475768c1ccc5e8daf3d41431a4cec0fa65e1ce733d42e351d",
+      "bytes": 29463
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000048.jpg",
+      "sha256": "371ce7e4803c6741552023f44799c9b1e0102a4ffb407ab94109bc19a49b2d30",
+      "bytes": 50140
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000049.jpg",
+      "sha256": "9704412f13e54c3f3a03b93a799497c930c3dd8b71b531e2266440a4db0cc1e8",
+      "bytes": 45858
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000050.jpg",
+      "sha256": "950a5b70e6a04f5082c47d3ceffa882cfc9593781afd0cc13c75b6c66c39b837",
+      "bytes": 43809
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000051.jpg",
+      "sha256": "cc20cb45e2fa1fb03bf400cd226ac0439d286dd1b5ca3a4b5a3f4c66057b6021",
+      "bytes": 49947
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000052.jpg",
+      "sha256": "3be2b0275b5c15da0709c0c0903de4628bb6c5d6a0266f8e538215c59b2cbee6",
+      "bytes": 42679
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000053.jpg",
+      "sha256": "feb52fcf3cd88fa9ac6e7d14eec1a61894e76754d59ace817867ae31f95b9161",
+      "bytes": 61029
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000054.jpg",
+      "sha256": "331955cdf3f221c20515703b1e1de988926b9e11df19f584ff74088dcbe24fd0",
+      "bytes": 43801
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000055.jpg",
+      "sha256": "fbecd2ebeb477f6d64a29c6ff5e5253b8f6d1e5b3a1297c95247168a68f1efe1",
+      "bytes": 36693
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000056.jpg",
+      "sha256": "ed00140d6a7b694791d45e41e0b9b807e9b778c42f607aa058e3bc14aa7008b1",
+      "bytes": 43083
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000057.jpg",
+      "sha256": "c8fe0e1bc41ee09f0286fa703d1ece207dcf49e93f5e6f88ea304743aadd0b15",
+      "bytes": 44238
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000058.jpg",
+      "sha256": "6c8c14e398be3b8ca788925cb997f49b45e9e0220b9bad0dc99fe0705009505d",
+      "bytes": 55432
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000059.jpg",
+      "sha256": "33b2ccd2105d1164f96be1fa043524874321b293ac99dc4b86e0b8e699e0adf5",
+      "bytes": 52126
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000060.jpg",
+      "sha256": "2950e73f051065f9b32542188c16b910b61f1890a997a28cda37cb7ccf08f394",
+      "bytes": 35775
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000061.jpg",
+      "sha256": "dd6cb2ea381a089ed1fe1ff049b8d18c3c3b53dab55458f5de4d78a9adc2f2d4",
+      "bytes": 46026
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000062.jpg",
+      "sha256": "a7562aa8314eccd2412d605c5240ae5cbc65c2ea10fcef24f81fe68c5e58837a",
+      "bytes": 47941
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000063.jpg",
+      "sha256": "40d105095f4eb4e38b483e9c30b7cf1b1bd03bd9c37d8fd4eb6cf8d569eb20aa",
+      "bytes": 45844
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000064.jpg",
+      "sha256": "5a5554b03bfb708cfa7c630b01357daff702eeb5c452113f696b4fad91cc8832",
+      "bytes": 46174
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000065.jpg",
+      "sha256": "3c9e2e31b7ab2ee6bdfb45b24d7a651619896184200d0f17a808cb25883110f1",
+      "bytes": 41586
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000066.jpg",
+      "sha256": "7c3e6c26ecf321eeb00f59848052a4b35d132818ab4c3f53f8f6a3456230e54d",
+      "bytes": 43016
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000067.jpg",
+      "sha256": "2e0741c1e39c2f4c7f716bd077b7d45d747c19896220cb9c48faa8b898cc79bc",
+      "bytes": 34960
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000068.jpg",
+      "sha256": "87fe532051bf64a94e5d87d22bb2e93b2ddf61185b019678845560326b83b7f0",
+      "bytes": 60269
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000069.jpg",
+      "sha256": "8a7edf47e550ab217ae32de58f6f014fa55a1f7dd2509b093ab53911bf195f2d",
+      "bytes": 38032
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000070.jpg",
+      "sha256": "501120319549cc252d3ffbf51f513f7ce6d634127138b5bfb04ec24670f0aa24",
+      "bytes": 38611
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000071.jpg",
+      "sha256": "5ff5ca9a671e3609ea6a87aefe136f96cd4bf874be7db5d020599bc7c6f019e3",
+      "bytes": 35907
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000072.jpg",
+      "sha256": "9ac7e591e18cff8a2df0b7ffa8e41768ccb5a120a4078be28dace4837aca2b57",
+      "bytes": 38010
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000073.jpg",
+      "sha256": "96e39cd09daa89f93d83adad9386ad4d45a473608e97d16d3d1461d43b0bb986",
+      "bytes": 34314
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000074.jpg",
+      "sha256": "4c919c11b8e818f2b04b2dbbf8fc98fa246d26d3e9623777a946dc3c81733189",
+      "bytes": 30557
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000075.jpg",
+      "sha256": "f36d67fed1e7faa0dbe90d035b90f69e0f79b30a714aed749fd8b76d2170aa3e",
+      "bytes": 52544
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000076.jpg",
+      "sha256": "8f4af9632f7df42add7d2e614da0cb290dbf32efc9f6ac24c9625149dc9d5f5f",
+      "bytes": 47582
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000077.jpg",
+      "sha256": "e9efa4b71e08c0cf0771482ded35c4b66b13e691fc421ecffa3968e528b7aeaf",
+      "bytes": 30510
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000078.jpg",
+      "sha256": "65aac12e3564ccea1ea04baee9686008d8f22b8bc1f0d10679adc8ed4a7f8815",
+      "bytes": 37361
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000079.jpg",
+      "sha256": "122075815b9e2ec952a1a7d8319cb5ba157058740e33327aec838c705a0a0e0e",
+      "bytes": 39744
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000080.jpg",
+      "sha256": "2a161fd73da38023aa3732067e8f86a299b287e68f2360c6bef94fe7467659f5",
+      "bytes": 38366
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000081.jpg",
+      "sha256": "0bdef38b4d43a949bba92bca7cb9391e552b8014f607c4cd9d2577b53a3d38be",
+      "bytes": 43825
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000082.jpg",
+      "sha256": "379af5c308a92766264f6607c6463e0a5331dd25b0dab39ba57c527bbb1a4fa3",
+      "bytes": 40818
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000083.jpg",
+      "sha256": "4d32bcfdc9e968146e009a92f4d5d5aade8d5b1f4759dc049cd3aeb3b5d37df8",
+      "bytes": 40002
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000084.jpg",
+      "sha256": "b090bddba8e37ad3604ab1b05c750a52b40664944c279a775a5484a2a592a997",
+      "bytes": 31216
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000085.jpg",
+      "sha256": "750d4e892a4ebc955252bafcb285a63e6228f26f997ccd005f98c950a61b8ff2",
+      "bytes": 33652
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000086.jpg",
+      "sha256": "64bbb48bfa54e5cce5086557c035a6d2044381cf5e626b9e9768bd34ec70378c",
+      "bytes": 55981
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000087.jpg",
+      "sha256": "aaceb095080dc783ca3be8e09e10916eded5049e9034ea0417e39b93a90eac38",
+      "bytes": 43731
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000088.jpg",
+      "sha256": "ff23e3f30aef02f72dc943c273541c38297b6aa6bc44fcc335d4386c18967df2",
+      "bytes": 58131
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000089.jpg",
+      "sha256": "41d5ffdb58a94d4348ceb2f639df2d4fa508f099af9cf085c8b6f8944c4d9907",
+      "bytes": 56684
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000090.jpg",
+      "sha256": "b9d52cd5847f91ad43f5f8d4281d5b47a5663e4552ac14cb9e7762ce0143e320",
+      "bytes": 33451
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000091.jpg",
+      "sha256": "7c8db6b4da11f486fb268a5154e62304cd093d55fd8b4baa3279c24e11bc42fd",
+      "bytes": 40865
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000092.jpg",
+      "sha256": "e1fa699923dfd8420df52dd36404aa1c764d440901425464e5ea3306f3e559d6",
+      "bytes": 56271
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000093.jpg",
+      "sha256": "095d3e2855ec5988ee0ee83e7ece1d6957abb35523ca8e9737a1987666a12261",
+      "bytes": 41557
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000094.jpg",
+      "sha256": "0e99dbe6e06e875f4483730931566eb18a9198282ec2c960e193e8a38ce1bd12",
+      "bytes": 39442
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000095.jpg",
+      "sha256": "a3ffce81725daaa38535589f3088acd0ec32a24afab8e67ba2eccfc90232214c",
+      "bytes": 34397
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000096.jpg",
+      "sha256": "b5a223def5bde733c6d340be0f3d7e039ecb8e67f76ebe2dc40497e9dafcb342",
+      "bytes": 39558
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000097.jpg",
+      "sha256": "dd580fe250b0291640601c7ec832d4d9202c88b046ad91f534eea4a5f2443727",
+      "bytes": 40170
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000098.jpg",
+      "sha256": "90bf8443ff47ae707dc7601f637ba40187883c9bd685408e6a03120c1dd9edda",
+      "bytes": 56707
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000099.jpg",
+      "sha256": "5f30422734540d5dfde708dc58c20819b7099b61db90e58ed8222a0ee934d894",
+      "bytes": 41346
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000100.jpg",
+      "sha256": "67d358e738de9c546ba305f7e2445acf6b234219ddd05658f577267ce19f2e93",
+      "bytes": 51154
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000101.jpg",
+      "sha256": "90776c65f455e6a55ad92c94e325d14368265c200a6ffdd55894b31b1c154124",
+      "bytes": 43182
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000102.jpg",
+      "sha256": "50cf3d447e7ac037a5d359b7458e9dda020708abb669856dcabc36e744da85ee",
+      "bytes": 48550
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000103.jpg",
+      "sha256": "fc82f8291ac98fb846f2cde342cbfd0d9d27ff1878a0b9dba3e59c09b121497a",
+      "bytes": 31037
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000104.jpg",
+      "sha256": "fb5fc8d7c40954e8ccf2c8b72105c04d9d947a5e63514737113c391993a8b16e",
+      "bytes": 50690
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000105.jpg",
+      "sha256": "88713403125d3c55a632d316652887aca51cdcc9cd7a07b0612189fdabff5c45",
+      "bytes": 44574
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000106.jpg",
+      "sha256": "59b2ee175474deb1849533a2ac186fdde4a1340089390431231361bee11b1b63",
+      "bytes": 50079
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000107.jpg",
+      "sha256": "e0a41f0c4e835863ff862106154cede5ab75b71831150ce8253544ce493978be",
+      "bytes": 41693
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000108.jpg",
+      "sha256": "70fd159fcef22fd6e264d62bc321982bc29f2e675792f8afe9ee8ffb2afc9ab3",
+      "bytes": 39183
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000109.jpg",
+      "sha256": "6a75345090660c426833e804913acb83f2dfaf55c81eb30a7162ff4fc32c762b",
+      "bytes": 37060
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000110.jpg",
+      "sha256": "8d648e9cf41ffe0b037ef4180d7ed46b03e9118ffdfe2d646216e7871baf665b",
+      "bytes": 37977
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000111.jpg",
+      "sha256": "18bcaaac3311a4ac1cf47f88635f1787e1744a58e3b1bf476edb67077fc046b4",
+      "bytes": 41979
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000112.jpg",
+      "sha256": "18cb772caf7554d437c4f790ef1ae050ea4c14d750fc70a495fad872b91aed6b",
+      "bytes": 36889
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000113.jpg",
+      "sha256": "3aa83d6bb025ef763bdd5783159a8fc4b28cd71397adcf5619a68e907f131e01",
+      "bytes": 46948
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000114.jpg",
+      "sha256": "6119bcd1c112a7444bb2d833c8235ed198d3ac0b605bc488c30b34b764b7a41f",
+      "bytes": 49675
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000115.jpg",
+      "sha256": "c51c060ed04f265c4f71744c18c32ee20d624ddd52919b13c20f0ea2f02c3428",
+      "bytes": 55474
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000116.jpg",
+      "sha256": "c6507de82658b3d2f3035e1bb8c0d584ab01afe5e3b7f8619b1900570365ebd1",
+      "bytes": 41218
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000117.jpg",
+      "sha256": "bd66c0cb1fb7ec1c3f74ee1312aef83b6299cdff4ec4f6b1f360b8a6508bd79d",
+      "bytes": 53049
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000118.jpg",
+      "sha256": "653c0b70c2597d5af5d775981aa46c5255c337b52f2a9d5373f4f256dc4e790c",
+      "bytes": 34538
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000119.jpg",
+      "sha256": "10d63dea01496077e65b74a7cf1b45b0852e5a4ca731ea31f02c3a8311dba873",
+      "bytes": 32841
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000120.jpg",
+      "sha256": "415c0b27d31e00be04a58917ebae988665e73fa0a7fa15539cc5d458444546a9",
+      "bytes": 37052
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000121.jpg",
+      "sha256": "2946974780bd3c7cf62e56266c3b0b63524673b1d7a33f30e939d400d5697295",
+      "bytes": 55834
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000122.jpg",
+      "sha256": "7803105fa9e2d446eb725b8889060992ad8946055682aa36b538cec3d663cda5",
+      "bytes": 35035
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000123.jpg",
+      "sha256": "791f8bf6a729ed27da6c68a8eebbad6cbbcf2da97e4f5e03d536e23acd184292",
+      "bytes": 51380
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000124.jpg",
+      "sha256": "2fb6804318b6ee6e8d807d6187a6675cd110e8f57afd914cf6d067d66504c0a5",
+      "bytes": 51407
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000125.jpg",
+      "sha256": "f045382961a50596a2ce8980b1609b8b5f2b88c382b879367ad78b2ff1f85633",
+      "bytes": 46179
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000126.jpg",
+      "sha256": "efa2ed7c15746ad4a26236c867eb254a66bb93328d6f86969d71f67c9f27fd12",
+      "bytes": 44841
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000127.jpg",
+      "sha256": "13aa582df91e38354d933fed7daa6ff311a562e8275f63ce11fec4e6cff45a38",
+      "bytes": 48984
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000128.jpg",
+      "sha256": "c0285e8507268390548f1aa8dbee7c6b702271fb0b12fcbe62f7702b9f3f5037",
+      "bytes": 43183
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000129.jpg",
+      "sha256": "669e895c7b419fca164f51206afb71873f71f2791db268fb97b2fe4291a84fa4",
+      "bytes": 48854
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000130.jpg",
+      "sha256": "3642bb1b3a22f7a056c218be852f6ebd70ccd2651ad0d0b753deb2fa80d0d086",
+      "bytes": 40034
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000131.jpg",
+      "sha256": "6e476573f0597dc80634884be0fe65223bc32ab214e5ce363e663dc4dead084f",
+      "bytes": 40658
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000132.jpg",
+      "sha256": "a8a5f549d8112c754f20835a170df2b4643e3899f1165cfef0dfce9310f366f6",
+      "bytes": 44089
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000133.jpg",
+      "sha256": "0e6e8058d05789e6e8fc6c54fdd2dd862327c6de630225101651b09a06409a30",
+      "bytes": 55909
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000134.jpg",
+      "sha256": "910f12174817f64b360a9802a0cbbfde91bfc02477d639e93183c8236a7c4318",
+      "bytes": 40880
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000135.jpg",
+      "sha256": "07492f7932c36fc45ac8618da5dd503eb5be32de6c485ad3d7f9b63771083fc2",
+      "bytes": 50358
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000136.jpg",
+      "sha256": "a31a793c728031dfb291e87080a38436e5e18f70889cb39287f0d7ce4cdee8d7",
+      "bytes": 39024
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000137.jpg",
+      "sha256": "c333b334f56c928a0db1a556be1867c48d2560e6cebbaeac666d69aa44a293fc",
+      "bytes": 35834
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000138.jpg",
+      "sha256": "928323cea172c77895119f389fc0daaa1ad6a2aea69fb39cca5548f18ce61b77",
+      "bytes": 44747
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000139.jpg",
+      "sha256": "60eefe6a04df99e0eff674e890cc87ea48f70ab3043ef36efdc943b792406a5f",
+      "bytes": 38663
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000140.jpg",
+      "sha256": "0a8dfae5d4da4abf32bf5f0de46f938d12609f2300ec8f74424834ccc41826bf",
+      "bytes": 54590
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000141.jpg",
+      "sha256": "b8917966af50d85e5d371048501bda5adb31e71b582d03422b101ac4b1792f82",
+      "bytes": 39975
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000142.jpg",
+      "sha256": "a1fb2f0479bb740a15edc34defeaf01bfee69f4fe84e7df65f6d35e0bb2bcf8b",
+      "bytes": 32304
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000143.jpg",
+      "sha256": "cc9500b090954856db45a791bd9a2b353164255a1daba410bdf57434d10ac48e",
+      "bytes": 40478
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000144.jpg",
+      "sha256": "dd7bd273ea39778dda29d5f052385ae2b83a7e362a9ba6b49ec6e2fdb5adec3c",
+      "bytes": 44585
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000145.jpg",
+      "sha256": "e5528a01bc21c83ae677a0d2cf0db6c17bee6c911c687a58dc29ec79e1a74967",
+      "bytes": 47825
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000146.jpg",
+      "sha256": "a1299126fbcbac9289f4511ab1af3f169406e433779d589fc7f7edc347fac15b",
+      "bytes": 45392
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000147.jpg",
+      "sha256": "6d9775473bfa0955f65e1463854cb64c8f9e7fb1acdba0c010d93f95484f2d14",
+      "bytes": 40204
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000148.jpg",
+      "sha256": "5989e8f582fe738e53de80b21b6da7871573fc6e5d8d3f283d1f01f9ef917aca",
+      "bytes": 30393
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000149.jpg",
+      "sha256": "fb96f118124ad8d147d358b282bcebc1c33fe2411e069d206758ae334ee98c6c",
+      "bytes": 64648
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000150.jpg",
+      "sha256": "ceb324a20772aa98548ed7289b6bbe76aade90e6466800d5a7cafcd81c8b2015",
+      "bytes": 33009
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000151.jpg",
+      "sha256": "41ecefb825ad75b12e46b3d6a5db6388e86832912651c0c29e99953bd342176d",
+      "bytes": 47796
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000152.jpg",
+      "sha256": "d04f499ad829ee0929ab1495d1f0bd6058c094671c8f820993d8ab81940d5501",
+      "bytes": 42272
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000153.jpg",
+      "sha256": "f539d1be6f1918ce27c1cd0c5889262a96a7b28e34ea0616715f0a012c88898f",
+      "bytes": 34805
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000154.jpg",
+      "sha256": "0ba9138549b5e831748458bbe1fba8708d3dddfd2b9d72e1820716e6b19aac71",
+      "bytes": 41567
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000155.jpg",
+      "sha256": "75048a6b14f287655c7f0cf21b6255cd19eaf36cec01b9560c9c70d796fe1ff2",
+      "bytes": 46973
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000156.jpg",
+      "sha256": "16f72fd942fd2b3fa098fa64a96fb3999bcc34571d983412ac2b33bc26786f63",
+      "bytes": 38538
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000157.jpg",
+      "sha256": "3efd5a88169a87c12cd08b4ef0beede8f2a0ff3d144e976b5b77200ec1e51601",
+      "bytes": 50252
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000158.jpg",
+      "sha256": "35a458f6bb1331adb0121edf2c4ffd4af331e05bc887bfe1709753659f6de6d6",
+      "bytes": 44663
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000159.jpg",
+      "sha256": "a7b7b51bc09f52b7b918fad8a1017ba3b2ef26e93be79650e7691813fc5c6e5f",
+      "bytes": 47218
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000160.jpg",
+      "sha256": "0d4fdc0fa4c4838487b270c6e123bf615969e9df809d6c0c1f0097072499862d",
+      "bytes": 34433
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000161.jpg",
+      "sha256": "61b63c2aefd33693fdbdd0a65a8e5e934df4818a8a799889c5e767681d3897dc",
+      "bytes": 40858
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000162.jpg",
+      "sha256": "e3cd0511be1680de969e679a2b23cbc4db83fad7e1a259576238a1488fccbcb3",
+      "bytes": 57833
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000163.jpg",
+      "sha256": "91c4c45d1e3a54d6c59416ec5981b915baf41604576419591c2457c637ade02f",
+      "bytes": 39216
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000164.jpg",
+      "sha256": "fb19e9ed509f7160660d6de1c078d29b90358f4913f3366bc433ddf170d1fd4a",
+      "bytes": 44702
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000165.jpg",
+      "sha256": "61ea673dd926084e995e4097f94ef6c5b7f20405825cddd01f1dcd1c3a06220b",
+      "bytes": 31364
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000166.jpg",
+      "sha256": "50a98b224b4a5dc5a24fc41359c1892cbe3d2017ebd7ea4c47f2700230289798",
+      "bytes": 47322
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000167.jpg",
+      "sha256": "51fb0750a85a2d00c523f4e0a20fb079b32a2c8df7063f79877a119e0554402f",
+      "bytes": 56424
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000168.jpg",
+      "sha256": "93e8c26f7723cf1ce0e647f0189d6cd016e43f17b8b1412810fa4dbe6602b735",
+      "bytes": 50511
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000169.jpg",
+      "sha256": "6780a3210899322024245b7f4e5d5f7278d4425f6747a23a4b8fd50cacba6507",
+      "bytes": 43594
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000170.jpg",
+      "sha256": "4e6a2806dcc530211956490e8ca1ca4d938b9f5c2e08dc0fe88865e09971cb63",
+      "bytes": 38781
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000171.jpg",
+      "sha256": "423dab2b894d221c6b818bbd796ab92203ba08d401ed9a8c63d0d4496f2b421c",
+      "bytes": 43305
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000172.jpg",
+      "sha256": "2314ae86f377d0275d25ab598559e4591ce774d34ec651f6b38a9ffb219b6559",
+      "bytes": 31607
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000173.jpg",
+      "sha256": "dbb39c64c17f90a6e9d1c26c857cdb41493f174e04659078b8bb0ebd7a2885a5",
+      "bytes": 41419
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000174.jpg",
+      "sha256": "ef24723d89a2f427c2710cf66e872f48385809156ceb5a4d730cb344c448ef77",
+      "bytes": 35226
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000175.jpg",
+      "sha256": "74f07c5061acad272eab4db1c59c6ead610e183842674fef414482f908b7fa22",
+      "bytes": 38951
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000176.jpg",
+      "sha256": "e6b6f6e0646720c46a19e6fc70644b1b8699ce7a9dc228122a24c81589b9694d",
+      "bytes": 59141
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000177.jpg",
+      "sha256": "3734e4e8dbc7cc4e6dc7b7ef08194c255e393d46fefe58212de2d816ea4ab637",
+      "bytes": 41451
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000178.jpg",
+      "sha256": "90b3597b5c7c57e5d19f9d7d9fad88c9ea6dc9603dd17cdf79992de8cf73afd0",
+      "bytes": 41085
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000179.jpg",
+      "sha256": "ec67aae3184b9624cc1650725b778ff96f3f7a9f2fee9ee59dd91a7cef9a8c5e",
+      "bytes": 30619
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000180.jpg",
+      "sha256": "cfe5e2d61f63cc23b173261bc249e682fc528c34669a3b44809b10292735f507",
+      "bytes": 46969
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000181.jpg",
+      "sha256": "42d4172944d47e6d1a7af0f747fcbe8cc22367be5d2e6539ef9e2165e6d8089f",
+      "bytes": 35372
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000182.jpg",
+      "sha256": "831261a3427ca0143f62e22a5091493923d14a1a4ef5b34cc651e64bef86459b",
+      "bytes": 55684
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000183.jpg",
+      "sha256": "a5ceb3997c88676bde623144641394075e021ea40486f22f5c7549608ebec335",
+      "bytes": 49928
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000184.jpg",
+      "sha256": "b2b42495c7643dfe1af3bfe092a61d2b296c9b60c1ac41bc294f5d94b625c2e5",
+      "bytes": 53808
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000185.jpg",
+      "sha256": "50424812acb5e4d175e6c01fde8f3dfb01928e51d80bbb1353c3b6a103ecaaab",
+      "bytes": 38013
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000186.jpg",
+      "sha256": "066914d4702433064d6ff518abbe6e75e88d539ad3999a112becc16a288d4998",
+      "bytes": 53692
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000187.jpg",
+      "sha256": "151e390e2dfce3193a676e98d1bba7f594cba4104b45b43c66f90613f4b7295a",
+      "bytes": 54788
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000188.jpg",
+      "sha256": "cd111c375734b03983cf0cfd38f5982d1c0883d050113b9bf2b1869c4129629b",
+      "bytes": 52069
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000189.jpg",
+      "sha256": "1c314c88ae695cf5733168420584ec75d5b76e220be30b2c937306941495109c",
+      "bytes": 29243
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000190.jpg",
+      "sha256": "e1d2d4308e78b0145764a291f7989c81ce564fe52de309434569649ff3d4e940",
+      "bytes": 51782
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000191.jpg",
+      "sha256": "9b30adfc52249d11a078797a42b0f0caebb14e66944772c32a2eee99b024235e",
+      "bytes": 47711
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000192.jpg",
+      "sha256": "9cb07e583857695d45cc1ebc7532743d144d2749247f819b3b6fab2c97abdccf",
+      "bytes": 52753
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000193.jpg",
+      "sha256": "76c7e6beb18dfcaa18e0cedcdaaf3b7a0e21b1fb0a660b9efab0be1ad788dca4",
+      "bytes": 39572
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000194.jpg",
+      "sha256": "d03d70a1da16b0268566e7bb4087ee4bf0d2adc57cbc3450394005900cf54411",
+      "bytes": 35060
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000195.jpg",
+      "sha256": "67ac2a5570682922853c599e52b1dc83af3cef3376a4a9ff43b9f355bfeacfc5",
+      "bytes": 45458
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000196.jpg",
+      "sha256": "89f94bca214b537801f83ac99f2c100e39fa2ea6cc5336cded32f778df8a2ad0",
+      "bytes": 59097
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000197.jpg",
+      "sha256": "4c5d61c702897339ad2384b8c0dd3efee10533049c87bb9da2e1521d6eebf31b",
+      "bytes": 44311
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000198.jpg",
+      "sha256": "db0e6e1f661c515d224b5d5dd0e1fc485bdb5cf4a7d3ac74a61d20e6255c2c39",
+      "bytes": 37028
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000199.jpg",
+      "sha256": "b6472ecec261ff2b2cb3c278889836a811b0f0ca5c88916b3a090a3ccc257b46",
+      "bytes": 38314
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000200.jpg",
+      "sha256": "5d05fff2f9af248d4f0f006a53b834d8fe887de8f60022066bbbff63cf6b1465",
+      "bytes": 38593
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000201.jpg",
+      "sha256": "df134088de492f2b1b5d27aa0a7020d9e32590d5a9e163546f6d10452fa545aa",
+      "bytes": 41582
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000202.jpg",
+      "sha256": "38a26296421b7fd4129b28d6066ef5cc0101b78dbefa9a427f09f456bd75016a",
+      "bytes": 30723
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000203.jpg",
+      "sha256": "79c86c7bfaf7d6fd53f8d788424c28c9ff721aefe47cfee611e230b5e4869d32",
+      "bytes": 35289
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000204.jpg",
+      "sha256": "66784a0743500ffd55e5ff7c250cc0ed1cda1033323e709732323f48223a3371",
+      "bytes": 37944
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000205.jpg",
+      "sha256": "b7bbb563d842fbca8815446aa8f2ee2c93a680533ef4aac1907815970689854d",
+      "bytes": 51044
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000206.jpg",
+      "sha256": "9c70326391ef6f6db1e05d3e379953fac9c13dd5f9532d67c6a3d1c2c7795eb1",
+      "bytes": 53437
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000207.jpg",
+      "sha256": "9cc7597386973069ca1ae206ebe545a18d1e0d81395b328193fa6176241fba24",
+      "bytes": 49165
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000208.jpg",
+      "sha256": "a71dd15248f11844f57a655703f9bf7a6a5801e7482223ad32f25b8abd46190e",
+      "bytes": 43299
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000209.jpg",
+      "sha256": "ff87496ff42492853430ec9662180f93769e4217bd99372a6fbe8467f1761790",
+      "bytes": 58339
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000210.jpg",
+      "sha256": "4f97f0fd39c343024a120334c3149cdb002294b6e6a96b401b275e58f16d52f4",
+      "bytes": 42103
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000211.jpg",
+      "sha256": "135649f7a410cc947b3d1f1c04b70f25f751d86b7d60ad21f731353e758f211f",
+      "bytes": 40637
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000212.jpg",
+      "sha256": "6f07717157848b1f4e37876f0360e14bd35ba0c3ab6c35ed02f9ebe0dc0d6bd8",
+      "bytes": 46620
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000213.jpg",
+      "sha256": "47cde91f530bc6473b51dbf9a737a6f8c70df573a21f4d3723b7694fc9e058fb",
+      "bytes": 41291
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000214.jpg",
+      "sha256": "2dca56259f01f09638970707370ef5de5b10e9ba051cb5ca9f1eb0296a40b2fd",
+      "bytes": 51073
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000215.jpg",
+      "sha256": "dbcf547cf1a2fdaea62875551c813c48692ef2adecd29b4b15644df9719b3409",
+      "bytes": 45110
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000216.jpg",
+      "sha256": "417b01578241e5c53ab28239fd089232aac6b808a849ecdb63b986c1bd1ebeb9",
+      "bytes": 45892
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000217.jpg",
+      "sha256": "6b5143a5b6fc44a28e1c71ace9bfc719afdc6456ff1bdac2f5080ef45dd36573",
+      "bytes": 36330
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000218.jpg",
+      "sha256": "0faaadfb59e00cd4d8133279707a005943b4f1ff5d303ea606d162e8f6334239",
+      "bytes": 42771
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000219.jpg",
+      "sha256": "a125fb99a483ae2c4650b93b4f9d9c4f561118680db366376d63ff958213d7d6",
+      "bytes": 33640
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000220.jpg",
+      "sha256": "f211db933b14fc8f4ec2bf8db8523dc771c5a83c47cdba48d9e1aca0e44220d1",
+      "bytes": 38570
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000221.jpg",
+      "sha256": "063aab866525aee5d49fe117cf97ee34c1aa3e3c398c95ce5b74b1c16868cfae",
+      "bytes": 52315
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000222.jpg",
+      "sha256": "9460ab1514d054194ed0841e65f8e4ff004d5824a076b206d9f89b3cbb88f14b",
+      "bytes": 47463
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000223.jpg",
+      "sha256": "d47d6e793770af679b8ab5a44d035832ba7855f569a2d570be03a7e3fc85a685",
+      "bytes": 28908
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000224.jpg",
+      "sha256": "9825070036067f082ff0568cf8e8ba3a53b15e83e9efee6ca9ef5cd6ccd44003",
+      "bytes": 45234
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000225.jpg",
+      "sha256": "55d673bc2f03a7728f2eeef667779805d9182e89e01f3384af7b698529b0658b",
+      "bytes": 39362
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000226.jpg",
+      "sha256": "cdfb22dbe83124b00a24007a50ebf7601ff4d6f1080acaae2da3254773649a77",
+      "bytes": 48036
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000227.jpg",
+      "sha256": "0d62636e96dfc0c95bba0396dc2cff5a28d685ebbd4852006b849ec7ac52136f",
+      "bytes": 25699
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000228.jpg",
+      "sha256": "18b3d27173d930fafb01b2b50f07bc9e6081b8b0c4832949c2a8dcd93ce6ec7e",
+      "bytes": 50950
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000229.jpg",
+      "sha256": "9c87c54b160aa3d7b389e98bb3c90790bf7c7e442e5bcc48ba26187da31391e9",
+      "bytes": 54907
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000230.jpg",
+      "sha256": "2cf5ed3f64876cbd4b2c18f6cfdbd983b889e8779fa1ddb3b9b7d1989dcead3b",
+      "bytes": 44821
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000231.jpg",
+      "sha256": "733cf36bb5a2542cfdb042fa8a471db09ce4d2cd63f3ea895e87cb655cf94613",
+      "bytes": 45879
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000232.jpg",
+      "sha256": "4464ec032e550ef5c3cdab58f6105b4e5c8a0c247d5b0ca8690804d5c5f69c86",
+      "bytes": 51834
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000233.jpg",
+      "sha256": "29718f8a6422d859225408f202aa67baa5d973538c0f1fa5d9bddbd424a556ee",
+      "bytes": 45300
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000234.jpg",
+      "sha256": "61fcdd3b5a9fdfecf595c20b24d00f9ae91f66b71037e12f00861adbe26fc4b8",
+      "bytes": 31561
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000235.jpg",
+      "sha256": "e5c8795e22bb8b6acde61077afd353ccc52e8a8b08cc0cd7f4afbaa926522d3b",
+      "bytes": 39799
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000236.jpg",
+      "sha256": "01b3504f3385088c943c86982fb53f8b8675be389ce1b75a8f14392b483b587c",
+      "bytes": 40659
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000237.jpg",
+      "sha256": "3f99b170f27722b51b52308693df88ff86c9c78f20b3615f9a46f662b663abb0",
+      "bytes": 33516
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000238.jpg",
+      "sha256": "1a10ecdf84febbbf96d4c5fee3c49091517e7f84e17ef0da05b1616359130176",
+      "bytes": 56827
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000239.jpg",
+      "sha256": "b7e94944d0397f54df7780da565548277b3bec2f074329c551f04adb278d4682",
+      "bytes": 32258
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000240.jpg",
+      "sha256": "511e077fd6645c20269149319921199ac0a8e8fefbeccaf12412fbdb851320ff",
+      "bytes": 50247
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000241.jpg",
+      "sha256": "10ebfb6a527713a0e135dd91c2c87811c27927e3f7927b7684925ff2668d7f00",
+      "bytes": 44132
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000242.jpg",
+      "sha256": "20237070f6ddd86aab3dbfc1dac495ad25d48e94cad771dc17bdbe03c481830c",
+      "bytes": 41308
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000243.jpg",
+      "sha256": "46966bc00d6501d02c9d46b91ea391f3af7dc918e420ac1afa1217b7eb953c3c",
+      "bytes": 41920
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000244.jpg",
+      "sha256": "69b8439d417232df2511e40dbab128f0679aac0980f1b1e1a83b8f8b94cbf287",
+      "bytes": 33316
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000245.jpg",
+      "sha256": "11cc2c01a3ef61262465b322134b35a57cea0d0985f2456f05da9c1fece6a94b",
+      "bytes": 48305
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000246.jpg",
+      "sha256": "a80d094d541dfbb8b7426d3ee740fe97529f5e8b68dbd4cae5c59a0590809a33",
+      "bytes": 30510
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000247.jpg",
+      "sha256": "3353bc89daca0a6fb9a155081bfb8d0b321e3de3767c9139abdaff4290c45a51",
+      "bytes": 58891
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000248.jpg",
+      "sha256": "5b0bfd3bdf63b7a87bdff6e18f3a6a46e93124cca842cb3a53bf96dbcca49745",
+      "bytes": 28841
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000249.jpg",
+      "sha256": "0c8c5cc416033f4d785974d6a41d3e61b90cb32a9f1dda9dd539b7e8286c780b",
+      "bytes": 40827
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000250.jpg",
+      "sha256": "9929f06b06738a781441569f51d0221da3eae5f558bea8666a47b41b429d2d16",
+      "bytes": 45199
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000251.jpg",
+      "sha256": "7516393cb611deabf86a31611f6f7385463d37f203a4b9fefb3ae51c0b611c19",
+      "bytes": 33412
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000252.jpg",
+      "sha256": "2a84d51fa2f721460106cfee997d75d5552402558047760bf39aebc1c2e47245",
+      "bytes": 36494
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000253.jpg",
+      "sha256": "034f56a3d591e0c8b89389937d4b65d0d16c4e37322f579a5ddaf8a5a99a5e67",
+      "bytes": 43020
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000254.jpg",
+      "sha256": "8856e4e97f098b6ee6832bd4f15779aeb98b52c052d0a5ccfec7c9249a26906e",
+      "bytes": 32259
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000255.jpg",
+      "sha256": "724b95ade2ee260e7862049c57476fe5217e4631131df475aaa3eb78dd754090",
+      "bytes": 36060
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000256.jpg",
+      "sha256": "d52cd3d085728e8bec90361323ac7e868d6aa715edb13bd808d69f66dd3b2838",
+      "bytes": 40017
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000257.jpg",
+      "sha256": "c0cf01f6e97aa3459596d459f716b0378d54d1cf69dd9580a64dc3fd7079da12",
+      "bytes": 53599
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000258.jpg",
+      "sha256": "8cc33704563bd776a3913de55666e79a784935f8241430a63beef6b600cbace9",
+      "bytes": 45590
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000259.jpg",
+      "sha256": "5853d0a78076dc8aebbb03c096c8e5fcf8dff2d74111f01822121fee923ab2f4",
+      "bytes": 42371
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000260.jpg",
+      "sha256": "95b5caa860b615f932e0811ce1894b3f2b774cd5e97234e2f206fa3a59380d08",
+      "bytes": 40353
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000261.jpg",
+      "sha256": "cac087ea553723cbd0dccbab35874a78c75650ccaefdff3922f85a6e7266b24d",
+      "bytes": 48900
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000262.jpg",
+      "sha256": "93459d4835fe15f98b7640d4dd70d77bc17b779f51b2f645f3c266ab41e5d20b",
+      "bytes": 39318
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000263.jpg",
+      "sha256": "8450dc5e9504a47c5b0a71ba44cd72f68cba47e030607c9347ed80a8cedc1c40",
+      "bytes": 40612
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000264.jpg",
+      "sha256": "f7c2810ab3953bacf1d57fe177ade9317cd597da156d1849bcd7b270329cc65d",
+      "bytes": 49982
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000265.jpg",
+      "sha256": "daa57a07185d74ab04ae95bdbf7d39395f3c3f3be4e81847031690b756d3bda9",
+      "bytes": 34495
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000266.jpg",
+      "sha256": "0dd206f6c5a78ce8400001efe20ab34da1200bccec8e8d9aae1f03b797954d2a",
+      "bytes": 39441
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000267.jpg",
+      "sha256": "f79d57667575213a6631ef36ba168c47fda1b6e3adef0592bad0028157009812",
+      "bytes": 57061
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000268.jpg",
+      "sha256": "b7fe76833100b5592a2951884cd537f0ea5c04815ff5ee27cbe30c2825f25340",
+      "bytes": 48902
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000269.jpg",
+      "sha256": "922e1bf7b27faa799f2603e7751bffbf495bf15fdd27159f148c8ae5ee030e6e",
+      "bytes": 51231
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000270.jpg",
+      "sha256": "cd19e1aed3c4753ca283e4a892df5c5e1d8cb7c20dd2130de0885572a88eb369",
+      "bytes": 45037
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000271.jpg",
+      "sha256": "dfc6550ff0cab8879b84b6178183cd0c295e0e8d45a93cf5c82edac175523f61",
+      "bytes": 37002
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000272.jpg",
+      "sha256": "49f52708855b35a5deb4391bc508871b29b1ff7ef2a51793e762a82a987e1389",
+      "bytes": 43819
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000273.jpg",
+      "sha256": "ca46090f9e500ad014beaefc007efc3a7c732917e489e8ec0ad097135b1db68d",
+      "bytes": 42297
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000274.jpg",
+      "sha256": "7f808c675f8e6b74c92f226f79c70360127972c7af10602ab2f86725ca17f632",
+      "bytes": 36053
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000275.jpg",
+      "sha256": "a0da83043ac527e19b0b7f32311cfb5cc51df7e8dfbcacc7c67e9da410d80dde",
+      "bytes": 55790
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000276.jpg",
+      "sha256": "462519cf44c0adf4c015ac6067b689828d6f4acea2ec1928ec397e1be40f1dbd",
+      "bytes": 44985
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000277.jpg",
+      "sha256": "59d0f63d67ce9142da5e3047b2d68e0f09c3eb1d9f65335ed1589f536c176e81",
+      "bytes": 48632
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000278.jpg",
+      "sha256": "c5a1bf11c356da4b2b3aa13903c9ad4ac56cff1265d3bb96bd6f2c22c56d9e97",
+      "bytes": 54630
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000279.jpg",
+      "sha256": "f065aa2aadf3b900d759b9d5ac0fff7f53f56ab027ccac9fe40dc360e275f62e",
+      "bytes": 44773
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000280.jpg",
+      "sha256": "85be428f9e88cced7af9257ab16116857f67f831092fa264d70bab18d9a530d2",
+      "bytes": 44942
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000281.jpg",
+      "sha256": "9357ad9886cb49185c8ddf6e316f81ac5084b1e073e6f8f6a88f98663a47dc79",
+      "bytes": 34720
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000282.jpg",
+      "sha256": "605f59f2f328a68d6257c0fb127b0f01b8877eea65679b6b534ce619389d2440",
+      "bytes": 31209
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000283.jpg",
+      "sha256": "bc0248661829e18fb18f30f5d3308f8efc090c92db043b211f75d501e10724e4",
+      "bytes": 48516
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000284.jpg",
+      "sha256": "fbd81564a42a732df1f981e6fd3560c38cfb99135da577f719d515fdb54a8604",
+      "bytes": 37391
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000285.jpg",
+      "sha256": "385c2cd412ba90aea99d8e55c6f21c85742cc3d97be6b4d098cbe30dd6ca5c18",
+      "bytes": 43203
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000286.jpg",
+      "sha256": "cf6f3f52426c5c1fbb68432a64d518c3ea0aa46cd6827c834553bfeb3152a8be",
+      "bytes": 40953
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000287.jpg",
+      "sha256": "ec64f6117a2d3aa5e94a627d5d4d8f59178f502e6cf137db35c0f52197fc01b8",
+      "bytes": 52011
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000288.jpg",
+      "sha256": "a4962cb665f6c7e608e07ca3a3a77778b752fbefdb9e7770f1255499b9f328f7",
+      "bytes": 41209
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000289.jpg",
+      "sha256": "ea0d02b27aebed9c8cd06c40f1c2680627369c514fc418226ca60c23db18cc18",
+      "bytes": 40497
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000290.jpg",
+      "sha256": "a7ab18e3c6fd029a3dcb693ffb81dda5a5bc365aa254939efda334c8e483ac0a",
+      "bytes": 46547
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000291.jpg",
+      "sha256": "7846d6d0b0ad9d4904d03088e632a1aae2fe96ba4895adcdffe2f5e4e9c87da2",
+      "bytes": 50560
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000292.jpg",
+      "sha256": "d95306551bf06f717f06b4a85d5810d176be81c1e6052ac530504dc8be5c5c9e",
+      "bytes": 38072
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000293.jpg",
+      "sha256": "987cadefcc957b4048495172987848b4f032e39fb4bda6e3eb942b2410e2c264",
+      "bytes": 54394
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000294.jpg",
+      "sha256": "f7e32d8016107011d9f05de44fd780bd01f4cf3d5ace3473be468e92dbc3b8ed",
+      "bytes": 50549
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000295.jpg",
+      "sha256": "62703cbd50c09a0306b5e8c5927f1110e3b94b40cae789891d7a74203e76c0d6",
+      "bytes": 39315
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000296.jpg",
+      "sha256": "004b1de9acc8e733481ab2f08dae422388d91f6332da3fc7316fd7bdefdfbc2b",
+      "bytes": 48606
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000297.jpg",
+      "sha256": "348b36403a0236d0461342f854e0a629835f692a095a4c532c5edb82738a274a",
+      "bytes": 35152
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000298.jpg",
+      "sha256": "40402dcb5665cd685bce6749ef5ed5b47b0fdc70cf17659dd94afd771aadbe81",
+      "bytes": 36924
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/pred_B2A/000299.jpg",
+      "sha256": "5595e8e41dacf23b9796859872f0ab8cb1364b5d0c179941a514a395daab0aa1",
+      "bytes": 41598
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/outputs/raw_preview.png",
+      "sha256": "318d2621014618b8fc744372a2693a782b00730d8011ed5e98791745c2663014",
+      "bytes": 2027249
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/reference/Part3_Evaluation_Script.ipynb",
+      "sha256": "702a1265433bf2f15c7900c83442c626d10ac0918094d093dde8ef82069d4cef",
+      "bytes": 8866
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/requirements.txt",
+      "sha256": "e5bc935a554aa76485132b5091c709a998a8db7ab130f2d5d2572bfa12680095",
+      "bytes": 250
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/results.md",
+      "sha256": "c01b5b380bbb6dae35a368efb0f4b8d87977b70775960118fe77c27e4cd8814f",
+      "bytes": 642
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/src/Task3_Organize_For_GitHub_UPDATED.ipynb",
+      "sha256": "68490df8f094709fa4429449c22d5424e8719c73f33fe6274ca090fd1f6d3f6d",
+      "bytes": 40290
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/src/audit.py",
+      "sha256": "2a8077fd7aa1a2b80b2abab1a6a9ecdf403b06d40498d7229a96510b76c68608",
+      "bytes": 5149
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/src/background.py",
+      "sha256": "0c5fff98a126bdbc06c176ef4285edb73c9c9d92386d95f7bd807822795e3d7e",
+      "bytes": 4293
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/src/checkpointing.py",
+      "sha256": "ccc09bf77a6eda955fe9d640d6ae80fd208924bb2529fb829407584c9245a5f0",
+      "bytes": 2715
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/src/collect_evidence.py",
+      "sha256": "6336e3d81509f2c7c863ce03e68464f56d257d6edb97aa9363f96c94f17021e9",
+      "bytes": 1571
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/src/common.py",
+      "sha256": "4bd27b527265881e852a4276344388f5e39516e613ebe13dcce93aec7e7e0d38",
+      "bytes": 4171
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/src/data.py",
+      "sha256": "26d1778c26da2f8942e4f86504f24d3d0b19eb0e19ca49f2ecfb277f77df2447",
+      "bytes": 5822
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/src/evaluate_official.py",
+      "sha256": "76e281e2baf88d86fc721fab7612d1a93d591f94604c530e1a5df9c59e0bad3f",
+      "bytes": 6341
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/src/infer.py",
+      "sha256": "a9945360538fcd1a0e3c98c554a7f9c9c7fd80ec9aaa059966e23a11f57bcdab",
+      "bytes": 3796
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/src/metrics.py",
+      "sha256": "fbc8c434928c626ebc1977f4f1b5ac27fd561b995a89c1e49548060741b05eac",
+      "bytes": 5712
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/src/models.py",
+      "sha256": "115b88a6c60958dcf9c70b5cf9528696c4d327a63a984b913106b6b021514bb9",
+      "bytes": 3062
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/src/package_code.py",
+      "sha256": "22a78a0c51e06db3e8a5025ed77a8841fa15f4bfa46431556803280a2af4d09f",
+      "bytes": 1321
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/src/preflight.py",
+      "sha256": "c610efb2cf30e87b00f5832e2955aea17128f9b06e6802418f95f8abc2cee530",
+      "bytes": 1079
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/src/record_submission.py",
+      "sha256": "ee97fb86f794c430c047dad775e2cb8fcb0d6d85dc45f271054b34ff107486d2",
+      "bytes": 2344
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/src/report.py",
+      "sha256": "2e6738066cb0b63725b3db1ee742c3292823c08333c0dbaff50ff53a535244f5",
+      "bytes": 5284
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/src/select_checkpoint.py",
+      "sha256": "13a5a2bec4ebcdf98b2c567dfb7036d870823578d442b341e9f560a282c10143",
+      "bytes": 1989
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/src/smoke_test.py",
+      "sha256": "5731b5b4a38dc5c3526edcd2fc7be88ca399a8219bd5796cf981b84f663da2d6",
+      "bytes": 7384
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/src/task3_lab.ipynb",
+      "sha256": "158a1aa637ab89cf6d6086caeb5ee11278fee9634ac14b2ad523b73c198f0db7",
+      "bytes": 26663
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/src/train.py",
+      "sha256": "fb4f317b35708d0824e39709175758b876463f21b4f1dc324ce6f25c1ed724ae",
+      "bytes": 16881
+    },
+    {
+      "path": "task3_gan/Pramod_Dindukurthi/submission.csv",
+      "sha256": "974740981c8365aaa94e574c2a0537475748f10a5fa5319a171caf2fb4232ef9",
+      "bytes": 56
+    }
+  ],
+  "note": "Copied-file hashes; generated documentation and this inventory are not included."
+}

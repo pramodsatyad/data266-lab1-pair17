@@ -1,0 +1,84 @@
+{
+  "created_utc": "2026-10-03T06:28:34.570679+00:00",
+  "python": "3.10.13 (main, Sep 11 2023, 13:44:35) [GCC 11.2.0]",
+  "platform": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.31",
+  "cpu": "AMD Ryzen 9 7950X 16-Core Processor",
+  "cpu_count": 32,
+  "gpu": [
+    {
+      "name": "NVIDIA GeForce RTX 4090",
+      "memory_bytes": 25756696576
+    }
+  ],
+  "cuda": "12.1",
+  "cudnn": 8902,
+  "packages": {
+    "torch": "2.1.2",
+    "torchvision": "0.16.2",
+    "numpy": "1.26.2",
+    "Pillow": "10.0.1",
+    "scipy": "1.15.3",
+    "PyYAML": "6.0.1",
+    "matplotlib": "3.10.9",
+    "torch-fidelity": "0.3.0",
+    "lpips": "0.1.4"
+  },
+  "config": {
+    "image_size": 256,
+    "load_size": 286,
+    "model": {
+      "blocks": 9,
+      "channels": 64,
+      "upsample": "transpose"
+    },
+    "name": "baseline",
+    "seed": 42,
+    "train": {
+      "amp": false,
+      "batch_size": 1,
+      "beta1": 0.5,
+      "beta2": 0.999,
+      "cycle_weight": 10.0,
+      "decay_start": 175352,
+      "deterministic": true,
+      "ema_decay": 0.999,
+      "identity_weight": 5.0,
+      "keep_every": 2000,
+      "log_every": 25,
+      "lr": 0.0002,
+      "max_hours": 12.5,
+      "max_steps": 350704,
+      "num_workers": 2,
+      "pool_size": 50,
+      "preview_every": 500,
+      "save_every": 500,
+      "save_minutes": 5
+    }
+  },
+  "code_version": "uncommitted",
+  "source_sha256": "648c6f1f5513e1005c6523a4dc5afb98bf1b3bd898a7af6de9e1df48f280151a",
+  "domain_A": "Monet",
+  "domain_B": "Photo",
+  "split_sha256": "f1b19d249f68201ccddb578804f5c23998cc6085e3c55dcfaecef1b293c84783",
+  "start_step": 112805,
+  "segment": "2026-10-03T06-28-15.371761+00-00_9048b7",
+  "session_hours": 1.0,
+  "parameters": {
+    "G_A2B": 11378179,
+    "G_B2A": 11378179,
+    "D_A": 2764737,
+    "D_B": 2764737
+  },
+  "ended_utc": "2026-10-03T07:28:25.017979+00:00",
+  "end_step": 139130,
+  "session_wall_seconds": 3609.793701925002,
+  "training_seconds": 14676.200847229898,
+  "source_images_seen": 278260,
+  "source_images_per_second": 18.95994766605562,
+  "nan_count": 0,
+  "inf_count": 0,
+  "peak_gpu_memory_bytes": 2709445120,
+  "checkpoint": "checkpoints/latest_checkpoint.pt",
+  "checkpoint_sha256": "b1a1ffeacd9e9fdb61215ee5f6bdf565285a2ac0e9ee889c4cb8dea0e16f53e7",
+  "schedule_complete": false
+}

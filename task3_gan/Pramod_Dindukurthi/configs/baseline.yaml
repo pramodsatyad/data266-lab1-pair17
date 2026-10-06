@@ -1,0 +1,28 @@
+name: baseline
+seed: 42
+image_size: 256
+load_size: 286
+model:
+  channels: 64
+  blocks: 9
+  upsample: transpose
+train:
+  batch_size: 1
+  num_workers: 2
+  max_steps: 20000
+  decay_start: 10000
+  lr: 0.0002
+  beta1: 0.5
+  beta2: 0.999
+  cycle_weight: 10.0
+  identity_weight: 5.0
+  pool_size: 50
+  ema_decay: 0.999
+  amp: false
+  deterministic: true
+  log_every: 25
+  save_every: 500
+  save_minutes: 5
+  preview_every: 500
+  keep_every: 2000
+  max_hours: 6.0

@@ -1,0 +1,9 @@
+{
+  "parent_checkpoint_sha256": "346f84cbd5cc7ab9a6cc143d85b48f743002be45e2b4a841b5e0c464f11cb94f",
+  "parent_step": 350704,
+  "models": "raw generators and discriminators",
+  "optimizers": "fresh Adam",
+  "replay_pools": "empty",
+  "ema": "initialized from raw generators",
+  "dataset_index_offset": 350704
+}

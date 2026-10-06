@@ -1,0 +1,15 @@
+{
+  "checkpoint_sha256": "2c2124442ae6a8665b811ec7c98c1ef29c2f689ea010f26386a9450f32fa2614",
+  "weights": "raw",
+  "pilot_step": 5000,
+  "main_updates": 350704,
+  "ancestry_updates": 355704,
+  "export_dir": "outputs/selected_validation_2c2124442ae6_20261006T071131_193859Z",
+  "export_manifest_sha256": "6dbcf9cbff65741357c9d2c31158186f401669daa163f71448aae656d48c4b09",
+  "evaluation_script_sha256": "3f1199c7cb7486e560c5b8ef771b99bb8a6d487fefba8670c772f2bf9546ae94",
+  "full_metrics_report_sha256": "6210154e455d2b13d7065b97970cb922a613affe15de659042403c4c6c04cc85",
+  "note": "Held-out local diagnostics; official CSV is preserved. Training/loss statistics and completed human ratings still need to be integrated.",
+  "canonical_full_metrics_report_sha256": "0a29ec382caaecea471752e1ce24e3a0d9e96f6bb57751f1f3fa3c59ad9576cc",
+  "canonical_metrics_report_sha256": "0a29ec382caaecea471752e1ce24e3a0d9e96f6bb57751f1f3fa3c59ad9576cc",
+  "selected_training_statistics": "evidence/selected_training_statistics.json"
+}

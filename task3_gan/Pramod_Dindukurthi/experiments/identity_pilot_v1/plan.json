@@ -1,0 +1,28 @@
+{
+  "parent_checkpoint": "/app/task3_gan/Pramod_Dindukurthi/checkpoints/evaluation/step_00350704.pt",
+  "parent_checkpoint_sha256": "346f84cbd5cc7ab9a6cc143d85b48f743002be45e2b4a841b5e0c464f11cb94f",
+  "parent_step": 350704,
+  "data_root": "/app/task3_gan/data",
+  "backup_root": "/app/backups/task3/pilots/identity_pilot_v1",
+  "source_sha256": {
+    "audit.py": "2a8077fd7aa1a2b80b2abab1a6a9ecdf403b06d40498d7229a96510b76c68608",
+    "background.py": "0c5fff98a126bdbc06c176ef4285edb73c9c9d92386d95f7bd807822795e3d7e",
+    "checkpointing.py": "ccc09bf77a6eda955fe9d640d6ae80fd208924bb2529fb829407584c9245a5f0",
+    "collect_evidence.py": "6336e3d81509f2c7c863ce03e68464f56d257d6edb97aa9363f96c94f17021e9",
+    "common.py": "4bd27b527265881e852a4276344388f5e39516e613ebe13dcce93aec7e7e0d38",
+    "data.py": "26d1778c26da2f8942e4f86504f24d3d0b19eb0e19ca49f2ecfb277f77df2447",
+    "evaluate_official.py": "76e281e2baf88d86fc721fab7612d1a93d591f94604c530e1a5df9c59e0bad3f",
+    "infer.py": "a9945360538fcd1a0e3c98c554a7f9c9c7fd80ec9aaa059966e23a11f57bcdab",
+    "metrics.py": "fbc8c434928c626ebc1977f4f1b5ac27fd561b995a89c1e49548060741b05eac",
+    "models.py": "115b88a6c60958dcf9c70b5cf9528696c4d327a63a984b913106b6b021514bb9",
+    "package_code.py": "22a78a0c51e06db3e8a5025ed77a8841fa15f4bfa46431556803280a2af4d09f",
+    "preflight.py": "c610efb2cf30e87b00f5832e2955aea17128f9b06e6802418f95f8abc2cee530",
+    "record_submission.py": "ee97fb86f794c430c047dad775e2cb8fcb0d6d85dc45f271054b34ff107486d2",
+    "report.py": "2e6738066cb0b63725b3db1ee742c3292823c08333c0dbaff50ff53a535244f5",
+    "select_checkpoint.py": "13a5a2bec4ebcdf98b2c567dfb7036d870823578d442b341e9f560a282c10143",
+    "smoke_test.py": "5731b5b4a38dc5c3526edcd2fc7be88ca399a8219bd5796cf981b84f663da2d6",
+    "train.py": "fb4f317b35708d0824e39709175758b876463f21b4f1dc324ce6f25c1ed724ae"
+  },
+  "worker_sha256": "c1a31072e8c48faf28635b3e8f6409914a48bdf7019f2cc440ab5fae9affa674",
+  "design": "two arms; raw warm start; fresh Adam; 20k updates; lr 5e-5; cycle 10; identity 5 vs 2.5"
+}
