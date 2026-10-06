@@ -146,33 +146,3 @@ def write_predictions(dataset, generator, out_dir, device, batch_size=16, qualit
         for i, array in zip(range(start, stop), pixels):
             Image.fromarray(array).save(out_dir / files[i].name, quality=quality)
     return len(files)
-
-
-CRITERIA = ["style", "content", "artifacts"]
-
-
-def audit_results(sheet_1, sheet_2):
-    from sklearn.metrics import cohen_kappa_score
-
-    if not (Path(sheet_1).exists() and Path(sheet_2).exists()):
-        return "The audit sheets are not there yet."
-    first = pd.read_csv(sheet_1).set_index("code")
-    second = pd.read_csv(sheet_2).set_index("code")
-    for sheet in (first, second):
-        scores = sheet[CRITERIA].apply(pd.to_numeric, errors="coerce")
-        if scores.isna().any().any() or not scores.isin([1, 2, 3, 4, 5]).all().all():
-            return "The audit sheets are not filled in yet. Fill both with scores from 1 to 5, then run this section again."
-    if set(first.index) != set(second.index):
-        return "The two sheets do not have the same codes."
-    second = second.loc[first.index]
-    rows = {}
-    for name in CRITERIA:
-        a, b = first[name].astype(int), second[name].astype(int)
-        rows[name] = {
-            "rater 1 average": a.mean(),
-            "rater 2 average": b.mean(),
-            "average score": (a.mean() + b.mean()) / 2,
-            "weighted kappa": cohen_kappa_score(a, b, weights="quadratic", labels=[1, 2, 3, 4, 5]),
-            "agreement %": 100 * (a == b).mean(),
-        }
-    return pd.DataFrame(rows).T
