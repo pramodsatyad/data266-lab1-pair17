@@ -1,0 +1,13 @@
+{
+  "model": "baseline",
+  "device": "NVIDIA GeForce RTX 4090",
+  "parameters": 3840129,
+  "epochs_run": 5,
+  "stopped_early": false,
+  "best_epoch": 4,
+  "best_val_macro_f1": 0.9278954999581523,
+  "total_training_time_s": 9.45743703842163,
+  "examples_per_sec": 103107.22195329348,
+  "peak_memory_mb": 139.51025390625,
+  "nan_losses": 0
+}

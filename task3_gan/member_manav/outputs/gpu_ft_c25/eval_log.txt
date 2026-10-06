@@ -1,0 +1,6 @@
+checkpoint step 155000: quick score 51.04 | overall score 40.82 <- chosen
+checkpoint step 160000: quick score 51.05 | overall score 41.17
+checkpoint step 145000: quick score 51.40 | overall score 41.66
+chosen checkpoint: ema_step155000.pt
+translated 300 Monets to pred_A2B and 7038 photos to pred_B2A
+translation speed: 66.4 images/sec

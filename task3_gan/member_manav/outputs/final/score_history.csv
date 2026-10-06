@@ -1,0 +1,15 @@
+run,steps,what_changed,scorer,a2b_fid,b2a_fid,mifid,score,kaggle_ref
+baseline,112805,"early baseline submission, step 112805, EMA",unknown (early submission),,,,53.0607,56790913
+100K run,100000,"identity weight 5, cycle weight 10, trained from scratch",official script,,,0.4210531711578369,53.9224,
+ft_id1,120000,"identity weight 5 to 1, cycle weight stays 10",official script,,,0.4199681580066681,52.9404,56811057
+ft_c5,140000,"cycle weight 10 to 5, identity weight to 0",official script,,,0.4172453135251999,52.0150,56868822
+ft_c25,160000,cycle weight 5 to 2.5,quick scorer,103.42425410275266,100.00962562964975,0.41698266565799713,51.0669612659296,
+ft_c1,180000,cycle weight 2.5 to 1.0,quick scorer,102.88528694441327,99.71409572536454,0.4133583754301071,50.856524855159506,
+avg5,160000;165000;170000;175000;180000 (5 files),average of ft_c25 (160K) and ft_c1 (165K-180K),official script,102.88812450575963,98.5899077775027,0.4140610247850418,50.5826,56871566
+swa final,216000;218000;220000;222000;224000;226000 (6 files),"constant lr 5e-5, average of 6 EMA files",official script,100.948050,94.374694,0.41027404367923737,49.0330,56890592
+swa range 184K,184000-226000 (22 files),"average of EMA files, not chosen",quick scorer,100.970110,96.114785,0.4112,49.4768,
+swa range 200K,200000-226000 (14 files),"average of EMA files, not chosen",quick scorer,101.092236,96.012576,0.4105905,49.4815,
+swa range 210K,210000-226000 (9 files),"average of EMA files, not chosen",quick scorer,100.872802,95.153213,0.4093585,49.2112,
+id05_sn,0-60000 (stopped),"fresh run, spectral-norm discriminator, identity 0.5, cycle 10",quick scorer,112.4,109.6,0.420,55.72,
+arch2,0-15000 (stopped),"fresh run, resize upsampling, 2-scale discriminator, identity 0.5, cycle 5",quick scorer,129.4,131.0,0.414,65.31,
+ft_c05,160000-165000 (stopped),"branch off ft_c25 (160K), cycle weight to 0.5",quick scorer,107.3,100.3,0.415,52.09,

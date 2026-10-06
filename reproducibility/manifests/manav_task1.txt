@@ -1,0 +1,53 @@
+Task 1 (char-level GPT from scratch, TinyStories) - reproducibility manifest
+Author: Manav Patel
+
+Environment
+-----------
+OS: Windows 11 Pro
+GPU: NVIDIA GeForce RTX 4090
+Python: 3.11.9
+torch: 2.14.1+cu132 (CUDA build 13.2)
+
+Task 1 package versions
+------------------------
+numpy==2.2.6
+pandas==2.2.2
+matplotlib==3.10.9
+PyYAML==6.0.1
+datasets==5.0.1
+nbconvert==7.17.1
+ipykernel==6.29.5
+
+Dataset
+-------
+roneneldan/TinyStories
+train_stories: 100000
+val_stories: 10000
+seed: 42
+
+Config
+------
+task1_llm/member_manav/configs/gpu.yaml
+  n_layer: 6
+  n_head: 6
+  n_embd: 384
+  block_size: 256
+  batch_size: 64
+  epochs: 10
+  lr: 6.0e-4
+  weight_decay: 0.1
+  warmup_steps: 1000
+  grad_clip: 1.0
+
+Result
+------
+parameter count: 10827379
+total training time (s): 2718.062723875046
+best val loss: 0.5332 (final val loss 0.5331978477710393)
+device name: NVIDIA GeForce RTX 4090
+
+Checkpoint
+----------
+outputs/gpu/checkpoints/best.pt (full training state)
+Weights-only copy committed to the repo:
+  checkpoints/manav_task1_weights.pt

@@ -1,0 +1,36 @@
+seed: 42
+output_dir: outputs/local
+
+data:
+  dataset: roneneldan/TinyStories
+  train_stories: 2000
+  val_stories: 200
+  separator: "<|endoftext|>"
+  processed_dir: data_processed/local
+
+model:
+  n_layer: 2
+  n_head: 2
+  n_embd: 64
+  block_size: 64
+  dropout: 0.1
+
+train:
+  batch_size: 32
+  epochs: 1
+  lr: 1.0e-3
+  weight_decay: 0.1
+  warmup_steps: 100
+  grad_clip: 1.0
+  log_every: 100
+  spike_factor: 3.0
+
+generate:
+  max_new_tokens: 200
+  temperatures: [0.8, 1.0]
+  prompts:
+    - "Once upon a time"
+    - "One day, a little girl"
+    - "The dog was"
+    - "Tom and his mom"
+    - "It was a sunny day"

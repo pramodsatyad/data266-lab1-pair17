@@ -1,0 +1,43 @@
+seed: 42
+run_name: local
+
+paths:
+  processed_dir: data_processed/local
+  checkpoint_dir: checkpoints/local
+  output_dir: outputs/local
+
+data:
+  dataset: fancyzhx/yelp_polarity
+  train_samples: 5000
+  val_samples: 1000
+  test_samples: 2000
+  max_len: 128
+  max_vocab: 20000
+  min_freq: 2
+
+train:
+  epochs: 1
+  batch_size: 64
+  patience: 2
+  weight_decay: 0.01
+  grad_clip: 1.0
+  warmup_ratio: 0.1
+  log_every: 20
+
+models:
+  baseline:
+    embed_dim: 128
+    dropout: 0.2
+    lr: 2.0e-3
+  bilstm:
+    embed_dim: 128
+    hidden: 128
+    layers: 1
+    dropout: 0.3
+    lr: 1.0e-3
+  bilstm_attn:
+    embed_dim: 128
+    hidden: 128
+    layers: 2
+    dropout: 0.3
+    lr: 1.0e-3

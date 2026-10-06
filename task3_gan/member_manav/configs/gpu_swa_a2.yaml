@@ -1,0 +1,40 @@
+seed: 42
+run_name: gpu_swa_a2
+
+paths:
+  data_dir: ../data
+  checkpoint_dir: checkpoints/gpu_swa_a2
+  output_dir: outputs/gpu_swa_a2
+
+data:
+  image_size: 256
+  load_size: 286
+  monet_limit: null
+  photo_limit: null
+  num_workers: 4
+
+train:
+  total_steps: 280000
+  decay_start: 280000
+  batch_size: 1
+  lr: 5.0e-5
+  betas: [0.5, 0.999]
+  ema_decay: 0.999
+  pool_size: 50
+  lambda_cycle: 1.0
+  lambda_identity: 0
+  diffaug: "color,translation,cutout"
+  ckpt_every: 5000
+  ema_save_every: 2000
+  eval_every: 5000
+  eval_photos: 1000
+  log_every: 200
+  quick_metric: official
+
+model:
+  n_res_blocks: 9
+  ngf: 64
+  ndf: 64
+
+output:
+  jpg_quality: 95

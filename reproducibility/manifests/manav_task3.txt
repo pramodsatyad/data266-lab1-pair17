@@ -1,0 +1,62 @@
+Task 3 (CycleGAN, Monet style transfer) - reproducibility manifest
+Author: Manav Patel
+
+Environment
+-----------
+OS: Windows 11 Pro
+GPU: NVIDIA GeForce RTX 4090
+Python: 3.11.9
+torch: 2.14.1+cu132 (CUDA build 13.2)
+torchvision: 0.29.1+cu132
+
+Task 3 requirements (pip freeze, as installed in .venv)
+---------------------------------------------------------
+pillow==10.3.0
+scipy==1.13.0
+numpy==2.2.6
+pyyaml==6.0.1
+pandas==2.2.2
+matplotlib==3.10.9
+torchmetrics==1.9.0
+torch_fidelity==0.4.0
+lpips==0.1.4
+nbconvert==7.17.1
+ipykernel==6.29.5
+scikit-learn==1.4.2
+
+Config
+------
+task3_gan/member_manav/configs/gpu.yaml
+  total_steps: 100000
+  decay_start: 60000
+  (image_size 256, batch_size 1, lr 2e-4, ema_decay 0.999)
+
+Run history
+-----------
+1. First run: trained 0 -> 60000 steps with gpu.yaml (total_steps 60000, decay_start 30000).
+   Best checkpoint: step 60000. overall FID 96.3556, MiFID 0.4197, score 48.3876.
+   Kaggle public score: -48.3876
+2. Extended run: resumed from checkpoints/gpu/last.pt at step 60000, changed gpu.yaml to
+   total_steps 80000 and decay_start 40000, trained on to step 80000.
+   Best checkpoint: step 80000. overall FID 90.8055, MiFID 0.4175, score 45.6115.
+   Kaggle public score: -45.6115
+3. Second extended run: resumed from checkpoints/gpu/last.pt at step 80000, changed gpu.yaml to
+   total_steps 100000 and decay_start 60000, trained on to step 100000.
+   Best checkpoint: step 100000. overall FID 88.3184, MiFID 0.4158, score 44.3671.
+   Kaggle public score: -44.3670 (new best)
+
+Winning checkpoint
+-------------------
+checkpoints/gpu/ema_step100000.pt
+Weights-only copies committed to the repo:
+  checkpoints/manav_task3_G_A2B.pt
+  checkpoints/manav_task3_G_B2A.pt
+
+Final result
+------------
+A2B: FID 88.44220830786003, MiFID 0.41782497859610807, score 44.430016643228065
+B2A: FID 88.19452374516527, MiFID 0.413733111674908, score 44.304128428420086
+overall FID: 88.31836602651265
+overall MiFID: 0.415779045135508
+overall score: 44.36707253582408
+Kaggle public score: -44.3670

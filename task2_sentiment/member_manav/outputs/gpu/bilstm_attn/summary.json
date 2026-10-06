@@ -1,0 +1,13 @@
+{
+  "model": "bilstm_attn",
+  "device": "NVIDIA GeForce RTX 4090",
+  "parameters": 4499970,
+  "epochs_run": 5,
+  "stopped_early": false,
+  "best_epoch": 4,
+  "best_val_macro_f1": 0.9433961939600819,
+  "total_training_time_s": 380.2225298881531,
+  "examples_per_sec": 2533.4097964158727,
+  "peak_memory_mb": 520.4482421875,
+  "nan_losses": 0
+}
