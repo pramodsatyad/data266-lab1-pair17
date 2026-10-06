@@ -334,7 +334,7 @@ def load_generators(cfg, ckpt_path, device):
         weights = [state["G_A2B"], state["G_B2A"]]
     nets = []
     for w in weights:
-        net = ResNetGenerator(cfg["model"]["ngf"], cfg["model"]["n_res_blocks"])
+        net = ResNetGenerator(cfg["model"]["ngf"], cfg["model"]["n_res_blocks"], cfg["model"].get("upsample", "transpose"))
         net.load_state_dict(w)
         nets.append(net.to(device).eval())
     return nets
