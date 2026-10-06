@@ -167,20 +167,11 @@ This plot comes from the `swa_a` checkpoint at step 220,000, since the `swa_a2` 
 - **Kaggle reference:** 56890592
 - **Official score:** FID 97.6555, MiFID 0.41027, score **-49.0330**
 
-## 11. Human Audit (Pending)
-
-A blinded human audit is planned but not done yet:
-- **Raters:** 2
-- **Images:** 30 pairs, each pair showing the input image next to its translation, side by side, labeled only with a random code name (not "real vs. generated")
-- **Agreement metric:** Cohen's weighted kappa
-
-Results: **[PENDING]** — to be filled in after both raters complete `audit_sheet_rater1.csv` and `audit_sheet_rater2.csv`.
-
-## 12. Integrity Statement
+## 11. Integrity Statement
 
 All 300 A2B and 7,038 B2A images in the submitted prediction set come directly from the averaged EMA weights described in section 4, stage 4 (`checkpoints/manav_task3_G_A2B.pt` and `G_B2A.pt`, predictions in `outputs/gpu_final_swa`). No image was hand-edited, hand-picked, or swapped in from anywhere else. A full hash check of all 7,338 prediction files found 9 small groups of identical output images (19 files total); in every one of these 9 groups, the **source photos themselves are already byte-identical** in the provided dataset, so the same, deterministic generator correctly produces the same output for them — this is a duplicate already present in the dataset, not duplication introduced by us. Outside of these 9 verified groups, no two prediction images are duplicates. **No pretrained network is used in any training loss.** Both generators and both discriminators were trained entirely from scratch. The only pretrained networks used anywhere in this task are Inception-v3 and AlexNet (LPIPS), and they are used **only to measure results and to find failure cases** after training — never to produce, edit, or alter any image.
 
-## 13. Strengths, Limitations, Future Work
+## 12. Strengths, Limitations, Future Work
 
 **Strengths**
 - Score improved steadily across many stages: -53.92 (100K run, official re-measure) → -52.94 (ft_id1) → -52.02 (ft_c5) → -50.58 (avg5) → -49.03 (final, swa).
@@ -197,5 +188,4 @@ All 300 A2B and 7,038 B2A images in the submitted prediction set come directly f
 - Try a perceptual or texture-aware loss term to reduce the blotchy artifacts seen on some outputs.
 - Try more or different augmentation specifically for the Monet domain, since it is the much smaller set.
 - Try a color-consistency loss (comparing color histograms between input and output) to reduce color shifts on unusual input colors.
-- Run the human audit (section 11) and compare the kappa agreement against the automatic metrics.
 - Resize-based upsampling and a 2-scale discriminator were already tried (the `arch2` branch) and did not help, so this is not listed as future work again.

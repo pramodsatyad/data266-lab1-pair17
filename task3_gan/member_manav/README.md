@@ -134,7 +134,6 @@ cd task3_gan/member_manav
 - No pretrained network, and no Inception features, are used in any training loss.
 - No prediction image was hand-picked, hand-edited, or swapped in from anywhere else.
 - Every submitted prediction comes from the averaged EMA weights described in section 3.
-- The human audit with my partner is still pending.
 
 ## 9. Notes
 

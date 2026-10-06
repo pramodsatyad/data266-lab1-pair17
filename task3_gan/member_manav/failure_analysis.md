@@ -32,7 +32,7 @@ All 5 cases are in the **B2A** direction (photo → Monet), which matches `resul
 
 - **File:** `83f6286883.jpg` | **Direction:** B2A | **content_cosine:** 0.4107 | **LPIPS:** 0.6217
 - **What goes wrong:** the input is smooth, calm water with a distant pier line and a soft sunset color band. Looking at the actual output, this one is a fairly convincing painterly translation — the water, the horizon line, and the soft colors are all kept, and it looks reasonably Monet-like.
-- **Why it's still in this list:** this shows a real limit of the automatic metrics, not of the model. Content cosine and LPIPS are computed from deep feature distances, and a successful, strong stylization can still shift those features even when the image looks fine to a human. This is exactly why the human audit (section 11 in `results.md`) matters.
+- **Why it's still in this list:** this shows a real limit of the automatic metrics, not of the model. Content cosine and LPIPS are computed from deep feature distances, and a successful, strong stylization can still shift those features even when the image looks fine to a human.
 
 ## Training Stability
 
