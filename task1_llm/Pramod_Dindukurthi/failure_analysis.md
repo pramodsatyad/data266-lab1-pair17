@@ -1,115 +1,55 @@
 # Task 1 — Sequence Model Failure Analysis
 
-Choose three actual generated-text failures.
+Three representative failure cases were selected from the actual generated samples.
 
-## Candidate 1
+## Failure Case 1 — Repetitive Loop
 
-**Prompt:** Once upon a time
+**Prompt:** `Once upon a time`  
+**Decoding:** Greedy
 
-**Method:** greedy
+**Generated snippet:**
 
-```text
-Once upon a time, there was a little girl named Lily. She loved to play outside in the sun. One day, she saw a big box in the garden. It was a big box with a big box of colors. She wanted to make a colorful box of colors. She wanted to make a colorful colorful colors and show her mom the colors. She wanted to make a colorful colorful colors and show her mom the colors. She wanted to make a colorful colorful colors and show her mom the colors. She wanted to make a colorful colorful colors and show her mom the co
-```
+> She wanted to make a colorful colorful colors and show her mom the colors. She wanted to make a colorful colorful colors and show her mom the colors.
 
-**Failure type:** [repetition / broken grammar / loss of coherence / hallucination / other]
+**Failure type:** Repetition / degeneration
 
-**Observation:** [fill in after reviewing the actual output]
+**Observation:**  
+The greedy decoder repeatedly selects the locally highest-probability continuation and becomes trapped in a phrase loop. The sentence remains locally grammatical, but the story stops progressing. This behavior is consistent with the high repeated 4-gram rate observed for greedy decoding.
 
-## Candidate 2
+---
 
-**Prompt:** Once upon a time
+## Failure Case 2 — Entity and Narrative Drift
 
-**Method:** temperature_0.8
+**Prompt:** `There was a small dragon`  
+**Decoding:** Temperature sampling (`temperature=0.8`)
 
-```text
-Once upon a time, there was a little girl named Lily. She had a playful doll named Spot. Spot loved to play outside in his garden. One day, something amazing happened. When he was finished, a little girl named Lily saw the magical tree and wanted to go out and explore it. She ran to her mom and asked her to go home and play with her toys.
+**Generated snippet:**
 
-Her mom understood and told her to help. "Be careful, Lily, it's time to go home. Let's go home and play again."
+> There was a small dragon named Daisy... When she found the box, Lily was so happy! "I think it was a fire joke!" Tom said.
 
-Lily took a deep breath and said, "Thank you, Max. I will ma
-```
+**Failure type:** Loss of coherence / character inconsistency
 
-**Failure type:** [repetition / broken grammar / loss of coherence / hallucination / other]
+**Observation:**  
+The generation starts with Daisy as the main character but unexpectedly introduces Lily and Tom without establishing a relationship between them. Temperature sampling improves diversity, but the added randomness can weaken long-range entity consistency.
 
-**Observation:** [fill in after reviewing the actual output]
+---
 
-## Candidate 3
+## Failure Case 3 — Semantic Contradiction and Repetition
 
-**Prompt:** One day, a little girl
+**Prompt:** `Tom went to the forest`  
+**Decoding:** Greedy
 
-**Method:** greedy
+**Generated snippet:**
 
-```text
-One day, a little girl named Lily went to the park with her mommy. They saw a big box of cars on the shelf. Lily wanted to play with them, but she was too scared. She wanted to play with them and they went to the shelf. She saw them and they were scared. She wanted to help them.
+> It is a bad dog. It is not a bad dog. It is a bad dog. It is bad. It hurts a lot.
 
-"Help, help!" she cried. "Help! Help!"
+**Failure type:** Semantic contradiction / repetition
 
-The dog barked and ran to the dog. He saw the dog and the dog. He was scared. He did not want to go home. He wanted to play with the dog.
+**Observation:**  
+The output contains directly contradictory statements about the dog and repeats similar short clauses. The model captures local TinyStories-style syntax but has limited ability to maintain consistent global meaning over longer generations.
 
-"Help, help!" Tom shouted. "Help! Help!"
+---
 
-The dog barked and r
-```
+## Overall Observation
 
-**Failure type:** [repetition / broken grammar / loss of coherence / hallucination / other]
-
-**Observation:** [fill in after reviewing the actual output]
-
-## Candidate 4
-
-**Prompt:** One day, a little girl
-
-**Method:** temperature_0.8
-
-```text
-One day, a little girl saw Sarah explaining that she was having a passport in her hands. She wanted to know what was inside, but her mother was sad.
-
-"Don't worry, sweetie. We can stay better next time. Let's take a closer look and excited to see it!" Lily said, laughing.
-
-They ran to the castle and ran to Mommy and Daddy. They hugged her and said, "Thank you, mommy. I love you. And I love you."
-
-Once upon a time there was a little girl named Sarah. She was very curious and always looked everywhere. One day, Sarah wa
-```
-
-**Failure type:** [repetition / broken grammar / loss of coherence / hallucination / other]
-
-**Observation:** [fill in after reviewing the actual output]
-
-## Candidate 5
-
-**Prompt:** There was a small dragon
-
-**Method:** greedy
-
-```text
-There was a small dragon named Daisy. Daisy was very scared and didn't know what to do. She wanted to go outside and play with her friends. She wanted to see the big boy and the big boy. She wanted to see the big boy and the big boy. She wanted to see the big boy and the big boy. The boy was scared and didn't know what to do. He wanted to help the boy find his way back home. He was so happy to have his friends and they all had a great time playing together.
-
-Once upon a time, there was a little girl named Lily. She lov
-```
-
-**Failure type:** [repetition / broken grammar / loss of coherence / hallucination / other]
-
-**Observation:** [fill in after reviewing the actual output]
-
-## Candidate 6
-
-**Prompt:** There was a small dragon
-
-**Method:** temperature_0.8
-
-```text
-There was a small dragon named Daisy. Daisy was holding a picture of a small fruit. Daisy looked everywhere, but she couldn't find it. She was brave, so she went to get her magical package. When she found the box, Lily was so happy!
-
-"I think it was a fire joke!" Tom said. "Let's go home."
-
-He ran to the box and opened the box. He opened the box and saw a picture of animals with a wire and a shiny horn. He tried to open it, but it was too late. The box was so big and mean.
-
-"What is that?" Jen asked.
-
-Jenny thought for
-```
-
-**Failure type:** [repetition / broken grammar / loss of coherence / hallucination / other]
-
-**Observation:** [fill in after reviewing the actual output]
+Greedy decoding produced more deterministic text but was substantially more prone to repeated phrase loops. Temperature sampling at 0.8 increased diversity and reduced repeated 4-grams, but sometimes caused entity drift and weaker semantic consistency. These failures reflect the limited long-range modeling capacity of the small character-level GPT.

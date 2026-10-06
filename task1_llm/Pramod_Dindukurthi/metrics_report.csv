@@ -11,7 +11,7 @@ distinct_3_mean,0.531726907630522
 repeated_4gram_rate_mean,0.35955734406438633
 mean_gradient_norm_best_epoch,0.4087015800048535
 max_gradient_norm_best_epoch,0.4550449848175049
-nan_count_total,20.0
+nonfinite_gradient_events_total,20.0
 parameter_count,3217152.0
 trainable_parameter_count,3217152.0
 training_tokens_per_sec_best_epoch,988112.5009863438

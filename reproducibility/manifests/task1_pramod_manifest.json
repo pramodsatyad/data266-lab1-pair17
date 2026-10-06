@@ -1,0 +1,22 @@
+{
+  "task": "Task 1 - Character-Level GPT",
+  "member": "Pramod Dindukurthi",
+  "seed": 42,
+  "python_version": "3.10.13",
+  "platform": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.31",
+  "pytorch_version": "2.1.2",
+  "cuda_runtime": "12.1",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "numpy_version": "1.26.2",
+  "pandas_version": "2.3.3",
+  "datasets_version": "5.1.0",
+  "config": "task1_llm/Pramod_Dindukurthi/config.json",
+  "notebook": "task1_llm/Pramod_Dindukurthi/src/Pramod_DATA266_Lab1_Task1_GPT.ipynb",
+  "checkpoint": "task1_llm/Pramod_Dindukurthi/checkpoints/best_model.pt",
+  "metrics": "task1_llm/Pramod_Dindukurthi/metrics_report.csv",
+  "raw_log": "reproducibility/raw_logs/task1_pramod_training_log.txt",
+  "results": "task1_llm/Pramod_Dindukurthi/results.md",
+  "best_validation_epoch": 10,
+  "parameter_count": 3217152
+}
