@@ -1,0 +1,40 @@
+{
+  "task": "task3_gan",
+  "member": "Pramod_Dindukurthi",
+  "domains": {
+    "A": "Monet",
+    "B": "Photo"
+  },
+  "seed": 42,
+  "main_run": {
+    "updates": 350704,
+    "identity_weight": 5.0,
+    "training_seconds": 37906.13855470719,
+    "checkpoint_sha256": "346f84cbd5cc7ab9a6cc143d85b48f743002be45e2b4a841b5e0c464f11cb94f"
+  },
+  "pilot": {
+    "experiment": "identity_pilot_v1",
+    "selected_arm": "experiment_id2p5",
+    "identity_weight": 2.5,
+    "selected_extra_updates": 5000,
+    "selected_ancestry_updates": 355704,
+    "checkpoint_sha256": "2c2124442ae6a8665b811ec7c98c1ef29c2f689ea010f26386a9450f32fa2614",
+    "checkpoint_in_repository": false
+  },
+  "selection": {
+    "FID_A2B": 99.0354919282813,
+    "FID_B2A": 101.17356171629044,
+    "FID": 100.10452682228586,
+    "MiFID": 0.41117567669069766,
+    "estimated_kaggle_score": -50.25785124948828,
+    "actual_kaggle_score": null,
+    "weights": "raw"
+  },
+  "official_export": {
+    "submission_csv": "task3_gan/Pramod_Dindukurthi/submission.csv",
+    "submission_csv_sha256": "974740981c8365aaa94e574c2a0537475748f10a5fa5319a171caf2fb4232ef9",
+    "export_manifest": "task3_gan/Pramod_Dindukurthi/outputs/export_manifest.json",
+    "images_per_direction": 300
+  },
+  "checkpoint_access_note": "Selected checkpoint is intentionally not committed to ordinary Git when checkpoint_in_repository=false because it is approximately 500 MB. Use the recorded SHA-256 to verify any separately provided copy."
+}

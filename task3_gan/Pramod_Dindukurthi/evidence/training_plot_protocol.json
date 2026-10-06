@@ -1,0 +1,20 @@
+{
+  "main_cutoff": 350704,
+  "pilot_cutoff": 5000,
+  "sampling": "step 1, every stride-th step, and final 101 steps; display subsampling, not smoothing",
+  "main_stride": 175,
+  "pilot_stride": 2,
+  "main_raw_history_sha256": {
+    "history_2026-10-03T00-41-52.243287+00-00_e7b885.csv": "a6f1c1bc48454e51f2049507c910698b5466305c345e77c4ab3e77eca6393f2b",
+    "history_2026-10-03T06-28-15.371761+00-00_9048b7.csv": "3c3557bcd951ee018cd4dd77a3d7283c8a3ba56e9869ff67dd0d2774239a2492",
+    "history_2026-10-03T08-50-45.932272+00-00_cd03cb.csv": "98f7e9e881eb4826a61b0aa55376496d99cf8c0584c170ca0230a714f74e73c7"
+  },
+  "pilot_raw_history_sha256": {
+    "history_2026-10-04T03-10-02.857174+00-00_283c28.csv": "ae7e2c2791f8eb7403e669f23d859a8bd374e9f4b5c41b4517910c150c3fe783",
+    "history_2026-10-04T03-22-18.702898+00-00_8b0ef8.csv": "7ab5d3d496695e2d819a4ba7b08f574b77e62ad48de379bd80a36350d8907864",
+    "history_2026-10-04T03-35-23.041966+00-00_7919c6.csv": "2233b5f80e17a24a917c0845720d4c33e1a8779cd2c8838a10c4bb6e422f9ca9",
+    "history_2026-10-04T03-48-27.759417+00-00_05c86a.csv": "4de6e554c22eeb6617d035c9f60e283287235430eccbdb1e93587e07333cdc0f"
+  },
+  "last100_statistics": "100 recorded optimizer updates ending at selected local step 5000",
+  "memory": "maximum recorded allocated GPU bytes through the selected checkpoint; not total GPU usage"
+}

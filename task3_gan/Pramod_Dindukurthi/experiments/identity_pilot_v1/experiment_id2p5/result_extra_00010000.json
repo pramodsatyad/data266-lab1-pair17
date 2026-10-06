@@ -1,0 +1,14 @@
+{
+  "arm": "experiment_id2p5",
+  "identity_weight": 2.5,
+  "extra_steps": 10000,
+  "parent_plus_extra": 360704,
+  "FID_A2B": 101.39861049957597,
+  "FID_B2A": 101.38104333076475,
+  "FID": 101.38982691517036,
+  "MiFID": 0.41187709320693966,
+  "estimated_score": -50.90085200418865,
+  "checkpoint": "/app/task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/checkpoints/evaluation/step_00010000.pt",
+  "submission_csv": "/app/task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/outputs/official/extra_00010000_raw_fdb5210e3cc7/submission.csv",
+  "preview": "/app/task3_gan/Pramod_Dindukurthi/experiments/identity_pilot_v1/experiment_id2p5/outputs/official/extra_00010000_raw_fdb5210e3cc7/raw_preview.png"
+}

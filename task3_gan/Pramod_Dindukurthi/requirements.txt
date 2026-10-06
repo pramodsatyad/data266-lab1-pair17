@@ -1,0 +1,10 @@
+# Install a matching torch/torchvision pair for your machine FIRST.
+# Preserve the lab's working CUDA PyTorch installation.
+numpy>=1.24,<3
+Pillow>=10,<13
+PyYAML>=6,<7
+scipy>=1.11,<2
+matplotlib>=3.7,<4
+torch-fidelity==0.3.0
+lpips==0.1.4
+tqdm>=4.65,<5

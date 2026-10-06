@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-06T07:16:28.684203+00:00",
+  "inception": "torch-fidelity inception-v3-compat 2048",
+  "torch_fidelity": "0.3.0",
+  "feature_weights_sha256": "87571997cbea5cbb5a38519c54d246b143cc2abbeaa0fb01fa13b1aecbf0ab49",
+  "LPIPS": "alex v0.1; input/translation and input/cycle separately; [-1,1]",
+  "FID": "symmetric covariance PSD square root; uncorrected finite-sample estimate",
+  "KID": "unscaled unbiased MMD^2; subset std is not a confidence interval",
+  "density_coverage_k": 5,
+  "seed": 42,
+  "export_manifest_sha256": "6dbcf9cbff65741357c9d2c31158186f401669daa163f71448aae656d48c4b09",
+  "official_kaggle_equivalent": false,
+  "selection_diagnostic_mean_FID": 163.1890309077846
+}
