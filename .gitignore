@@ -1,0 +1,13 @@
+
+# Task 1 generated caches
+task1_llm/Pramod_Dindukurthi/data_processed/train_ids.pt
+task1_llm/Pramod_Dindukurthi/data_processed/val_ids.pt
+
+# Task 1 temporary/resume checkpoints
+task1_llm/Pramod_Dindukurthi/checkpoints/smoke_checkpoint.pt
+task1_llm/Pramod_Dindukurthi/checkpoints/latest_checkpoint.pt
+task1_llm/Pramod_Dindukurthi/checkpoints/checkpoint_step_*.pt
+
+# Duplicate metric exports
+task1_llm/Pramod_Dindukurthi/outputs/metrics_report.csv
+task1_llm/Pramod_Dindukurthi/outputs/metrics_report.json
