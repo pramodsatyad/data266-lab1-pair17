@@ -1,0 +1,76 @@
+{
+  "training_seconds": 572.6451412035385,
+  "examples": 10000,
+  "nan_count": 0,
+  "inf_count": 0,
+  "local_step": 5000,
+  "ancestry_updates": 355704,
+  "parameters": {
+    "G_A2B": 11378179,
+    "G_B2A": 11378179,
+    "D_A": 2764737,
+    "D_B": 2764737
+  },
+  "parameter_count": 28285832,
+  "main_training_seconds": 37906.13855470719,
+  "ancestry_training_seconds": 38478.78369591073,
+  "images_per_second": 17.462821703128085,
+  "peak_gpu_memory_bytes": 2707187200.0,
+  "last100_means": {
+    "G_total": 2.866083208322525,
+    "D_total": 0.21441738680005074,
+    "adv_A2B": 0.4550118963420391,
+    "adv_B2A": 0.83191915422678,
+    "D_A": 0.04909390451386571,
+    "D_B": 0.1653234826773405,
+    "cycle_A": 0.06122231874614954,
+    "cycle_B": 0.0730688476935029,
+    "identity_A": 0.03802003636956215,
+    "identity_B": 0.05647615980356932,
+    "grad_G_A2B": 15.516599164009094,
+    "grad_G_B2A": 15.447244453430176,
+    "grad_D_A": 3.682654974460602,
+    "grad_D_B": 6.091485149860382
+  },
+  "last100_record_count": 100,
+  "checkpoint_sha256": "2c2124442ae6a8665b811ec7c98c1ef29c2f689ea010f26386a9450f32fa2614",
+  "weights": "raw",
+  "config": {
+    "image_size": 256,
+    "load_size": 286,
+    "model": {
+      "blocks": 9,
+      "channels": 64,
+      "upsample": "transpose"
+    },
+    "name": "baseline",
+    "seed": 42,
+    "train": {
+      "amp": false,
+      "batch_size": 1,
+      "beta1": 0.5,
+      "beta2": 0.999,
+      "cycle_weight": 10.0,
+      "decay_start": 10000,
+      "deterministic": true,
+      "ema_decay": 0.999,
+      "identity_weight": 2.5,
+      "keep_every": 5000,
+      "log_every": 500,
+      "lr": 5e-05,
+      "max_hours": 6.0,
+      "max_steps": 20000,
+      "num_workers": 2,
+      "pool_size": 50,
+      "preview_every": 1000,
+      "save_every": 1000,
+      "save_minutes": 5
+    }
+  },
+  "raw_history_sha256": {
+    "history_2026-10-04T03-10-02.857174+00-00_283c28.csv": "ae7e2c2791f8eb7403e669f23d859a8bd374e9f4b5c41b4517910c150c3fe783",
+    "history_2026-10-04T03-22-18.702898+00-00_8b0ef8.csv": "7ab5d3d496695e2d819a4ba7b08f574b77e62ad48de379bd80a36350d8907864",
+    "history_2026-10-04T03-35-23.041966+00-00_7919c6.csv": "2233b5f80e17a24a917c0845720d4c33e1a8779cd2c8838a10c4bb6e422f9ca9",
+    "history_2026-10-04T03-48-27.759417+00-00_05c86a.csv": "4de6e554c22eeb6617d035c9f60e283287235430eccbdb1e93587e07333cdc0f"
+  }
+}

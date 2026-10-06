@@ -1,0 +1,33 @@
+{
+  "per_direction": {
+    "A2B": {
+      "FID": 102.03347923737908,
+      "MiFID": 0.4196308846469971
+    },
+    "B2A": {
+      "FID": 101.8260932794864,
+      "MiFID": 0.40441947966152997
+    }
+  },
+  "submission": {
+    "ID": 1,
+    "FID": 101.92978625843274,
+    "MiFID": 0.41202518215426354
+  },
+  "counts": {
+    "A2B": {
+      "real_capped": 300,
+      "generated_capped": 300,
+      "matched": 300
+    },
+    "B2A": {
+      "real_capped": 300,
+      "generated_capped": 300,
+      "matched": 300
+    }
+  },
+  "n_eval": 300,
+  "evaluation_script_sha256": "76e281e2baf88d86fc721fab7612d1a93d591f94604c530e1a5df9c59e0bad3f",
+  "export_manifest_sha256": "b63ef70313248fc3e4a5a8b0eb317c47eb7797c1a2da605661fc1629437b243e",
+  "protocol": "instructor torchvision Inception IMAGENET1K_V1; sorted first-300; index cosine"
+}

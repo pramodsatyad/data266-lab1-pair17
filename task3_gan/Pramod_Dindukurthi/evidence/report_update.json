@@ -1,0 +1,25 @@
+{
+  "checkpoint_sha256": "2c2124442ae6a8665b811ec7c98c1ef29c2f689ea010f26386a9450f32fa2614",
+  "updated_utc": "20261006T073219_550558Z",
+  "note": "Original baseline reports, raw logs and export manifest retained. Human fields are pending unless a matching actual audit summary exists.",
+  "files": {
+    "task3_gan/Pramod_Dindukurthi/full_metrics_report.csv": "0a29ec382caaecea471752e1ce24e3a0d9e96f6bb57751f1f3fa3c59ad9576cc",
+    "task3_gan/Pramod_Dindukurthi/metrics_report.csv": "0a29ec382caaecea471752e1ce24e3a0d9e96f6bb57751f1f3fa3c59ad9576cc",
+    "task3_gan/Pramod_Dindukurthi/evidence/selected_training_statistics.json": "fac17d269eaf920288b091cb1c761000ae7977063430babdfefa459dc9be9305",
+    "task3_gan/Pramod_Dindukurthi/outputs/plots/main_run/generator_discriminator.png": "aa7b8ecaef328d3486d7f47cd75f38c61735c958dbb635b4ce0e1faf1ac0551e",
+    "task3_gan/Pramod_Dindukurthi/outputs/plots/main_run/cycle_identity.png": "160d015136504fdd36136234bda136d92d2da6d06637fb2ce602baa1bf3f27cf",
+    "task3_gan/Pramod_Dindukurthi/outputs/plots/main_run/adversarial.png": "c56c87a5d816c663aa33d8558454955f0ffc02bc8af8b1f5a3ce4a02ab45ab43",
+    "task3_gan/Pramod_Dindukurthi/outputs/plots/main_run/gradients.png": "c9df7e3c7ad94f02e3c0641271855cb7e9fb48ccebf4a2f1ca929eb125f92f17",
+    "task3_gan/Pramod_Dindukurthi/outputs/plots/main_run/learning_rate.png": "56fa94fb0061a3120dd7d3b68a447a28b23c5287ffa6b3a5dca879d0fed61b32",
+    "task3_gan/Pramod_Dindukurthi/outputs/plots/selected_pilot/generator_discriminator.png": "1de2b24aba4d292ba52c1fb6ded9e10824603faacce371865fd390c16c98eb29",
+    "task3_gan/Pramod_Dindukurthi/outputs/plots/selected_pilot/cycle_identity.png": "3d478e092b8089cd88a36563275f3b262d1de6b8a43a2b490fd61de5afdde242",
+    "task3_gan/Pramod_Dindukurthi/outputs/plots/selected_pilot/adversarial.png": "71d3c65fd14df11ff089efd39f655c3eb76955f62a3ffa8bfcc8682f7e96e123",
+    "task3_gan/Pramod_Dindukurthi/outputs/plots/selected_pilot/gradients.png": "dabf7f15c96e4a1eb226d67fd6eaa91834b734bbacc48f42be22981b21ad868a",
+    "task3_gan/Pramod_Dindukurthi/outputs/plots/selected_pilot/learning_rate.png": "c267d0bebd1ff5c1706fcd6688b259412b094c64aa1969afba247505e6d0fd43",
+    "task3_gan/Pramod_Dindukurthi/evidence/training_plot_protocol.json": "78571b2b5d03ab8ead7fbd2a116f03f5c55cbbd934a643437ebd2bc7f9e5c322",
+    "task3_gan/Pramod_Dindukurthi/results.md": "d079404b21cea0416248ff3428384577952e85e5c5dce94b4e083359047b7aeb",
+    "task3_gan/Pramod_Dindukurthi/failure_analysis.md": "c88c05454d1d1a93484a9ad884eacc3d700494294341dd8364b8b3e18a601e9a",
+    "task3_gan/Pramod_Dindukurthi/GITHUB_READINESS.md": "509d2a4ec72af190d64c48de1201237536c136e901b70b4ffb8b097dfaecea9e",
+    "task3_gan/Pramod_Dindukurthi/evidence/selected_validation.json": "c76a4301cd3a0a5bfb5bbc5d357e87668c54f14c3e5c66db121b7494a49c6e21"
+  }
+}

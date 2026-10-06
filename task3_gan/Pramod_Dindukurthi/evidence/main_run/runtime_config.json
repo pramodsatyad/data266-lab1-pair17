@@ -1,0 +1,32 @@
+{
+  "image_size": 256,
+  "load_size": 286,
+  "model": {
+    "blocks": 9,
+    "channels": 64,
+    "upsample": "transpose"
+  },
+  "name": "baseline",
+  "seed": 42,
+  "train": {
+    "amp": false,
+    "batch_size": 1,
+    "beta1": 0.5,
+    "beta2": 0.999,
+    "cycle_weight": 10.0,
+    "decay_start": 175352,
+    "deterministic": true,
+    "ema_decay": 0.999,
+    "identity_weight": 5.0,
+    "keep_every": 2000,
+    "log_every": 25,
+    "lr": 0.0002,
+    "max_hours": 12.5,
+    "max_steps": 350704,
+    "num_workers": 2,
+    "pool_size": 50,
+    "preview_every": 500,
+    "save_every": 500,
+    "save_minutes": 5
+  }
+}
