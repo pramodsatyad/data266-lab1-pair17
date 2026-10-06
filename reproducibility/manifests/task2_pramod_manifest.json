@@ -1,0 +1,33 @@
+{
+  "task": "task2_sentiment",
+  "member": "Pramod_Dindukurthi",
+  "dataset": "Yelp Polarity",
+  "seed": 42,
+  "working_pool": 200000,
+  "validation_fraction": 0.05,
+  "test_examples": 38000,
+  "max_len": 256,
+  "vocab_size": 50000,
+  "batch_size": 256,
+  "models": [
+    "TextCNN",
+    "DPCNN",
+    "Scratch Transformer Encoder"
+  ],
+  "best_model": "textcnn",
+  "best_model_accuracy": 0.9344473684210526,
+  "best_model_macro_f1": 0.934447306273104,
+  "best_model_mcc": 0.8688963843771164,
+  "best_model_roc_auc": 0.9827829612188366,
+  "checkpoints": {
+    "textcnn": "task2_sentiment/Pramod_Dindukurthi/checkpoints/textcnn/best_full.pt",
+    "dpcnn": "task2_sentiment/Pramod_Dindukurthi/checkpoints/dpcnn/best_full.pt",
+    "transformer": "task2_sentiment/Pramod_Dindukurthi/checkpoints/transformer/best_full.pt"
+  },
+  "notes": [
+    "All embeddings were learned from scratch.",
+    "No pretrained language model or pretrained embedding was used.",
+    "The final manual error analysis contains 20 reviewed test errors.",
+    "The original full run did not produce a standalone stdout training log. Run evidence is preserved through the generated metrics, summaries, plots, checkpoints, and final status artifacts."
+  ]
+}
