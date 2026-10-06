@@ -55,7 +55,7 @@ Both members trained 3 models from scratch (no pretrained embeddings) to classif
 A CycleGAN (2 generators, 2 discriminators), trained from scratch, that turns photos into Monet-style paintings and back. The course evaluation script scores it with FID and MiFID averaged over both directions, shown as a negative number, where less negative is better.
 
 - Manav: final official score -49.0330 (FID 97.6555, MiFID 0.41027), 300 images per direction. Code and results: [`task3_gan/member_manav/`](task3_gan/member_manav/README.md).
-- Pramod: FID 100.104527, MiFID 0.411176, using the same official protocol (300 images per direction). Results: [`task3_gan/Pramod_Dindukurthi/results.md`](task3_gan/Pramod_Dindukurthi/results.md).
+- Pramod: official score -50.2578 (FID 100.104527, MiFID 0.411176), using the same official protocol (300 images per direction). Results: [`task3_gan/Pramod_Dindukurthi/results.md`](task3_gan/Pramod_Dindukurthi/results.md).
 
 ## Results at a glance
 
@@ -87,10 +87,10 @@ Note: same training pool size and same test set size on both sides, but the 3 mo
 |---|---|---|
 | Official FID | 97.6555 | 100.104527 |
 | Official MiFID | 0.41027 | 0.411176 |
-| Score | -49.0330 | not computed here (see note) |
+| Score | -49.0330 | -50.2578 |
 | Photo-to-Monet predictions scored | 7,038 | 300 |
 
-Note: both FID/MiFID numbers use the course's official protocol (300 images per direction). Manav's B2A (photo-to-Monet) evaluation covers all 7,038 photos; Pramod's covers 300. This is a different evaluation sample size on the two sides, so the two FID/MiFID pairs are not on fully equal footing. Manav's score is included because it was measured end to end on his own submission file; Pramod's score is left out of this table since this README only reports numbers that are directly confirmed in each member's own files.
+Note: both FID/MiFID numbers use the course's official protocol (300 images per direction). Manav's B2A (photo-to-Monet) evaluation covers all 7,038 photos; Pramod's covers 300. This is a different evaluation sample size on the two sides, so the two FID/MiFID pairs are not on fully equal footing.
 
 ## How to run a quick smoke test
 
